@@ -1,0 +1,84 @@
+body {
+    background-color: #0F172A;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+}
+
+.bg-noise {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCSOnByS5W8D7Y_uE8YmeBJCRBP__76iOi7knGb17Z-8tvKT2p_-WTTHuTC988yf1afMvFIYZWlSnGD2BphXRiCBP-ua8lnnQ3Fi7diuo8taO6UODS-yIoZkNF1-l0xhNvQy53mEOd2sz9E33JgvAaKzIqZfKAsx_Ks8EXin8uALiY2TcUkokr7PC8zHhvxvdco7R8OZgo2hlzEwJ3D16Bu1HQiHhnEiXa4a31vidDC-s2r4gCgdXhQ1TeAzHxqM9ajk-qA7bgq4b-h);
+}
+
+.text-stroke {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+.glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-input {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+    outline: none;
+    border-color: #F4C430;
+    box-shadow: 0 0 0 2px rgba(244, 196, 48, 0.2);
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-animate {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
