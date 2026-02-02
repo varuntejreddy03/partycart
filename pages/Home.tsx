@@ -5,7 +5,6 @@ import { openYumzyApp } from '../utils/appStore';
 import { trackQuoteRequest, trackAppDownload } from '../utils/analytics';
 import { TestimonialsCarousel } from '../components/TestimonialsCarousel';
 import { ScrollAnimatedDiv } from '../components/ScrollAnimation';
-import { VideoHero } from '../components/VideoHero';
 
 export const Home: React.FC = () => {
   return (
@@ -43,7 +42,19 @@ export const Home: React.FC = () => {
             </div>
             <div className="relative lg:h-[600px] flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-[60px] animate-pulse-slow"></div>
-              <VideoHero />
+              <div className="relative w-full aspect-square max-w-md lg:max-w-full rotate-3 transition hover:rotate-0 duration-500">
+                <div className="absolute inset-0 rounded-[2rem] border-2 border-white/10 transform translate-x-4 translate-y-4"></div>
+                <img alt="Delicious Food" className="w-full h-full object-cover rounded-[2rem] shadow-2xl relative z-10 brightness-110" src="https://partycart.in/wp-content/uploads/2025/09/group-people-are-preparing-food-table-1-scaled.jpg" />
+                <div className="absolute -bottom-6 -left-6 z-20 bg-surface border border-white/10 p-4 rounded-2xl shadow-xl flex items-center gap-3 glass-card">
+                  <div className="bg-green-500/20 p-2 rounded-lg">
+                    <span className="material-icons-round text-green-500">verified_user</span>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-bold uppercase">Hygiene Checked</p>
+                    <p className="text-xl font-black text-white">Trusted Vendors</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
