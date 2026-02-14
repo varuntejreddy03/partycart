@@ -1,0 +1,3767 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "69731d0853785b6d7fdf6505",
+    "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "0a35dd20-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a35dd20-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Startes",
+        "displayName": "Startes",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Russain Cutlet\nVeg Cheese Pocket\nPaneer Fingers\nSoya Potli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360430-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360430-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Rice",
+        "displayName": "Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bagara Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Plain Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360431-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360431-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Roti",
+        "displayName": "Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360432-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360432-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Curries",
+        "displayName": "Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dal",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360433-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360433-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Dessert",
+        "displayName": "Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sweet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Banana",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360434-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360434-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Veg Starters",
+        "displayName": "Choice of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipaya Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cabbage Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a360435-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a360435-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b40-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b40-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Chutney",
+        "displayName": "Choice of 1 Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b41-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b41-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b42-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b42-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ragi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b43-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b43-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Sweet",
+        "displayName": "Choice of 1 Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b44-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b44-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Home Food",
+        "displayName": "Home Food",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 11,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mirchi Baji\nTomato Pachadi\nKothimeera Pachadi\nBagara Rice\nWhite Rice\nMasala Vankaya\nPalakura Pappu\nAalu Tomato Curry\nPedha Chikkudkaya Fry\nPappu Charu\nCurd\nParmannam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b45-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b45-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Family & Friends Feast",
+        "displayName": "Family & Friends Feast",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "2kg Mutton Gravy\n2kg Desi Chicken Gravy\n20 Boiled Egg Onion Roast\n2 Pack Basmati Bagara Rice\n2 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapur]\n1 Pack Pachipulusu\n1 pack Raitha\nSalad [Keera, Carrot, Onion & Lemon]",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a362b46-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a362b46-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Celebration Combo Box",
+        "displayName": "Celebration Combo Box",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 10,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton Gravy [Potel Mamsam]\n1 Kg Desi Chicken Gravy\n1 Kg Chicken Fry\n10 Boiled Egg Onion\n1 Pack Basmati Bagara Rice\n1 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapu]\n1 Pack Pachipulusu\n1 Pack Raitha\nSalad [Keera,Carrot,Onion & Lemon",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a365250-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a365250-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Squad Bites Combo",
+        "displayName": "Squad Bites Combo",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton [Potel Mamsam]\nTalakayakura\nPava\n2 Pack Bagara Rice\n1 Pachipulusu\n10 Jowar Roti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a365251-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a365251-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice Of 3 Veg Starters",
+        "displayName": "Choice Of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipāya Pakōḍī",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a365252-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a365252-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a367960-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a367960-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a367961-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a367961-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36a070-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36a070-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36a071-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36a071-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Chutney",
+        "displayName": "Choice of one Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36a072-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36a072-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36a073-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36a073-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36a074-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36a074-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36c780-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36c780-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36c781-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36c781-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36c782-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36c782-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee90-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee90-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Sweet",
+        "displayName": "Choice of one Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee91-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee91-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Desi Chicken Gravy 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Fry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Dry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee92-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee92-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee93-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee93-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Boneless Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee94-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee94-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mutton Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a36ee95-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a36ee95-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Boneless Mutton Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a3715a0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0a3715a0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Prawns Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "bd1dccd0-b585-11f0-8798-e964235531f0": {
+        "addonId": "bd1dccd0-b585-11f0-8798-e964235531f0",
+        "integrationId": "",
+        "addonName": "Select Any 6 Starters",
+        "displayName": "Select Any 6 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 6,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Kodi 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pepper Chicken Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Vepudu",
+            "cost": 50,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kaleji Fry [Liver Fry]",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kheema Balls Fry",
+            "cost": 60,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu [Prawn Fry]",
+            "cost": 50,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chepala Fry [Murrel]",
+            "cost": 60,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mirchi Baji",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Punugulu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gobi 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "bd1fefb0-b585-11f0-8798-e964235531f0": {
+        "addonId": "bd1fefb0-b585-11f0-8798-e964235531f0",
+        "integrationId": "",
+        "addonName": "Select Any 6 Starters",
+        "displayName": "Select Any 6 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 6,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Kodi 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pepper Chicken Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Vepudu",
+            "cost": 50,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kaleji Fry [Liver Fry]",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kheema Balls Fry",
+            "cost": 60,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu [Prawn Fry]",
+            "cost": 50,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chepala Fry [Murrel]",
+            "cost": 60,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mirchi Baji",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Punugulu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gobi 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0f9cbb10-f82a-11f0-97a0-930099221e96": {
+        "addonId": "0f9cbb10-f82a-11f0-97a0-930099221e96",
+        "integrationId": "",
+        "addonName": "Quality",
+        "displayName": "Quality",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 kg Prawns Fry",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "2 Kg Prawns Fry",
+            "cost": 1800,
+            "originalCost": 1800,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "8e9384c0-f82b-11f0-97a0-930099221e96": {
+        "addonId": "8e9384c0-f82b-11f0-97a0-930099221e96",
+        "integrationId": "",
+        "addonName": "Choose any one",
+        "displayName": "Choose any one",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Prawns Fry",
+            "cost": 900,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "2 Kg Prawns Fry",
+            "cost": 1800,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 14
+      },
+      {
+        "key": "Telugu Bhojanam",
+        "value": 12,
+        "subCategories": [
+          {
+            "key": "Veg"
+          },
+          {
+            "key": "Non Veg"
+          }
+        ]
+      },
+      {
+        "key": " Daru Party",
+        "value": 2
+      },
+      {
+        "key": "Veg & Non Veg Combo",
+        "value": 1
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "30ed0120-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Pure Veg Andhra Bhojanam Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Gobi 65, Thotakura Liver Fry, Punugulu.\n5 Main Course - Gutthi Vankaya Curry, Tomato Pappu, Veg Pulao/Lemon Rice, Curd Rice, Pickles.\nDessert - Poornam Poli",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6757b280-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Pure Veg Andhra Bhojanam Box For 15-20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "30ed0120-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Pure Veg Andhra Bhojanam Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Gobi 65, Thotakura Liver Fry, Punugulu.\n5 Main Course - Gutthi Vankaya Curry, Tomato Pappu, Veg Pulao/Lemon Rice, Curd Rice, Pickles.\nDessert - Poornam Poli",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6757b280-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Pure Veg Andhra Bhojanam Box For 15-20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d34cd10-b580-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Seema Non-Veg Celebration box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Kheema Balls Fry, Chicken Roast, Onion Pakodi.\n4 Main Course - Rayalaseema Mutton Curry, Tomato Curry, Seema Mutton Biryani, Parota.\nDessert - Carrot Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Seema Non-Veg Celebration box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2706c890-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Rayalaseema Ruchulu Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Mamsam Vepudu, Kodi 65, Ponganalu with Coconut Chutney.\n4 Main Course - Natu Kodi Pulusu, Mamsam Curry, Bendakaya Pachadi, Ragi Sangati, Bagara Rice.\nDessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12500,
+            "originalPrice": 12500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Rayalaseema Ruchulu Feast Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "617595b0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Andhra Spice Trail Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Jeedi Pappu Kodi Vepudu, Paneer 65, Mirchi Baji. Main Course - Kodi Kura, Gutthi Vanakaya, Andhra Chicken Biryani, Curd Rice. Dessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8500,
+            "originalPrice": 8500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Andhra Spice Trail Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a9c9d1f0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Coastal Andhra Delight Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with appetizer - Royyala Vepudu, Jeedipappu kodi pakoda, cut mirchi baji. Main Course - Royyala Lguru, Nellore Chepala Pulusu, Guttin Vankaya Curry, Plain Rice, Gongura Pachadi. Dessert - Semiya Payasam",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Coastal Andhra Delight Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d2d8f30-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telangana Breakfast Brunch Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 2 Appetizers - Mirchi Bajji, Pungulu.\n4 Main Course - Paya Curry/ Gurda Fry, Kheema Pav/Chapati, Egg Curry, Irani Chai.\nDessert - Bread Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 9500,
+            "originalPrice": 9500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telangana Breakfast Brunch Feast Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2706c890-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Rayalaseema Ruchulu Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Mamsam Vepudu, Kodi 65, Ponganalu with Coconut Chutney.\n4 Main Course - Natu Kodi Pulusu, Mamsam Curry, Bendakaya Pachadi, Ragi Sangati, Bagara Rice.\nDessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12500,
+            "originalPrice": 12500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Rayalaseema Ruchulu Feast Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "617595b0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Andhra Spice Trail Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Jeedi Pappu Kodi Vepudu, Paneer 65, Mirchi Baji. Main Course - Kodi Kura, Gutthi Vanakaya, Andhra Chicken Biryani, Curd Rice. Dessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8500,
+            "originalPrice": 8500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Andhra Spice Trail Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d2d8f30-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telangana Breakfast Brunch Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 2 Appetizers - Mirchi Bajji, Pungulu.\n4 Main Course - Paya Curry/ Gurda Fry, Kheema Pav/Chapati, Egg Curry, Irani Chai.\nDessert - Bread Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 9500,
+            "originalPrice": 9500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telangana Breakfast Brunch Feast Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d34cd10-b580-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Seema Non-Veg Celebration box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Kheema Balls Fry, Chicken Roast, Onion Pakodi.\n4 Main Course - Rayalaseema Mutton Curry, Tomato Curry, Seema Mutton Biryani, Parota.\nDessert - Carrot Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Seema Non-Veg Celebration box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a9c9d1f0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Coastal Andhra Delight Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with appetizer - Royyala Vepudu, Jeedipappu kodi pakoda, cut mirchi baji. Main Course - Royyala Lguru, Nellore Chepala Pulusu, Guttin Vankaya Curry, Plain Rice, Gongura Pachadi. Dessert - Semiya Payasam",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Coastal Andhra Delight Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bd1fefb0-b585-11f0-8798-e964235531f0"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bd1f5370-b585-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telugu Daru Party Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Kodi Kura, Gutthi Vankaya Curry, Bagara Rice, Chapati & Double Ka Metha",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 14500,
+            "originalPrice": 14500,
+            "gst": 5,
+            "category": "9a2b60d0-b584-11f0-8798-e964235531f0",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telugu Daru Party Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bd1fefb0-b585-11f0-8798-e964235531f0"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bd1f5370-b585-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telugu Daru Party Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Kodi Kura, Gutthi Vankaya Curry, Bagara Rice, Chapati & Double Ka Metha",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 14500,
+            "originalPrice": 14500,
+            "gst": 5,
+            "category": "9a2b60d0-b584-11f0-8798-e964235531f0",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telugu Daru Party Box For 20"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Telugu Bhojanam"
+          },
+          {
+            "type": "subCategory",
+            "name": "Veg"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "30ed0120-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Pure Veg Andhra Bhojanam Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Gobi 65, Thotakura Liver Fry, Punugulu.\n5 Main Course - Gutthi Vankaya Curry, Tomato Pappu, Veg Pulao/Lemon Rice, Curd Rice, Pickles.\nDessert - Poornam Poli",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6757b280-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Pure Veg Andhra Bhojanam Box For 15-20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "30ed0120-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Pure Veg Andhra Bhojanam Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Gobi 65, Thotakura Liver Fry, Punugulu.\n5 Main Course - Gutthi Vankaya Curry, Tomato Pappu, Veg Pulao/Lemon Rice, Curd Rice, Pickles.\nDessert - Poornam Poli",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6757b280-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/da66a2d0-fa81-11f0-bb0e-5fdd1b58b425/da66a2d1-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Pure Veg Andhra Bhojanam Box For 15-20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "subCategory",
+            "name": "Non Veg"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d34cd10-b580-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Seema Non-Veg Celebration box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Kheema Balls Fry, Chicken Roast, Onion Pakodi.\n4 Main Course - Rayalaseema Mutton Curry, Tomato Curry, Seema Mutton Biryani, Parota.\nDessert - Carrot Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Seema Non-Veg Celebration box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2706c890-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Rayalaseema Ruchulu Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Mamsam Vepudu, Kodi 65, Ponganalu with Coconut Chutney.\n4 Main Course - Natu Kodi Pulusu, Mamsam Curry, Bendakaya Pachadi, Ragi Sangati, Bagara Rice.\nDessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12500,
+            "originalPrice": 12500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Rayalaseema Ruchulu Feast Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "617595b0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Andhra Spice Trail Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Jeedi Pappu Kodi Vepudu, Paneer 65, Mirchi Baji. Main Course - Kodi Kura, Gutthi Vanakaya, Andhra Chicken Biryani, Curd Rice. Dessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8500,
+            "originalPrice": 8500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Andhra Spice Trail Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a9c9d1f0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Coastal Andhra Delight Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with appetizer - Royyala Vepudu, Jeedipappu kodi pakoda, cut mirchi baji. Main Course - Royyala Lguru, Nellore Chepala Pulusu, Guttin Vankaya Curry, Plain Rice, Gongura Pachadi. Dessert - Semiya Payasam",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Coastal Andhra Delight Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d2d8f30-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telangana Breakfast Brunch Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 2 Appetizers - Mirchi Bajji, Pungulu.\n4 Main Course - Paya Curry/ Gurda Fry, Kheema Pav/Chapati, Egg Curry, Irani Chai.\nDessert - Bread Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 9500,
+            "originalPrice": 9500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telangana Breakfast Brunch Feast Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2706c890-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Rayalaseema Ruchulu Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Mamsam Vepudu, Kodi 65, Ponganalu with Coconut Chutney.\n4 Main Course - Natu Kodi Pulusu, Mamsam Curry, Bendakaya Pachadi, Ragi Sangati, Bagara Rice.\nDessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12500,
+            "originalPrice": 12500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/8a971e10-fa81-11f0-bb0e-5fdd1b58b425/8a974520-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Rayalaseema Ruchulu Feast Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "617595b0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Andhra Spice Trail Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 3 Appetizers - Jeedi Pappu Kodi Vepudu, Paneer 65, Mirchi Baji. Main Course - Kodi Kura, Gutthi Vanakaya, Andhra Chicken Biryani, Curd Rice. Dessert - Rava Kesari",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8500,
+            "originalPrice": 8500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/ea831630-fa81-11f0-bb0e-5fdd1b58b425/ea831631-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Andhra Spice Trail Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d2d8f30-b582-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telangana Breakfast Brunch Feast Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 2 Appetizers - Mirchi Bajji, Pungulu.\n4 Main Course - Paya Curry/ Gurda Fry, Kheema Pav/Chapati, Egg Curry, Irani Chai.\nDessert - Bread Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 9500,
+            "originalPrice": 9500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/12e6e660-fa82-11f0-bb0e-5fdd1b58b425/12e6e661-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telangana Breakfast Brunch Feast Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9d34cd10-b580-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Seema Non-Veg Celebration box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With 3 Appetizers - Kheema Balls Fry, Chicken Roast, Onion Pakodi.\n4 Main Course - Rayalaseema Mutton Curry, Tomato Curry, Seema Mutton Biryani, Parota.\nDessert - Carrot Halwa",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/2254ca40-fa82-11f0-bb0e-5fdd1b58b425/2254ca41-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Seema Non-Veg Celebration box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a9c9d1f0-b581-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Coastal Andhra Delight Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with appetizer - Royyala Vepudu, Jeedipappu kodi pakoda, cut mirchi baji. Main Course - Royyala Lguru, Nellore Chepala Pulusu, Guttin Vankaya Curry, Plain Rice, Gongura Pachadi. Dessert - Semiya Payasam",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "0a541380-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "6d108a80-b57f-11f0-8798-e964235531f0",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/35bc49f0-fa82-11f0-bb0e-5fdd1b58b425/35bc7100-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Coastal Andhra Delight Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": " Daru Party"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bd1fefb0-b585-11f0-8798-e964235531f0"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bd1f5370-b585-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telugu Daru Party Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Kodi Kura, Gutthi Vankaya Curry, Bagara Rice, Chapati & Double Ka Metha",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 14500,
+            "originalPrice": 14500,
+            "gst": 5,
+            "category": "9a2b60d0-b584-11f0-8798-e964235531f0",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telugu Daru Party Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bd1fefb0-b585-11f0-8798-e964235531f0"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bd1f5370-b585-11f0-8798-e964235531f0",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Telugu Daru Party Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Kodi Kura, Gutthi Vankaya Curry, Bagara Rice, Chapati & Double Ka Metha",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 14500,
+            "originalPrice": 14500,
+            "gst": 5,
+            "category": "9a2b60d0-b584-11f0-8798-e964235531f0",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/48b55060-fa82-11f0-bb0e-5fdd1b58b425/48b55061-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Telugu Daru Party Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Veg & Non Veg Combo"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "8e9384c0-f82b-11f0-97a0-930099221e96"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "d2c886b0-f829-11f0-97a0-930099221e96",
+            "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+            "name": "Veg & Non Veg combo 30 Members",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/069ba070-f82b-11f0-97a0-930099221e96/069bc780-f82b-11f0-97a0-930099221e96",
+            "description": "Served With White Rice, Bagara Rice, sambar, Papu, Roti chutney, Veg Fry, Veg Curry, Chicken Fry, Mutton Curry, Papad And Curd",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "7d2a09e0-f829-11f0-97a0-930099221e96",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Telugu Ruchulu",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/Item_Resize/069ba070-f82b-11f0-97a0-930099221e96/069bc780-f82b-11f0-97a0-930099221e96",
+              "caption": "Veg & Non Veg combo 30 Members"
+            },
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "686e47fbe6d82de8e9effebc",
+      "outletId": "a5d23930-5cb1-11f0-aa53-ab8b35060ee7",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {
+          "bulk": true
+        },
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "costText": "Authentic Telugu",
+      "cuisines": "Authentic Telugu feasts for 10–20, curated by expert home chefs and traditional cooks, ready for your party.",
+      "deepLinkUrl": "https://yumzy.page.link/QUpdk2jEyKGy1pYY7",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Telugu Ruchulu",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/a5d23930-5cb1-11f0-aa53-ab8b35060ee7/traditional-south-indian-meal-food-served-big-banana-leaf-food-platter-complete-thali-selective-focus%20%284%29.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "0a4ebc50-5cba-11f0-aa53-ab8b35060ee7",
+      "statusInfo": {
+        "type": "AVAILABLE",
+        "info": "The outlet is accepting orders."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

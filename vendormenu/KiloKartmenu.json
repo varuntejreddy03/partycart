@@ -1,0 +1,5429 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "698396e853785b6d7f6085d0",
+    "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "0dab7be0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dab7be0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Startes",
+        "displayName": "Startes",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Russain Cutlet\nVeg Cheese Pocket\nPaneer Fingers\nSoya Potli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dab7be1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dab7be1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Rice",
+        "displayName": "Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bagara Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Plain Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dab7be2-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dab7be2-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Roti",
+        "displayName": "Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dab7be3-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dab7be3-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Curries",
+        "displayName": "Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dal",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0daba2f0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0daba2f0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Dessert",
+        "displayName": "Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sweet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Banana",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0daba2f1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0daba2f1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Veg Starters",
+        "displayName": "Choice of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipaya Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cabbage Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabca00-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabca00-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabca01-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabca01-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Chutney",
+        "displayName": "Choice of 1 Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabca02-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabca02-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabf110-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabf110-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ragi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabf111-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabf111-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Sweet",
+        "displayName": "Choice of 1 Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dabf112-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dabf112-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Home Food",
+        "displayName": "Home Food",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 11,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mirchi Baji\nTomato Pachadi\nKothimeera Pachadi\nBagara Rice\nWhite Rice\nMasala Vankaya\nPalakura Pappu\nAalu Tomato Curry\nPedha Chikkudkaya Fry\nPappu Charu\nCurd\nParmannam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac1820-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac1820-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Family & Friends Feast",
+        "displayName": "Family & Friends Feast",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "2kg Mutton Gravy\n2kg Desi Chicken Gravy\n20 Boiled Egg Onion Roast\n2 Pack Basmati Bagara Rice\n2 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapur]\n1 Pack Pachipulusu\n1 pack Raitha\nSalad [Keera, Carrot, Onion & Lemon]",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac1821-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac1821-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Celebration Combo Box",
+        "displayName": "Celebration Combo Box",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 10,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton Gravy [Potel Mamsam]\n1 Kg Desi Chicken Gravy\n1 Kg Chicken Fry\n10 Boiled Egg Onion\n1 Pack Basmati Bagara Rice\n1 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapu]\n1 Pack Pachipulusu\n1 Pack Raitha\nSalad [Keera,Carrot,Onion & Lemon",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac1822-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac1822-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Squad Bites Combo",
+        "displayName": "Squad Bites Combo",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton [Potel Mamsam]\nTalakayakura\nPava\n2 Pack Bagara Rice\n1 Pachipulusu\n10 Jowar Roti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac1823-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac1823-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice Of 3 Veg Starters",
+        "displayName": "Choice Of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipāya Pakōḍī",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac3f30-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac3f30-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac6640-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac6640-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dac8d50-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dac8d50-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dacb460-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dacb460-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dacb461-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dacb461-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Chutney",
+        "displayName": "Choice of one Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dacb462-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dacb462-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dacdb70-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dacdb70-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dacdb71-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dacdb71-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad0280-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad0280-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad2990-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad2990-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad2991-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad2991-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad50a0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad50a0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Sweet",
+        "displayName": "Choice of one Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad50a1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad50a1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Desi Chicken Gravy 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Fry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Dry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad50a2-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad50a2-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad50a3-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad50a3-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad77b0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad77b0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad77b1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad77b1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0dad77b2-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0dad77b2-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Prawns Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "40c96560-5e3a-11f0-93ab-eb8319be7304": {
+        "addonId": "40c96560-5e3a-11f0-93ab-eb8319be7304",
+        "integrationId": "",
+        "addonName": "Select Any Biryani",
+        "displayName": "Select Any Biryani",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 5,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Dum Biryani 2kg",
+            "cost": 499,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Murg Dum Biryani 2kg",
+            "cost": 699,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ghosh Dum Biryani 2kg",
+            "cost": 999,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mirchi Ka Biryani 2kg",
+            "cost": 1099,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Biryani 2kg",
+            "cost": 1099,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "937751f0-5e3a-11f0-93ab-eb8319be7304": {
+        "addonId": "937751f0-5e3a-11f0-93ab-eb8319be7304",
+        "integrationId": "",
+        "addonName": "Handi Biryani",
+        "displayName": "Handi Biryani",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Biryani Handi",
+            "cost": 2500,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Biryani Handi",
+            "cost": 3500,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Biryani Handi",
+            "cost": 4500,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "3ce86fc0-5e3c-11f0-93ab-eb8319be7304": {
+        "addonId": "3ce86fc0-5e3c-11f0-93ab-eb8319be7304",
+        "integrationId": "",
+        "addonName": "Select Any Biryani",
+        "displayName": "Select Any Biryani",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Biryani Handi",
+            "cost": 2500,
+            "originalCost": 2500,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Chicken Biryani Handi",
+            "cost": 3500,
+            "originalCost": 3500,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Mutton Biryani Handi",
+            "cost": 4500,
+            "originalCost": 4500,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "6aac0600-5e3d-11f0-93ab-eb8319be7304": {
+        "addonId": "6aac0600-5e3d-11f0-93ab-eb8319be7304",
+        "integrationId": "",
+        "addonName": "Select Any Biryani",
+        "displayName": "Select Any Biryani",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Dum Biryani 2kg",
+            "cost": 499,
+            "originalCost": 499,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Murg Dum Biryani 2kg",
+            "cost": 699,
+            "originalCost": 699,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Ghosh Dum Biryani 2kg",
+            "cost": 999,
+            "originalCost": 999,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Machi Ka Biryani 2kg",
+            "cost": 1099,
+            "originalCost": 1099,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Prawns Biryani 2kg",
+            "cost": 1099,
+            "originalCost": 1099,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "3d152af0-6e28-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "3d152af0-6e28-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver Fry Half Kg",
+            "cost": 600,
+            "originalCost": 600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Thotakura Liver Fry 1kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "7339f250-6e28-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "7339f250-6e28-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bhendakaya Karam Vepudu Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "a0b180e0-6e28-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "a0b180e0-6e28-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bhendakaya Karam Vepudu Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "c83d4090-6e28-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "c83d4090-6e28-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Putta Godugu Vepudu Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Putta Godugu Vepudu 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "f2be9990-6e28-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "f2be9990-6e28-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Vankaya Nuvvula Podi Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "4da74e10-6e29-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "4da74e10-6e29-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Panner Burji Half Kg",
+            "cost": 500,
+            "originalCost": 500,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Panner Burji 1kg",
+            "cost": 1000,
+            "originalCost": 1000,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "4bb1f140-6e2a-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "4bb1f140-6e2a-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Beans Carrot Podi Vepudu Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "77801590-6e2a-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "77801590-6e2a-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Beerakaya Senaga Fry Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "9f1aa250-6e2a-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "9f1aa250-6e2a-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Ullipaya Pakoḍi Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Ullipaya Pakoḍi 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "ca3d1d50-6e2a-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "ca3d1d50-6e2a-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Cabbage Pakodi Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Cabbage Pakodi 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "f13130e0-6e2a-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "f13130e0-6e2a-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Panner pakoda Half Kg",
+            "cost": 500,
+            "originalCost": 500,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Panner pakoda 1kg",
+            "cost": 1000,
+            "originalCost": 1000,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "3c89ac70-6e2b-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "3c89ac70-6e2b-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi Half Kg",
+            "cost": 450,
+            "originalCost": 450,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Jeedipappu Kodi Pakodi 1kg",
+            "cost": 900,
+            "originalCost": 900,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "6d2b9ff0-6e2b-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "6d2b9ff0-6e2b-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Gongura Mamsam Roast Half kg",
+            "cost": 800,
+            "originalCost": 800,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Gongura Mamsam Roast 1kg",
+            "cost": 1600,
+            "originalCost": 1600,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "9b0090c0-6e2b-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "9b0090c0-6e2b-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Kodi Roast Half Kg",
+            "cost": 600,
+            "originalCost": 600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Kodi Roast 1kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "349aec30-6e2c-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "349aec30-6e2c-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mamsam Roast Half kg",
+            "cost": 800,
+            "originalCost": 800,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Mamsam Roast 1kg",
+            "cost": 1600,
+            "originalCost": 1600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "6839f310-6e2c-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "6839f310-6e2c-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Gongura Kodi Roast Half kg",
+            "cost": 600,
+            "originalCost": 600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Gongura Kodi Roast 1kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "8e019490-6e2c-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "8e019490-6e2c-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken Ghee Roast Half Kg",
+            "cost": 600,
+            "originalCost": 600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Chicken Ghee Roast 1kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "bfdc5630-6e2c-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "bfdc5630-6e2c-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mutton Ghee Roast Half Kg",
+            "cost": 800,
+            "originalCost": 800,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Mutton Ghee Roast 1kg",
+            "cost": 1600,
+            "originalCost": 1600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "ffd4adf0-6e2c-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "ffd4adf0-6e2c-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Koramenu Chepa Vepudu Half Kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu 1kg",
+            "cost": 2400,
+            "originalCost": 2400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "34082ca0-6e2d-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "34082ca0-6e2d-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Royyala Vepudu Half Kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Royyala Vepudu 1kg",
+            "cost": 2400,
+            "originalCost": 2400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "5eed0260-6e2d-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "5eed0260-6e2d-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chitti Royyala Iguru Half Kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Chitti Royyala Iguru 1kg",
+            "cost": 2400,
+            "originalCost": 2400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "9a67e850-6e2d-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "9a67e850-6e2d-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Natukodi Vepudu Half Kg ",
+            "cost": 600,
+            "originalCost": 600,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Natukodi Vepudu 1kg",
+            "cost": 1200,
+            "originalCost": 1200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "Kebabs By Kilo",
+        "value": 15
+      },
+      {
+        "key": "Curries By Kilo",
+        "value": 9
+      },
+      {
+        "key": "Biryani Handi",
+        "value": 6
+      },
+      {
+        "key": "Starters By Kilo",
+        "value": 21,
+        "subCategories": [
+          {
+            "key": "Veg Starters"
+          },
+          {
+            "key": "Non Veg Starters"
+          }
+        ]
+      }
+    ],
+    "exploreTags": [
+      "Breakfast",
+      "Snacks",
+      "Lunch & Dinner"
+    ],
+    "menuItems": [
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Kebabs By Kilo"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner"
+            ],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e262a20-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Chicken Seekh Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/1e59e4b0-a8da-11f0-8f78-95ad1d875623/1e59e4b1-a8da-11f0-8f78-95ad1d875623",
+            "description": "Served Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/1e59e4b0-a8da-11f0-8f78-95ad1d875623/1e59e4b1-a8da-11f0-8f78-95ad1d875623",
+              "caption": "Chicken Seekh Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e30d880-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Chicken Malai Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/c8f32440-a8da-11f0-8f78-95ad1d875623/c8f32441-a8da-11f0-8f78-95ad1d875623",
+            "description": "Creamy, mildly spiced chicken marinated in cheese, cream, and cardamom. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/c8f32440-a8da-11f0-8f78-95ad1d875623/c8f32441-a8da-11f0-8f78-95ad1d875623",
+              "caption": "Chicken Malai Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e3bfc10-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Tandoori Chicken Tikka 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/5a3b5f30-a8db-11f0-8f78-95ad1d875623/5a3b5f31-a8db-11f0-8f78-95ad1d875623",
+            "description": "Boneless chicken marinated in yogurt and spices and grilled to perfection. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/5a3b5f30-a8db-11f0-8f78-95ad1d875623/5a3b5f31-a8db-11f0-8f78-95ad1d875623",
+              "caption": "Tandoori Chicken Tikka 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e487f30-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Pahadi Chicken Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/d4718900-a8db-11f0-8f78-95ad1d875623/d4718901-a8db-11f0-8f78-95ad1d875623",
+            "description": "Boneless chicken marinated in yogurt and spices and grilled in Pahadi style. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/d4718900-a8db-11f0-8f78-95ad1d875623/d4718901-a8db-11f0-8f78-95ad1d875623",
+              "caption": "Pahadi Chicken Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e51a6f0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton Seekh Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/27d7c910-a8dc-11f0-8f78-95ad1d875623/27d7c911-a8dc-11f0-8f78-95ad1d875623",
+            "description": "Ground lamb seasoned with herbs and spices, skewered and grilled. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1900,
+            "originalPrice": 1900,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/27d7c910-a8dc-11f0-8f78-95ad1d875623/27d7c911-a8dc-11f0-8f78-95ad1d875623",
+              "caption": "Mutton Seekh Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e5ca370-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Boti Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/b1e37230-a8dc-11f0-8f78-95ad1d875623/b1e37231-a8dc-11f0-8f78-95ad1d875623",
+            "description": "Tender cubes of lamb marinated in spiced yogurt and grilled. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1800,
+            "originalPrice": 1800,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/b1e37230-a8dc-11f0-8f78-95ad1d875623/b1e37231-a8dc-11f0-8f78-95ad1d875623",
+              "caption": "Boti Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e64b9c0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Fish Amritsari Tikka - Murrel 1kg",
+            "imageUrl": "",
+            "description": "Spicy marinated fish chunks, battered and grilled or fried. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2200,
+            "originalPrice": 2200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e6b7080-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Prawn Tandoori Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/a74f8290-a8dd-11f0-8f78-95ad1d875623/a74fa9a0-a8dd-11f0-8f78-95ad1d875623",
+            "description": "Medium- to big-sized prawns marinated in a tangy mix of yogurt and spices, tandoor-cooked. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2200,
+            "originalPrice": 2200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/a74f8290-a8dd-11f0-8f78-95ad1d875623/a74fa9a0-a8dd-11f0-8f78-95ad1d875623",
+              "caption": "Prawn Tandoori Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e753480-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Paneer Tikka 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/499ace10-a8e3-11f0-8f78-95ad1d875623/499af520-a8e3-11f0-8f78-95ad1d875623",
+            "description": "Cubes of paneer marinated in spiced yogurt, grilled with onions and peppers. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/499ace10-a8e3-11f0-8f78-95ad1d875623/499af520-a8e3-11f0-8f78-95ad1d875623",
+              "caption": "Paneer Tikka 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e7ed170-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Hara Bhara Kebab 1kg",
+            "imageUrl": "",
+            "description": "Spinach and green peas patties, mildly spiced and shallow fried. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1000,
+            "originalPrice": 1000,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e8b2d80-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Dahi Ke Kebab 1kg",
+            "imageUrl": "",
+            "description": "Soft patties made from hung curd, cheese, and mild spices. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e9a21a0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Tandoori Mushroom Kebab 1kg",
+            "imageUrl": "",
+            "description": "Button mushrooms marinated in tandoori spices and grilled. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋\n",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0ea3be90-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Veg Seekh Kebab 1kg",
+            "imageUrl": "",
+            "description": "Spiced minced vegetables skewered and grilled. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1000,
+            "originalPrice": 1000,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0eaf7e60-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Corn & Cheese Kebab 1kg",
+            "imageUrl": "",
+            "description": "Crispy patties made with corn, cheese, and mild Indian spices. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti/Naan, and Lemon Wedges 😋\n",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0ebac900-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Malai Broccoli 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/58fe8ab0-a8e1-11f0-8f78-95ad1d875623/58fe8ab1-a8e1-11f0-8f78-95ad1d875623",
+            "description": "Tender broccoli florets marinated in a rich blend of cream, cheese, and aromatic spices, then grilled to perfection in a tandoor. Mint Chutney, Tamarind Chutney, Onion & Cucumber Salad, Rumali Roti / Naan, Lemon Wedges😋",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "0e25dc00-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/Item_Resize/58fe8ab0-a8e1-11f0-8f78-95ad1d875623/58fe8ab1-a8e1-11f0-8f78-95ad1d875623",
+              "caption": "Malai Broccoli 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Curries By Kilo"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad50a1-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0ec613a0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Desi Chicken 1kg",
+            "imageUrl": "",
+            "description": "Fresh Cut 1kg Meat 750grms [ Served Gravy, Fry & Dry ]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1000,
+            "originalPrice": 1000,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad50a2-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0ecf1450-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Broiler Chicken 1kg",
+            "imageUrl": "",
+            "description": "Fresh Cut 1 kg Meat 750 g [Served with Gravy, Fry & Dry]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 550,
+            "originalPrice": 550,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad50a3-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0eff7320-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Boneless Broiler Chicken 1kg",
+            "imageUrl": "",
+            "description": "Fresh Cut 1 kg Meat 750 g [Served with Gravy, Fry & Dry]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 750,
+            "originalPrice": 750,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad77b0-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f0df210-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton [Pottelu Mamsam] 1kg",
+            "imageUrl": "",
+            "description": "Fresh Cut 1 kg Meat 750 g [Served with Gravy, Fry & Dry]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1250,
+            "originalPrice": 1250,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad77b1-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f178f00-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton Boneless Pottelu Mamsam",
+            "imageUrl": "",
+            "description": "Fresh Cut 1 kg Meat 750 g [Served with Gravy, Fry & Dry]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1450,
+            "originalPrice": 1450,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f21a120-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Talakaya Kura 1kg",
+            "imageUrl": "",
+            "description": "1kg Goat Head Fresh Cut And Cooked",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 800,
+            "originalPrice": 800,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f2cc4b0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton Paya",
+            "imageUrl": "",
+            "description": "6 Mutton Legs Cut into Small Pieces",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 800,
+            "originalPrice": 800,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f38f9b0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Crabs",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 900,
+            "originalPrice": 900,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0dad77b2-5cba-11f0-aa53-ab8b35060ee7"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f4296a0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Prawns 1kg",
+            "imageUrl": "",
+            "description": "1 kg Raw Prawns - Actual Meat 500 g, [Served with Gravy, Fry & Dry]",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 750,
+            "originalPrice": 750,
+            "gst": 5,
+            "category": "0ec5c580-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Biryani Handi"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ebecf3e0-f114-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Chicken Biryani Handi For 30-35",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5500,
+            "originalPrice": 5500,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "026a1800-f115-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Sufiyani Mutton Biryani for 30-35",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10000,
+            "originalPrice": 10000,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "16d217c0-f115-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton Biryani Handi For 30-35",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 9500,
+            "originalPrice": 9500,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2fea5920-f115-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Zafrani Mutton Biryani Handi For 30-35",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "40fdafa0-f115-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Kheema Pulav Handi For 20-25",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7200,
+            "originalPrice": 7200,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "556adf80-f115-11f0-ac62-55581baef429",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Veg Biryani Handi For 20-25",
+            "imageUrl": "",
+            "description": "Traditional wood-fired cooking",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 4200,
+            "originalPrice": 4200,
+            "gst": 5,
+            "category": "afef2250-f114-11f0-ac62-55581baef429",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Starters By Kilo"
+          },
+          {
+            "type": "subCategory",
+            "name": "Veg Starters"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "7339f250-6e28-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "73392f00-6e28-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Bhendakaya Karam Vepudu",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "c83d4090-6e28-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "c83c7d40-6e28-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Putta Godugu Vepudu",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "f2be9990-6e28-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f2be2460-6e28-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Vankaya Nuvvula Podi",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "4da74e10-6e29-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4da6d8e0-6e29-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Panner Burji",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 500,
+            "originalPrice": 500,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "4bb1f140-6e2a-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4bb06aa0-6e2a-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Beans Carrot Podi Vepudu",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "77801590-6e2a-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "777f2b30-6e2a-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Beerakaya Senaga Fry",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "9f1aa250-6e2a-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9f19b7f0-6e2a-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Ullipaya Pakoḍi",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "ca3d1d50-6e2a-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ca3ca820-6e2a-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Cabbage Pakodi",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "f13130e0-6e2a-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f130e2c0-6e2a-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Panner pakodi",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 500,
+            "originalPrice": 500,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "3c89ac70-6e2b-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "3c88c210-6e2b-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Jeedipappu Kodi Pakodi",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 450,
+            "originalPrice": 450,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "f8cb7a70-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "subCategory",
+            "name": "Non Veg Starters"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "3d152af0-6e28-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "3d148eb0-6e28-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Thotakura Liver fry",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 600,
+            "originalPrice": 600,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "6d2b9ff0-6e2b-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6d2a8e80-6e2b-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Gongura Mamsam Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 800,
+            "originalPrice": 800,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "9b0090c0-6e2b-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9b001b90-6e2b-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Kodi Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 600,
+            "originalPrice": 600,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "349aec30-6e2c-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "34998ca0-6e2c-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mamsam Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 800,
+            "originalPrice": 800,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "6839f310-6e2c-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "68392fc0-6e2c-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Gongura Kodi Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 600,
+            "originalPrice": 600,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "8e019490-6e2c-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "8e00d140-6e2c-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Chicken Ghee Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 600,
+            "originalPrice": 600,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bfdc5630-6e2c-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bfdbe100-6e2c-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Mutton Ghee Roast",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 800,
+            "originalPrice": 800,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "ffd4adf0-6e2c-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ffd3c390-6e2c-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Koramenu Chepa Vepudu (Murrel)",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "34082ca0-6e2d-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "3407b770-6e2d-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Royyala Vepudu",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "5eed0260-6e2d-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "5eec8d30-6e2d-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Chitti Royyala Iguru",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "9a67e850-6e2d-11f0-8e4d-b9aea8cefd13"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9a679a30-6e2d-11f0-8e4d-b9aea8cefd13",
+            "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+            "name": "Natukodi Vepudu",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 600,
+            "originalPrice": 600,
+            "gst": 5,
+            "category": "b133b060-6e27-11f0-8e4d-b9aea8cefd13",
+            "subCategory": "fda34140-6e27-11f0-8e4d-b9aea8cefd13",
+            "ribbon": "",
+            "outletName": "KiloKart",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "686e4c2ae6d82de8e9f00daa",
+      "outletId": "23f28390-5cb4-11f0-aa53-ab8b35060ee7",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {
+          "bulk": true
+        },
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Feast by the kilo, share the flavour, love the portions!",
+      "deepLinkUrl": "https://yumzy.page.link/g2pwVYoMNCvmtX8J9",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "KiloKart",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/23f28390-5cb4-11f0-aa53-ab8b35060ee7/top-view-delicious-chicken-skewers-wooden-board-other-stuffs-black-table.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "0dc7b670-5cba-11f0-aa53-ab8b35060ee7",
+      "statusInfo": {
+        "type": "AVAILABLE",
+        "info": "The outlet is accepting orders."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

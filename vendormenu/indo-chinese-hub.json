@@ -1,0 +1,3336 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "69770da653785b6d7fffa9af",
+    "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "ee3cb100-6dd2-11f0-954f-2b09b48dddb5": {
+        "addonId": "ee3cb100-6dd2-11f0-954f-2b09b48dddb5",
+        "integrationId": "",
+        "addonName": "Choice of 3",
+        "displayName": "Choice of 3",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Crispy Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Baby Corn Salt & Pepper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Chilli Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pepper Garlic Mushroom",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "af28f771-6dd3-11f0-954f-2b09b48dddb5": {
+        "addonId": "af28f771-6dd3-11f0-954f-2b09b48dddb5",
+        "integrationId": "",
+        "addonName": "Choice Of 2",
+        "displayName": "Choice Of 2",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Hot & Sour Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot & Sour Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Lemon Coriander Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lemon Coriander Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Sweet Corn Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Sweet Corn Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchow Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Manchow Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "f7d14721-6dd3-11f0-954f-2b09b48dddb5": {
+        "addonId": "f7d14721-6dd3-11f0-954f-2b09b48dddb5",
+        "integrationId": "",
+        "addonName": "Fried Rice Counter",
+        "displayName": "Fried Rice Counter",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Classic Veg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Schezwan Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawn Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Burnt Garlic Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "63fb27d2-6df3-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "63fb27d2-6df3-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Select Any",
+        "displayName": "Select Any",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 4,
+        "minSelection": 4,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Hakka Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Schezwan Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Whole Wheat Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg Soft Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cabbage",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Carrot",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Capsicum",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Spring Onion",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Baby Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Soy Sauce",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Schezwan",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Manchurian Sauce",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0d52bfa4-6df4-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "0d52bfa4-6df4-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Choice of 1",
+        "displayName": "Choice of 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Manchurian Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchurian Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Manchurian Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Manchurian Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer Manchurian",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "e9ef3065-6df4-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "e9ef3065-6df4-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Choice Of one",
+        "displayName": "Choice Of one",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Stir Fried Veg Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Fried Veg Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Veg Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Stir Fried Chicken Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Fried Chicken Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Chicken Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer Schezwan Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "2c05fb56-6df5-11f0-8e4d-b9aea8cefd13": {
+        "addonId": "2c05fb56-6df5-11f0-8e4d-b9aea8cefd13",
+        "integrationId": "",
+        "addonName": "Choice of Desert",
+        "displayName": "Choice of Desert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Brownie With Ice-cream",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cassata Ice Cream",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vennela Ice Cream",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chocolate Ice Cream",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Stawberry Ice Cream",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "65277d50-6eb8-11f0-9bb5-a5098706f2a7": {
+        "addonId": "65277d50-6eb8-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Starters",
+        "displayName": "Choice of 3 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "efb5eb01-6eb8-11f0-9bb5-a5098706f2a7": {
+        "addonId": "efb5eb01-6eb8-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of Two Wet Gravy",
+        "displayName": "Choice of Two Wet Gravy",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Chicken wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot and Garlic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Taipai Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhutan Chicken wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "65b85631-6eb9-11f0-9bb5-a5098706f2a7": {
+        "addonId": "65b85631-6eb9-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of Two Rice & Noodle",
+        "displayName": "Choice of Two Rice & Noodle",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Egg fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken burnt garlic fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Prawn fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Chicken fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double egg soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilly Garlic Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Singapore Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Peanut Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Chicken Hakka noodles Prawn noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "99fc76b3-6eb9-11f0-9bb5-a5098706f2a7": {
+        "addonId": "99fc76b3-6eb9-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of one Dessert",
+        "displayName": "Choice of one Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "9a4b0be3-6eb9-11f0-9bb5-a5098706f2a7": {
+        "addonId": "9a4b0be3-6eb9-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choose oneDessert",
+        "displayName": "Choose oneDessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "35611560-6ebb-11f0-9bb5-a5098706f2a7": {
+        "addonId": "35611560-6ebb-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Starters",
+        "displayName": "Choice of 3 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "35624de0-6ebb-11f0-9bb5-a5098706f2a7": {
+        "addonId": "35624de0-6ebb-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Starters",
+        "displayName": "Choice of 3 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0a39b000-6ec9-11f0-9bb5-a5098706f2a7": {
+        "addonId": "0a39b000-6ec9-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice Of Starters",
+        "displayName": "Choice Of Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "7d328f40-6eca-11f0-9bb5-a5098706f2a7": {
+        "addonId": "7d328f40-6eca-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice your Starters",
+        "displayName": "Choice Of Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d617f9b0-6eca-11f0-9bb5-a5098706f2a7": {
+        "addonId": "d617f9b0-6eca-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "testttt",
+        "displayName": "testttt",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "erewrewr123",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "sdfsdffs",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d617f9b1-6eca-11f0-9bb5-a5098706f2a7": {
+        "addonId": "d617f9b1-6eca-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choose_your_starter",
+        "displayName": "Choose_your_starter",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lolllipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0db40250-6ecc-11f0-9bb5-a5098706f2a7": {
+        "addonId": "0db40250-6ecc-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice Of Starters",
+        "displayName": "Choice Of Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "873cd522-6ecc-11f0-9bb5-a5098706f2a7": {
+        "addonId": "873cd522-6ecc-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "test2222",
+        "displayName": "test2",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "873cd523-6ecc-11f0-9bb5-a5098706f2a7": {
+        "addonId": "873cd523-6ecc-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "test342",
+        "displayName": "test23",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "testt",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "065c7900-6ecd-11f0-9bb5-a5098706f2a7": {
+        "addonId": "065c7900-6ecd-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Veg Starters_222",
+        "displayName": "Choice of 3 Veg Starters_222",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "065c7901-6ecd-11f0-9bb5-a5098706f2a7": {
+        "addonId": "065c7901-6ecd-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 2 wet Gravy_23123123",
+        "displayName": "Choice of 2 wet Gravy_23123123",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot and Garlic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "065c7902-6ecd-11f0-9bb5-a5098706f2a7": {
+        "addonId": "065c7902-6ecd-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Rice Noodles_2asd3",
+        "displayName": "Choice of 2 Rice Noodles_2asd3",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "065ca010-6ecd-11f0-9bb5-a5098706f2a7": {
+        "addonId": "065ca010-6ecd-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of One Dessert_23412222",
+        "displayName": "Choice of One Dessert_23412222",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Browniw",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1f591a0-6ece-11f0-9bb5-a5098706f2a7": {
+        "addonId": "c1f591a0-6ece-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Starters",
+        "displayName": "Choice of 3 Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1f5b8b0-6ece-11f0-9bb5-a5098706f2a7": {
+        "addonId": "c1f5b8b0-6ece-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of Two Wet Gravy",
+        "displayName": "Choice of Two Wet Gravy",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Chicken wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot and Garlic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Taipai Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhutan Chicken wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1f5b8b1-6ece-11f0-9bb5-a5098706f2a7": {
+        "addonId": "c1f5b8b1-6ece-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of Two Rice & Noodle",
+        "displayName": "Choice of Two Rice & Noodle",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Egg fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken burnt garlic fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Prawn fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Chicken fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Double egg soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilly Garlic Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Singapore Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Peanut Chicken noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Prawn noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hakka Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1f5b8b2-6ece-11f0-9bb5-a5098706f2a7": {
+        "addonId": "c1f5b8b2-6ece-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choose oneDessert",
+        "displayName": "Choose oneDessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "cf16db80-6ed0-11f0-9bb5-a5098706f2a7": {
+        "addonId": "cf16db80-6ed0-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Veg Starters",
+        "displayName": "Choice of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Crispy Veg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Crispy Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Babycorn Salt and Pepper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Chilli Panner",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchurian",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Gobi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom Salt and Pepper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "cf16db81-6ed0-11f0-9bb5-a5098706f2a7": {
+        "addonId": "cf16db81-6ed0-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Wet Gravy",
+        "displayName": "Choice of 2 Wet Gravy",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Panner wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchurian wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Baby corn wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shzechwan Gobi Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "cf16db82-6ed0-11f0-9bb5-a5098706f2a7": {
+        "addonId": "cf16db82-6ed0-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Rice and Noodles",
+        "displayName": "Choice of 2 Rice and Noodles",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Burnt Garlic Fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Szechwan Veg fried rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom fired Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom soft noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli garlic noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Szechwan Hakka noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Peanut Veg noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Hakka Veg noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "cf16db83-6ed0-11f0-9bb5-a5098706f2a7": {
+        "addonId": "cf16db83-6ed0-11f0-9bb5-a5098706f2a7",
+        "integrationId": "",
+        "addonName": "Choice of one Dessert",
+        "displayName": "Choice of one Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 8
+      },
+      {
+        "key": "Indo-Chinese",
+        "value": 8
+      },
+      {
+        "key": "Curated Box",
+        "value": 3
+      },
+      {
+        "key": "Snack Box",
+        "value": 4
+      },
+      {
+        "key": "Premium Snack Box",
+        "value": 2
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "318fda50-b3e1-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Classic  Chinese Feast Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Chilli Paneer Dry, Veg Spring Rolls.\nMain Course - Hakka Noodles, Burnt Garlic Fried Rice, Kung Pao Chicken, Veg Manchurian Gravy.\nAccompaniments - Hot Garlic Sauce & Chilli Vinegar, Kimchi Salad.\nDessert - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic  Chinese Feast Box For 10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "15ae7160-b3e2-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan -Asian Feast Box For  10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chilli Loose Prawns, Chicken Satay with Peanut Sauce, Crispy Lotus Stem with Honey Chilli Glaze.\nMain Course - Basil Chicken Stir-Fry, Thai Green Curry (Veg), Jasmine Rice,  Veg Hakka Noodles.\nAccompaniments - Asian Slaw, Chilli Oil & Soy Dip.\n Dessert - Coconut Caramel Pudding\n",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+              "caption": "Premium Pan -Asian Feast Box For  10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "318fda50-b3e1-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Classic  Chinese Feast Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Chilli Paneer Dry, Veg Spring Rolls.\nMain Course - Hakka Noodles, Burnt Garlic Fried Rice, Kung Pao Chicken, Veg Manchurian Gravy.\nAccompaniments - Hot Garlic Sauce & Chilli Vinegar, Kimchi Salad.\nDessert - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic  Chinese Feast Box For 10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "15ae7160-b3e2-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan -Asian Feast Box For  10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chilli Loose Prawns, Chicken Satay with Peanut Sauce, Crispy Lotus Stem with Honey Chilli Glaze.\nMain Course - Basil Chicken Stir-Fry, Thai Green Curry (Veg), Jasmine Rice,  Veg Hakka Noodles.\nAccompaniments - Asian Slaw, Chilli Oil & Soy Dip.\n Dessert - Coconut Caramel Pudding\n",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+              "caption": "Premium Pan -Asian Feast Box For  10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f26201b0-b3e4-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn, Mini Chicken Satay.\n\nCarbs & Noodles - Veg Hakka Noodles, Chicken Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7200,
+            "originalPrice": 7200,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Chinese Snack Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6ed45fe0-b3e5-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn.Chilli Mushroom , Veg Manchurian (Dry).\n\nCarbs & Noodles - Veg Hakka Noodles, Veg Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Veg Chinese Snack Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f26201b0-b3e4-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn, Mini Chicken Satay.\n\nCarbs & Noodles - Veg Hakka Noodles, Chicken Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7200,
+            "originalPrice": 7200,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Chinese Snack Box For 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6ed45fe0-b3e5-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn.Chilli Mushroom , Veg Manchurian (Dry).\n\nCarbs & Noodles - Veg Hakka Noodles, Veg Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Veg Chinese Snack Box For 20"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Indo-Chinese"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "318fda50-b3e1-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Classic  Chinese Feast Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Chilli Paneer Dry, Veg Spring Rolls.\nMain Course - Hakka Noodles, Burnt Garlic Fried Rice, Kung Pao Chicken, Veg Manchurian Gravy.\nAccompaniments - Hot Garlic Sauce & Chilli Vinegar, Kimchi Salad.\nDessert - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic  Chinese Feast Box For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ac22ca20-b3e1-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Vegetarian Chinese Spread Box For 10",
+            "imageUrl": "",
+            "description": "Starters - Veg Spring Rolls, Chilli Mushroom Dry, Crispy Corn with Schezwan Spice.\nMain Course - Veg Hakka Noodles, Exotic Veg Fried Rice, Paneer in Hot Garlic Sauce, Veg Manchurian Gravy.\nAccompaniments - Chilli Vinegar, Soy Sauce & Kimchi Salad.\nDessert - Honey Crispy Noodles ",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "15ae7160-b3e2-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan -Asian Feast Box For  10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chilli Loose Prawns, Chicken Satay with Peanut Sauce, Crispy Lotus Stem with Honey Chilli Glaze.\nMain Course - Basil Chicken Stir-Fry, Thai Green Curry (Veg), Jasmine Rice,  Veg Hakka Noodles.\nAccompaniments - Asian Slaw, Chilli Oil & Soy Dip.\n Dessert - Coconut Caramel Pudding\n",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+              "caption": "Premium Pan -Asian Feast Box For  10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9a41f500-b3e2-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Chinese Curated Meal Box For 20",
+            "imageUrl": "",
+            "description": "Starters - Chicken Lollipop tossed in Schezwan, Chilli Paneer, Veg Spring Rolls.\n\nMains - Hakka Noodles, Burnt Garlic Fried Rice, Kung Pao Chicken, Veg Manchurian Gravy.\n\nSides - Hot Garlic Sauce, Chilli Vinegar, Kimchi Salad.\n\nDessert - Chocolate Brownie.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 6800,
+            "originalPrice": 6800,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0d101030-b3e3-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Chinese Feast Box For 20",
+            "imageUrl": "",
+            "description": "Starters - Crispy Corn Schezwan, Chilli Mushroom, Veg Spring Rolls.\n\nMains - Veg Hakka Noodles,  Burnt Garlic Fried Rice, Paneer in Hot Garlic Sauce, Veg Manchurian.\n\nSides - Soy Sauce, Chilli Vinegar, Kimchi Salad.\n\nDessert - Brownie",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6f4343c0-b3e4-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan-Asian Feast Box For 20",
+            "imageUrl": "",
+            "description": "Starters - Tempura Prawns, Apollo fish, Chicken Satay with Peanut Sauce, Chilli Paneer, Honey Chilli Lotus Stem.\n\nMains - Thai Basil Chicken, Thai Green Curry (Veg), Jasmine Rice, Hakka Noodles.\n\nSides - Asian Slaw, Chilli Oil, Soy Dip.\n\nDessert - Coconut Caramel Pudding or Lemongrass Mousse.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8500,
+            "originalPrice": 8500,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "318fda50-b3e1-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Classic  Chinese Feast Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Chilli Paneer Dry, Veg Spring Rolls.\nMain Course - Hakka Noodles, Burnt Garlic Fried Rice, Kung Pao Chicken, Veg Manchurian Gravy.\nAccompaniments - Hot Garlic Sauce & Chilli Vinegar, Kimchi Salad.\nDessert - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/abb78930-fa82-11f0-bb0e-5fdd1b58b425/abb78931-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic  Chinese Feast Box For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "15ae7160-b3e2-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan -Asian Feast Box For  10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chilli Loose Prawns, Chicken Satay with Peanut Sauce, Crispy Lotus Stem with Honey Chilli Glaze.\nMain Course - Basil Chicken Stir-Fry, Thai Green Curry (Veg), Jasmine Rice,  Veg Hakka Noodles.\nAccompaniments - Asian Slaw, Chilli Oil & Soy Dip.\n Dessert - Coconut Caramel Pudding\n",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "927d4b90-6dd2-11f0-954f-2b09b48dddb5",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/3b59dc50-fa83-11f0-bb0e-5fdd1b58b425/3b59dc51-fa83-11f0-bb0e-5fdd1b58b425",
+              "caption": "Premium Pan -Asian Feast Box For  10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Curated Box"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6ed43ba0-baf2-11f0-83f5-877378295a33",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Classic Chinese Feast Box For 10",
+            "imageUrl": "",
+            "description": "Popular Indo-Chinese comfort\nfavourites featuring Chicken\nLollipop, Chilli Paneer, Hakka\nNoodles, Burnt Garlic Fried Rice,\nKung Pao Chicken, and Darsaan\nwith Honey",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "5a0e6470-baf2-11f0-83f5-877378295a33",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "89265c90-baf2-11f0-83f5-877378295a33",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Vegetarian Chinese Spread Box For 10",
+            "imageUrl": "",
+            "description": "Fully vegetarian feast with Veg\nSpring Rolls, Chilli Mushroom,\nCrispy Corn, Exotic Veg Fried Rice,\nPaneer in Hot Garlic Sauce, and\nHoney Crispy Noodles",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "5a0e6470-baf2-11f0-83f5-877378295a33",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a358c080-baf2-11f0-83f5-877378295a33",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Premium Pan-Asian Feast Box For 10",
+            "imageUrl": "",
+            "description": "Upscale selection featuring Chilli\nLoose Prawns, Chicken Satay, Basil\nChicken Stir-Fry, Thai Green Curry,\nJasmine Rice, and Coconut\nCaramel Pudding",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "5a0e6470-baf2-11f0-83f5-877378295a33",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Snack Box"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f26201b0-b3e4-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn, Mini Chicken Satay.\n\nCarbs & Noodles - Veg Hakka Noodles, Chicken Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7200,
+            "originalPrice": 7200,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Chinese Snack Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6ed45fe0-b3e5-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn.Chilli Mushroom , Veg Manchurian (Dry).\n\nCarbs & Noodles - Veg Hakka Noodles, Veg Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Veg Chinese Snack Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "f26201b0-b3e4-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Chicken Lollipop, Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn, Mini Chicken Satay.\n\nCarbs & Noodles - Veg Hakka Noodles, Chicken Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7200,
+            "originalPrice": 7200,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/41920100-fa84-11f0-bb0e-5fdd1b58b425/41920101-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Chinese Snack Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6ed45fe0-b3e5-11f0-b0e4-0b52b46f212c",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Chinese Snack Box For 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+            "description": "Starters - Veg Spring Rolls, Chilli Paneer Cubes, Crispy Corn.Chilli Mushroom , Veg Manchurian (Dry).\n\nCarbs & Noodles - Veg Hakka Noodles, Veg Fried Rice.\n\nDips & Sauces - Hot Garlic Sauce, Chilli Sauce, Soy Sauce.\n\nDessert Bite - China Grass",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "871597a0-b3e4-11f0-b0e4-0b52b46f212c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/Item_Resize/65df85a0-fa84-11f0-bb0e-5fdd1b58b425/65df85a1-fa84-11f0-bb0e-5fdd1b58b425",
+              "caption": "Veg Chinese Snack Box For 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Premium Snack Box"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "199f87b0-baf3-11f0-83f5-877378295a33",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Mixed Snack Box For 20",
+            "imageUrl": "",
+            "description": "Features Chicken Lollipop, Veg Spring Rolls, Chilli\nPaneer Cubes, Mini Chicken Satay, Veg Hakka Noodles,\nChicken Fried Rice, and Mini Honey Crispy Noodles\nwith Chocolate Brownie",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 11200,
+            "originalPrice": 11200,
+            "gst": 5,
+            "category": "fa2954b0-baf2-11f0-83f5-877378295a33",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4545b1a0-baf3-11f0-83f5-877378295a33",
+            "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+            "name": "Veg Snack Box For 20",
+            "imageUrl": "",
+            "description": "Includes Veg Spring Rolls, Chilli Paneer, Crispy Corn,\nChilli Mushroom, Veg Manchurian, Veg Hakka Noodles,\nVeg Fried Rice, and China Grass",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 7800,
+            "originalPrice": 7800,
+            "gst": 5,
+            "category": "fa2954b0-baf2-11f0-83f5-877378295a33",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Indo Chinese Hub",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "6870eb902f9281ffcf3b3e19",
+      "outletId": "53540e10-5e44-11f0-93ab-eb8319be7304",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Savory fusion meals blending Indian spices with classic Chinese flavours, ready to delight your guests.",
+      "deepLinkUrl": "https://yumzy.page.link/etgHVuCsUTmLgJaWA",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Indo Chinese Hub",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/53540e10-5e44-11f0-93ab-eb8319be7304/high-angle-thanksgiving-dinner-arrangement.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "ee3bc6a0-6dd2-11f0-954f-2b09b48dddb5",
+      "statusInfo": {
+        "type": "CLOSING",
+        "info": "Closing in 2 minutes."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 2,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

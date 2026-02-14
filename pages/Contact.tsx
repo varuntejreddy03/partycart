@@ -1,174 +1,221 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { AppRoutes } from '../types';
+import React from 'react';
+
+const PHONE = '917396737700';
+const PHONE_DISPLAY = '7396737700';
+
+const socials = [
+    {
+        name: 'Instagram',
+        handle: '@partycart_yumzy',
+        url: 'https://www.instagram.com/partycart_yumzy',
+        icon: (
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+        ),
+        color: 'from-purple-500 to-pink-500',
+        hoverBg: 'hover:bg-pink-500/10',
+        borderColor: 'border-pink-500/20',
+    },
+    {
+        name: 'Facebook',
+        handle: 'PartyCart by Yumzy',
+        url: 'https://www.facebook.com/yumzyapp',
+        icon: (
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+        ),
+        color: 'from-blue-500 to-blue-600',
+        hoverBg: 'hover:bg-blue-500/10',
+        borderColor: 'border-blue-500/20',
+    },
+    {
+        name: 'LinkedIn',
+        handle: 'Yumzy App',
+        url: 'https://www.linkedin.com/company/yumzy-app/',
+        icon: (
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+        ),
+        color: 'from-sky-500 to-blue-600',
+        hoverBg: 'hover:bg-sky-500/10',
+        borderColor: 'border-sky-500/20',
+    },
+    {
+        name: 'YouTube',
+        handle: 'Yumzy',
+        url: 'https://www.youtube.com/@yumzyapp',
+        icon: (
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+        ),
+        color: 'from-red-500 to-red-600',
+        hoverBg: 'hover:bg-red-500/10',
+        borderColor: 'border-red-500/20',
+    },
+];
 
 export const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+    const openWhatsApp = () => {
+        const text = encodeURIComponent('Hi PartyCart! I would like to enquire about catering services.');
+        window.open(`https://wa.me/${PHONE}?text=${text}`, '_blank');
+    };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
+    return (
+        <div className="bg-dark min-h-screen relative overflow-x-hidden">
+            {/* Background */}
+            <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+                <div className="absolute top-[-10%] left-[-10%] w-[50vh] h-[50vh] bg-primary/15 rounded-full blur-[120px]"></div>
+                <div className="absolute bottom-[10%] right-[-5%] w-[40vh] h-[40vh] bg-secondary/8 rounded-full blur-[100px]"></div>
+                <div className="absolute top-[50%] left-[50%] w-[30vh] h-[30vh] bg-accent/5 rounded-full blur-[80px]"></div>
+            </div>
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    // Construct WhatsApp Message
-    const text = `*Contact Request from PartyCart Website*%0A%0A` +
-                 `*Name:* ${formData.name}%0A` +
-                 `*Email:* ${formData.email}%0A` +
-                 `*Message:* ${formData.message}`;
-    
-    // WhatsApp Phone Number
-    const phoneNumber = "917396737700";
-    
-    // Open WhatsApp
-    window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
-  };
-
-  return (
-    <div className="bg-dark min-h-screen relative overflow-x-hidden">
-        {/* Background */}
-        <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-            <div className="absolute top-[-10%] left-[-10%] w-[50vh] h-[50vh] bg-primary/20 rounded-full blur-[100px]"></div>
-            <div className="absolute bottom-[10%] right-[-5%] w-[40vh] h-[40vh] bg-secondary/10 rounded-full blur-[80px]"></div>
-            <span className="material-icons-round absolute top-[15%] right-[10%] text-primary/10 text-8xl rotate-12">support_agent</span>
-            <span className="material-icons-round absolute bottom-[20%] left-[5%] text-accent/10 text-6xl -rotate-12">chat</span>
-        </div>
-
-        <section className="relative pt-24 pb-16 px-4 z-10 max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-                {/* Left Column: Info */}
-                <div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-accent text-[10px] font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
-                        <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
-                        #partycart_yumzy
-                    </div>
-                    
-                    <h1 className="text-4xl sm:text-5xl font-black italic text-white leading-[0.9] tracking-tight mb-6 uppercase">
-                        PartyCart <br/>
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">By Yumzy</span>
-                    </h1>
-                    
-                    <p className="text-lg text-white font-bold mb-2">Hyderabad’s premium party food provider 🍽️✨</p>
-                    <p className="text-gray-400 mb-8">You host the party. We’ll handle the food.</p>
-                    
-                    <div className="flex items-center gap-3 mb-10">
-                        <span className="material-icons-round text-primary text-3xl">phone</span>
-                        <div>
-                             <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Contact Us</p>
-                             <p className="text-3xl font-black text-white">7396737700</p>
-                        </div>
-                    </div>
-
-                    <div className="space-y-6">
-                        <a href="https://play.google.com/store/search?q=yumzy&c=apps&hl=en-IN" target="_blank" rel="noopener noreferrer" className="glass-card p-6 rounded-3xl flex items-center gap-6 group hover:border-primary/50 transition duration-300">
-                             <div className="w-14 h-14 rounded-2xl bg-white p-1 flex items-center justify-center group-hover:scale-110 transition overflow-hidden">
-                                <img src="https://partycart.in/wp-content/uploads/2025/09/Yuumzy-App-Qr.png" alt="Download App" className="w-full h-full object-contain" />
-                             </div>
-                             <div>
-                                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Available on</p>
-                                <p className="text-xl font-bold text-white">Google Play</p>
-                             </div>
-                        </a>
-                        
-                        <a href="https://apps.apple.com/in/app/yumzy-online-food-delivery/id1476665049" target="_blank" rel="noopener noreferrer" className="glass-card p-6 rounded-3xl flex items-center gap-6 group hover:border-primary/50 transition duration-300">
-                             <div className="w-14 h-14 rounded-2xl bg-white p-2 flex items-center justify-center group-hover:scale-110 transition overflow-hidden">
-                                <span className="material-icons-round text-3xl text-black">apple</span>
-                             </div>
-                             <div>
-                                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Available on</p>
-                                <p className="text-xl font-bold text-white">App Store</p>
-                             </div>
-                        </a>
-
-                        <div className="flex gap-4">
-                            <a href="https://www.instagram.com/partycart_yumzy" target="_blank" rel="noopener noreferrer" className="glass-card p-4 rounded-2xl flex items-center justify-center gap-2 text-white hover:text-primary transition flex-1">
-                                <span className="text-lg font-bold">Instagram</span>
-                            </a>
-                            <a href="https://www.linkedin.com/company/yumzy-app/" target="_blank" rel="noopener noreferrer" className="glass-card p-4 rounded-2xl flex items-center justify-center gap-2 text-white hover:text-primary transition flex-1">
-                                <span className="text-lg font-bold">LinkedIn</span>
-                            </a>
-                        </div>
-                    </div>
+            {/* ═══════════════════════════════════════
+           HERO SECTION
+         ═══════════════════════════════════════ */}
+            <section className="relative pt-28 sm:pt-32 pb-12 px-4 z-10 max-w-5xl mx-auto text-center">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-accent text-[10px] font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+                    Get in Touch
                 </div>
 
-                {/* Right Column: Form */}
-                <div className="relative">
-                    <div className="glass-card p-8 rounded-[2.5rem] border border-white/10 relative overflow-hidden">
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-2xl -mr-10 -mt-10"></div>
-                            
-                            <h3 className="text-2xl font-black italic text-white mb-6 relative z-10">ENQUIRE NOW</h3>
-                            
-                            <form onSubmit={handleSubmit} className="space-y-5 relative z-10">
-                            <div>
-                                <label className="block text-[10px] font-bold text-gray-400 uppercase mb-2 ml-1">Your Name</label>
-                                <input 
-                                    name="name"
-                                    value={formData.name}
-                                    onChange={handleChange}
-                                    required 
-                                    type="text" 
-                                    className="glass-input w-full rounded-2xl px-5 py-4 text-white focus:ring-0 placeholder-gray-500 bg-dark/80 border-white/10" 
-                                    placeholder="John Doe" 
-                                />
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-4">
+                    Let's Plan Your{' '}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">
+                        Perfect Party
+                    </span>
+                </h1>
+
+                <p className="text-gray-400 text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
+                    Hyderabad's premium party food provider. You host the party — we handle the food.
+                </p>
+
+                {/* WhatsApp CTA */}
+                <button
+                    onClick={openWhatsApp}
+                    className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#25D366] text-white font-black text-base sm:text-lg uppercase tracking-wider shadow-2xl shadow-[#25D366]/30 hover:shadow-[#25D366]/50 hover:scale-105 active:scale-95 transition-all duration-300"
+                >
+                    <svg className="w-6 h-6 sm:w-7 sm:h-7" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Chat on WhatsApp
+                </button>
+            </section>
+
+            {/* ═══════════════════════════════════════
+           CONTACT CARDS
+         ═══════════════════════════════════════ */}
+            <section className="relative z-10 max-w-5xl mx-auto px-4 pb-16">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                    {/* Phone */}
+                    <a
+                        href={`tel:+${PHONE}`}
+                        className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-primary/30 transition-all duration-300 group"
+                    >
+                        <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+                            <span className="material-icons-round text-primary text-2xl">call</span>
+                        </div>
+                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Call Us</p>
+                        <p className="text-xl sm:text-2xl font-black text-white">{PHONE_DISPLAY}</p>
+                        <p className="text-xs text-gray-500 mt-2">Available 9 AM – 10 PM</p>
+                    </a>
+
+                    {/* WhatsApp */}
+                    <div
+                        onClick={openWhatsApp}
+                        className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-[#25D366]/30 transition-all duration-300 cursor-pointer group"
+                    >
+                        <div className="w-14 h-14 rounded-2xl bg-[#25D366]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+                            <svg className="w-6 h-6 text-[#25D366]" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </div>
+                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">WhatsApp</p>
+                        <p className="text-xl sm:text-2xl font-black text-white">Message Us</p>
+                        <p className="text-xs text-gray-500 mt-2">Quick replies guaranteed</p>
+                    </div>
+
+                    {/* Location */}
+                    <div className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 sm:col-span-2 lg:col-span-1">
+                        <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center mb-5">
+                            <span className="material-icons-round text-accent text-2xl">location_on</span>
+                        </div>
+                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Location</p>
+                        <p className="text-xl sm:text-2xl font-black text-white">Hyderabad</p>
+                        <p className="text-xs text-gray-500 mt-2">Serving all areas across the city</p>
+                    </div>
+                </div>
+            </section>
+
+            {/* ═══════════════════════════════════════
+           SOCIAL MEDIA
+         ═══════════════════════════════════════ */}
+            <section className="relative z-10 max-w-5xl mx-auto px-4 pb-20">
+                <div className="text-center mb-10">
+                    <h2 className="text-2xl sm:text-3xl font-black text-white mb-2">Follow Us</h2>
+                    <p className="text-gray-500 text-sm">Stay updated with our latest menus, offers & party vibes</p>
+                    <div className="w-12 h-1 bg-primary mx-auto rounded-full mt-4"></div>
+                </div>
+
+                <div className="grid sm:grid-cols-2 gap-4">
+                    {socials.map((s) => (
+                        <a
+                            key={s.name}
+                            href={s.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`glass-card p-5 sm:p-6 rounded-2xl border ${s.borderColor} ${s.hoverBg} transition-all duration-300 group flex items-center gap-5`}
+                        >
+                            <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.color} flex items-center justify-center text-white flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                                {s.icon}
                             </div>
-                            <div>
-                                <label className="block text-[10px] font-bold text-gray-400 uppercase mb-2 ml-1">Email Address</label>
-                                <input 
-                                    name="email"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    required 
-                                    type="email" 
-                                    className="glass-input w-full rounded-2xl px-5 py-4 text-white focus:ring-0 placeholder-gray-500 bg-dark/80 border-white/10" 
-                                    placeholder="john@example.com" 
-                                />
+                            <div className="flex-grow min-w-0">
+                                <p className="text-base sm:text-lg font-black text-white">{s.name}</p>
+                                <p className="text-xs text-gray-500 truncate">{s.handle}</p>
                             </div>
-                            <div>
-                                <label className="block text-[10px] font-bold text-gray-400 uppercase mb-2 ml-1">Message</label>
-                                <textarea 
-                                    name="message"
-                                    value={formData.message}
-                                    onChange={handleChange}
-                                    required 
-                                    rows={4} 
-                                    className="glass-input w-full rounded-2xl px-5 py-4 text-white focus:ring-0 placeholder-gray-500 bg-dark/80 resize-none border-white/10" 
-                                    placeholder="Tell us about your event..."
-                                ></textarea>
-                            </div>
-                            <button type="submit" className="w-full bg-white text-dark font-black py-5 rounded-2xl shadow-xl hover:bg-gray-100 transition transform active:scale-95 flex items-center justify-center gap-2">
-                                SEND ON WHATSAPP <span className="material-icons-round">whatsapp</span>
+                            <span className="material-icons-round text-gray-600 group-hover:text-white group-hover:translate-x-1 transition-all flex-shrink-0">
+                                arrow_forward
+                            </span>
+                        </a>
+                    ))}
+                </div>
+            </section>
+
+            {/* ═══════════════════════════════════════
+           BOTTOM CTA
+         ═══════════════════════════════════════ */}
+            <section className="relative z-10 pb-24">
+                <div className="max-w-3xl mx-auto px-4">
+                    <div className="glass-card p-8 sm:p-12 rounded-3xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 text-center">
+                        <span className="material-icons-round text-primary text-5xl mb-4 block">restaurant</span>
+                        <h3 className="text-2xl sm:text-3xl font-black text-white mb-3">Ready to order?</h3>
+                        <p className="text-gray-400 text-sm sm:text-base mb-8 max-w-md mx-auto">
+                            Browse our restaurants, build your cart, and place your order in minutes.
+                        </p>
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                            <a
+                                href="/#/vendors"
+                                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-primary to-orange-600 text-white font-black text-sm uppercase tracking-wider shadow-xl shadow-primary/30 hover:shadow-primary/50 hover:scale-105 active:scale-95 transition-all duration-300"
+                            >
+                                <span className="material-icons-round">storefront</span>
+                                Browse Restaurants
+                            </a>
+                            <button
+                                onClick={openWhatsApp}
+                                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-sm hover:bg-white/10 transition-all duration-300"
+                            >
+                                <svg className="w-5 h-5 text-[#25D366]" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg>
+                                Or WhatsApp Us
                             </button>
-                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        {/* Service Areas */}
-        <section className="relative py-20 px-4 bg-surface/30 z-10">
-            <div className="max-w-7xl mx-auto">
-                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-black italic text-white mb-2">SERVICE <span className="text-primary">AREAS</span></h2>
-                    <div className="w-12 h-1 bg-primary mx-auto rounded-full"></div>
-                </div>
-                
-                <div className="flex justify-center">
-                     <div className="glass-card p-6 rounded-2xl text-center hover:bg-white/5 transition cursor-default px-12 border border-primary/20 bg-primary/5">
-                         <span className="material-icons-round text-primary mb-3 text-4xl">location_on</span>
-                         <p className="font-black text-white text-xl uppercase tracking-widest">Serving All Hyderabad</p>
-                     </div>
-                </div>
-            </div>
-        </section>
-    </div>
-  );
+            </section>
+        </div>
+    );
 };

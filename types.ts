@@ -5,4 +5,6 @@ export enum AppRoutes {
   BULK = '/bulk',
   QUOTE = '/quote',
   CONTACT = '/contact',
+  VENDORS = '/vendors',
+  VENDOR_MENU = '/vendor/:slug',
 }

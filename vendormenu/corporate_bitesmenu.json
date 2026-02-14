@@ -1,0 +1,2212 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "69770ad253785b6d7fff8e2d",
+    "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451": {
+        "addonId": "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Sandwich",
+        "displayName": "Choice Of Sandwich",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Paneer Pesto Melt",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Mumbai Culb",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Mumbai Club",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Pesto Melt",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451": {
+        "addonId": "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Drink",
+        "displayName": "Choice Of Drink",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Frooti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Maza",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451": {
+        "addonId": "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Wrap",
+        "displayName": "Choice Of Wrap",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Mexican Wrap",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Mexican Wrap",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451": {
+        "addonId": "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Dessert",
+        "displayName": "Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "07c33590-5d61-11f0-90b1-d5e84dccc451": {
+        "addonId": "07c33590-5d61-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Sandwich",
+        "displayName": "Choice Of Sandwich",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Paneer Pesto Melt",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Mumbai Culb",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Mumbai Club",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Pesto Melt",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "07c33591-5d61-11f0-90b1-d5e84dccc451": {
+        "addonId": "07c33591-5d61-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Drink",
+        "displayName": "Choice Of Drink",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Frooti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Maza",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "07c33592-5d61-11f0-90b1-d5e84dccc451": {
+        "addonId": "07c33592-5d61-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Wrap",
+        "displayName": "Choice Of Wrap",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Mexican Wrap",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Mexican Wrap",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "2b198c20-5d65-11f0-90b1-d5e84dccc451": {
+        "addonId": "2b198c20-5d65-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice of Bowl",
+        "displayName": "Choice of Bowl",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Tandoori Chicken Rice Bowl",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Butter Chicken Rice Bowl",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Butter Garlic Prawn Rice Bowl",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer Butter Rice Bowl",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer khichdi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vegetable khichdi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "2b198c21-5d65-11f0-90b1-d5e84dccc451": {
+        "addonId": "2b198c21-5d65-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Select Any 2",
+        "displayName": "Select Any 2",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0d215600-687b-11f0-b85d-f75f7726d82f": {
+        "addonId": "0d215600-687b-11f0-b85d-f75f7726d82f",
+        "integrationId": "",
+        "addonName": "Served With",
+        "displayName": "Served With",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mix lettuce tomato/ncucumber/nbell pepper /n broccoli/nOnion/nvinaigrette dressing",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0d215601-687b-11f0-b85d-f75f7726d82f": {
+        "addonId": "0d215601-687b-11f0-b85d-f75f7726d82f",
+        "integrationId": "",
+        "addonName": "Choice Of Meat",
+        "displayName": "Choice Of Meat",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Grilled Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Chicken Cubes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boiled Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Grilled Panner",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "abc30f50-6921-11f0-b88f-3b6418edb67c": {
+        "addonId": "abc30f50-6921-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Served With",
+        "displayName": "Served With",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mix lettucen/bell pepper and croutonsn/(Ceaser dressing)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "abc30f51-6921-11f0-b88f-3b6418edb67c": {
+        "addonId": "abc30f51-6921-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Choice Of Meat",
+        "displayName": "Choice Of Meat",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Grilled Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boiled Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Grilled Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Chicken Cubes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "8969ceb0-6923-11f0-b88f-3b6418edb67c": {
+        "addonId": "8969ceb0-6923-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Served With",
+        "displayName": "Served With",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mix lettuce Applen/ broccolin/celeryn/(Ranch dressing)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "8969ceb1-6923-11f0-b88f-3b6418edb67c": {
+        "addonId": "8969ceb1-6923-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Choice Of Meat",
+        "displayName": "Choice Of Meat",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Grilled Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boiled Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Grilled Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Chicken Cubes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "a1d91850-6943-11f0-b88f-3b6418edb67c": {
+        "addonId": "a1d91850-6943-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Choose 1 to Many Option",
+        "displayName": "Choose 1 to Many Option",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Special Garden Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Caesar Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Waldorf Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Watermelon Feta Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "a1d91851-6943-11f0-b88f-3b6418edb67c": {
+        "addonId": "a1d91851-6943-11f0-b88f-3b6418edb67c",
+        "integrationId": "",
+        "addonName": "Choice Of Any",
+        "displayName": "Choice Of Any",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Grilled Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Chicken Cubes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boiled Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Grilled Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425": {
+        "addonId": "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425",
+        "integrationId": "",
+        "addonName": "Dessert",
+        "displayName": "Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 8
+      },
+      {
+        "key": "Curated Boxs",
+        "value": 5
+      },
+      {
+        "key": "Appetizer Platters",
+        "value": 3
+      },
+      {
+        "key": "Sandwich & Wraps Meal",
+        "value": 5
+      },
+      {
+        "key": "Burger Meal",
+        "value": 2
+      },
+      {
+        "key": "Bowl Buddy Box",
+        "value": 1
+      },
+      {
+        "key": "The Salad Box",
+        "value": 1
+      },
+      {
+        "key": "Mains & Comfort Food",
+        "value": 3
+      },
+      {
+        "key": "Dessert Platters",
+        "value": 2
+      }
+    ],
+    "exploreTags": [
+      "Trending",
+      "Breakfast",
+      "Snacks",
+      "Lunch & Dinner"
+    ],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4ecdc820-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Classic Brunch Spread Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Belgian Waffles with Nutella\nScrambled and masala eggs with\nbuttered pav\nChicken sausages and hash browns\nFresh fruit platter\nCoffee and tea service",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4800,
+            "originalPrice": 4800,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic Brunch Spread Box For 15-20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4ecdc820-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Classic Brunch Spread Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Belgian Waffles with Nutella\nScrambled and masala eggs with\nbuttered pav\nChicken sausages and hash browns\nFresh fruit platter\nCoffee and tea service",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4800,
+            "originalPrice": 4800,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic Brunch Spread Box For 15-20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "aadb9940-5d5f-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Wrap & Sandwich Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "packed with love, tied with a ribbon Choice of one veg 🥗 or non-veg 🍗 dish for 10, served with creamy coleslaw, crispy potato chips, or golden fries.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Executive Wrap & Sandwich Box For 10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "aadb9940-5d5f-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Wrap & Sandwich Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "packed with love, tied with a ribbon Choice of one veg 🥗 or non-veg 🍗 dish for 10, served with creamy coleslaw, crispy potato chips, or golden fries.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Executive Wrap & Sandwich Box For 10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner",
+              "Trending"
+            ],
+            "addons": [
+              "07c33590-5d61-11f0-90b1-d5e84dccc451",
+              "07c33591-5d61-11f0-90b1-d5e84dccc451",
+              "07c33592-5d61-11f0-90b1-d5e84dccc451",
+              "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "07c29950-5d61-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "The Burger Session",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Tasty burger treat boxes 🍔 perfect for 10 members! Pick any veg 🥗 or non-veg 🍗 burger, served fresh with crisp salad and crunchy potato chips",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "1fd10140-5d60-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "The Burger Session"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner",
+              "Trending"
+            ],
+            "addons": [
+              "07c33590-5d61-11f0-90b1-d5e84dccc451",
+              "07c33591-5d61-11f0-90b1-d5e84dccc451",
+              "07c33592-5d61-11f0-90b1-d5e84dccc451",
+              "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "07c29950-5d61-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "The Burger Session",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Tasty burger treat boxes 🍔 perfect for 10 members! Pick any veg 🥗 or non-veg 🍗 burger, served fresh with crisp salad and crunchy potato chips",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "1fd10140-5d60-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "The Burger Session"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "2b198c20-5d65-11f0-90b1-d5e84dccc451",
+              "2b198c21-5d65-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2b18efe0-5d65-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Meal in a Bowl For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/24d7ea40-a370-11f0-ad6a-9d62ece71b41/24d7ea41-a370-11f0-ad6a-9d62ece71b41",
+            "description": "A two-compartment box 🎁 for an organized and enjoyable meal.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3999,
+            "originalPrice": 3999,
+            "gst": 5,
+            "category": "3eef2c60-5d64-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/24d7ea40-a370-11f0-ad6a-9d62ece71b41/24d7ea41-a370-11f0-ad6a-9d62ece71b41",
+              "caption": "Meal in a Bowl For 10"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "a1d91850-6943-11f0-b88f-3b6418edb67c",
+              "a1d91851-6943-11f0-b88f-3b6418edb67c"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a1d85500-6943-11f0-b88f-3b6418edb67c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Salads For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/dd4078e0-a370-11f0-ad6a-9d62ece71b41/dd4078e1-a370-11f0-ad6a-9d62ece71b41",
+            "description": "Dressings are provided separately to be mixed just before enjoying, ensuring every bite is deliciously perfect. 🥗🍴",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3800,
+            "originalPrice": 3800,
+            "gst": 5,
+            "category": "380250a0-687a-11f0-b85d-f75f7726d82f",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/dd4078e0-a370-11f0-ad6a-9d62ece71b41/dd4078e1-a370-11f0-ad6a-9d62ece71b41",
+              "caption": "Salads For 10"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Curated Boxs"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4ecdc820-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Classic Brunch Spread Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Belgian Waffles with Nutella\nScrambled and masala eggs with\nbuttered pav\nChicken sausages and hash browns\nFresh fruit platter\nCoffee and tea service",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4800,
+            "originalPrice": 4800,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic Brunch Spread Box For 15-20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "8ac29900-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Brunch Box For 15-20",
+            "imageUrl": "",
+            "description": "Served with Belgian Waffles bar with multiple toppings\n- Chicken Kheema Pav and Anda\nBhurji Buns\n- Assorted samosas (corn, chicken,\nPunjabi)\n- Garden Fresh Vegetables Pizza\n- Seasonal fruit platter\n- Premium coffee and fusion tea",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 6200,
+            "originalPrice": 6200,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "4ecdc820-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Classic Brunch Spread Box For 15-20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+            "description": "Served With Belgian Waffles with Nutella\nScrambled and masala eggs with\nbuttered pav\nChicken sausages and hash browns\nFresh fruit platter\nCoffee and tea service",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4800,
+            "originalPrice": 4800,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/fc250d90-fa80-11f0-bb0e-5fdd1b58b425/fc250d91-fa80-11f0-bb0e-5fdd1b58b425",
+              "caption": "Classic Brunch Spread Box For 15-20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "8ac29900-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Brunch Box For 15-20",
+            "imageUrl": "",
+            "description": "Served with Belgian Waffles bar with multiple toppings\n- Chicken Kheema Pav and Anda\nBhurji Buns\n- Assorted samosas (corn, chicken,\nPunjabi)\n- Garden Fresh Vegetables Pizza\n- Seasonal fruit platter\n- Premium coffee and fusion tea",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 6200,
+            "originalPrice": 6200,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "8ac29900-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Brunch Box For 15-20",
+            "imageUrl": "",
+            "description": "Served with Belgian Waffles bar with multiple toppings\n- Chicken Kheema Pav and Anda\nBhurji Buns\n- Assorted samosas (corn, chicken,\nPunjabi)\n- Garden Fresh Vegetables Pizza\n- Seasonal fruit platter\n- Premium coffee and fusion tea",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 6200,
+            "originalPrice": 6200,
+            "gst": 5,
+            "category": "0a7ec070-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Appetizer Platters"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "d7c59040-be77-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Veggie Favorites [20-25 pieces]",
+            "imageUrl": "",
+            "description": "Served with Chilli Cheese Toast\n- Pimento Crostini\n- Cheesy Corn Nuggets\n- Cheese Jalapeño Pops\n- Spring Rolls (Spinach & Cheese",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "a368b7a0-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "07b7bbc0-be78-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Crowd Pleasers [20-25 Pieces]",
+            "imageUrl": "",
+            "description": "Served with Schezwan Chicken Wings\n- Chicken Haleem Bites\n- Chicken & Cheese Spring Rolls\n- Loaded Nachos\n- Fish and Chips\n",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4200,
+            "originalPrice": 4200,
+            "gst": 5,
+            "category": "a368b7a0-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "3cfbe720-be78-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Asian Fusion [30 pieces]",
+            "imageUrl": "",
+            "description": "Served with Veg Dimsums (15 pieces)\n- Chicken Dimsums (15 pieces)\n- Assorted Samosas\n- Spicy cilantro oil dipping sauce",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3800,
+            "originalPrice": 3800,
+            "gst": 5,
+            "category": "a368b7a0-be77-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Sandwich & Wraps Meal"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "aadb9940-5d5f-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Wrap & Sandwich Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "packed with love, tied with a ribbon Choice of one veg 🥗 or non-veg 🍗 dish for 10, served with creamy coleslaw, crispy potato chips, or golden fries.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Executive Wrap & Sandwich Box For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "34c28380-bee0-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Vegetarian Delights Box For 18-20",
+            "imageUrl": "",
+            "description": "Served with Grilled Harissa Paneer Toasties\n\nPesto Melt Paneer\n\nMumbai Club Sandwich (Veg)\n\nTandoori Paneer Wraps",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "5ea24550-bee0-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Chicken Favorites Box For 18-20",
+            "imageUrl": "",
+            "description": "Served with California Chicken Burgers\n\nChicken Coronation Croissants\n\nTandoori Chicken Wraps\n\nRoasted Chicken & Jalapeño Sandwiches",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5200,
+            "originalPrice": 5200,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "881f26a0-bee0-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Mixed Selection Box For 18-20",
+            "imageUrl": "",
+            "description": "Served with Mediterranean Falafel Burgers\n\nChicken Ghee Roast Wraps\n\nAndhra Chicken Iguru Buns\n\nCrunchy Fish Fillet Wraps",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5800,
+            "originalPrice": 5800,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "aadcd1c0-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c1-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c2-5d5f-11f0-90b1-d5e84dccc451",
+              "aadcd1c3-5d5f-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "aadb9940-5d5f-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Executive Wrap & Sandwich Box For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "packed with love, tied with a ribbon Choice of one veg 🥗 or non-veg 🍗 dish for 10, served with creamy coleslaw, crispy potato chips, or golden fries.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "86cf0ab0-5d5e-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/20442f30-fa81-11f0-bb0e-5fdd1b58b425/20442f31-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "Executive Wrap & Sandwich Box For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Burger Meal"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner",
+              "Trending"
+            ],
+            "addons": [
+              "07c33590-5d61-11f0-90b1-d5e84dccc451",
+              "07c33591-5d61-11f0-90b1-d5e84dccc451",
+              "07c33592-5d61-11f0-90b1-d5e84dccc451",
+              "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "07c29950-5d61-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "The Burger Session",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Tasty burger treat boxes 🍔 perfect for 10 members! Pick any veg 🥗 or non-veg 🍗 burger, served fresh with crisp salad and crunchy potato chips",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "1fd10140-5d60-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "The Burger Session"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner",
+              "Trending"
+            ],
+            "addons": [
+              "07c33590-5d61-11f0-90b1-d5e84dccc451",
+              "07c33591-5d61-11f0-90b1-d5e84dccc451",
+              "07c33592-5d61-11f0-90b1-d5e84dccc451",
+              "5784c6d3-fa81-11f0-bb0e-5fdd1b58b425"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "07c29950-5d61-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "The Burger Session",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+            "description": "Tasty burger treat boxes 🍔 perfect for 10 members! Pick any veg 🥗 or non-veg 🍗 burger, served fresh with crisp salad and crunchy potato chips",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3100,
+            "originalPrice": 3100,
+            "gst": 5,
+            "category": "1fd10140-5d60-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/336f4220-fa81-11f0-bb0e-5fdd1b58b425/336f4221-fa81-11f0-bb0e-5fdd1b58b425",
+              "caption": "The Burger Session"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Bowl Buddy Box"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "2b198c20-5d65-11f0-90b1-d5e84dccc451",
+              "2b198c21-5d65-11f0-90b1-d5e84dccc451"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2b18efe0-5d65-11f0-90b1-d5e84dccc451",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Meal in a Bowl For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/24d7ea40-a370-11f0-ad6a-9d62ece71b41/24d7ea41-a370-11f0-ad6a-9d62ece71b41",
+            "description": "A two-compartment box 🎁 for an organized and enjoyable meal.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 3999,
+            "originalPrice": 3999,
+            "gst": 5,
+            "category": "3eef2c60-5d64-11f0-90b1-d5e84dccc451",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/24d7ea40-a370-11f0-ad6a-9d62ece71b41/24d7ea41-a370-11f0-ad6a-9d62ece71b41",
+              "caption": "Meal in a Bowl For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "The Salad Box"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Trending"
+            ],
+            "addons": [
+              "a1d91850-6943-11f0-b88f-3b6418edb67c",
+              "a1d91851-6943-11f0-b88f-3b6418edb67c"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a1d85500-6943-11f0-b88f-3b6418edb67c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Salads For 10",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/dd4078e0-a370-11f0-ad6a-9d62ece71b41/dd4078e1-a370-11f0-ad6a-9d62ece71b41",
+            "description": "Dressings are provided separately to be mixed just before enjoying, ensuring every bite is deliciously perfect. 🥗🍴",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3800,
+            "originalPrice": 3800,
+            "gst": 5,
+            "category": "380250a0-687a-11f0-b85d-f75f7726d82f",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/Item_Resize/dd4078e0-a370-11f0-ad6a-9d62ece71b41/dd4078e1-a370-11f0-ad6a-9d62ece71b41",
+              "caption": "Salads For 10"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Mains & Comfort Food"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0494b920-bee1-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Khichdi Corner Special Box For 15-20",
+            "imageUrl": "",
+            "description": "Your choice of Veg Millet Khichdi or Dal\nKhichdi Risotto served with papad, mango pickle, and crispy lacha onions. Comforting and wholesome!",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 4800,
+            "originalPrice": 4800,
+            "gst": 5,
+            "category": "d0c77650-bee0-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "31173950-bee1-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Pasta Extravaganza Box For 15-20",
+            "imageUrl": "",
+            "description": "Choose two pasta types and two sauces.\nWe'll prepare them with your choice of\nveggies or chicken. Plus Classic Mac N\nCheese for the kids!",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 5200,
+            "originalPrice": 5200,
+            "gst": 5,
+            "category": "d0c77650-bee0-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "630a64f0-bee1-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Gourmet Mains Box For 15-20",
+            "imageUrl": "",
+            "description": "Pesto Cottage Cheese Steaks, Herbmarinated Grilled Chicken with\nmushroom jus, served with creamy mash and vibrant herbed vegetables. Restaurant quality!",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7800,
+            "originalPrice": 7800,
+            "gst": 5,
+            "category": "d0c77650-bee0-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "Dessert Platters"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "a39363f0-bee1-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Bakery Fresh Selection Box For 15-20",
+            "imageUrl": "",
+            "description": "Assorted freshly baked goods, including mini croissants, muffins,\ntarts, and brownies. Perfect for a morning or afternoon treat.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "77685290-bee1-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "2eff1240-bee2-11f0-82ca-8de17f5f856c",
+            "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+            "name": "Premium Dessert Box For 15-20",
+            "imageUrl": "",
+            "description": "A lavish spread of gourmet desserts: cheesecakes, tiramisu cups, fruit parfaits, and artisanal chocolates. Pure indulgence!",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 10500,
+            "originalPrice": 10500,
+            "gst": 5,
+            "category": "77685290-bee1-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Corporate Bites",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "686f6328dfd93ffbc9eaca99",
+      "outletId": "6f310a10-5d5a-11f0-90b1-d5e84dccc451",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Curated meals and snacks designed for office events, meetings, and corporate gatherings, ready to serve 10–20 people and more",
+      "deepLinkUrl": "https://yumzy.page.link/YebdK2uVzTBGYxSB6",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Corporate Bites",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/6f310a10-5d5a-11f0-90b1-d5e84dccc451/club-sandwich-with-orange-juice-black-glass-table.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "aadb9940-5d5f-11f0-90b1-d5e84dccc451",
+      "statusInfo": {
+        "type": "AVAILABLE",
+        "info": "The outlet is accepting orders."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

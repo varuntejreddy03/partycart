@@ -1,0 +1,1237 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "6990beda53785b6d7fc89a37",
+    "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "9eebbbf0-58a6-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "9eebbbf0-58a6-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": "Choice of 3",
+        "displayName": "Choice of 3",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Crispy Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Baby Corn Salt and Papper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Chilli Panner",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pepper Garlic Mushrooms",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          }
+        ]
+      },
+      "15e865a0-58a7-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "15e865a0-58a7-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": " Soup Station",
+        "displayName": " Soup Station",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 4,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Hot & Sour Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot & Sour",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Lemon Coriander Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lemon Coriander Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Sweet Corn Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Sweet Corn Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchow Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Manchow Soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "92d8cd71-58a7-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "92d8cd71-58a7-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": " Fried Rice Counter",
+        "displayName": " Fried Rice Counter",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Classic Veg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Schezwan Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawn Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Burnt Garlic Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "4fceb6f0-58a9-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "4fceb6f0-58a9-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": "Non-Vegetarian Kebabs by Kilos",
+        "displayName": "Non-Vegetarian Kebabs by Kilos",
+        "description": "",
+        "selectType": "radio",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": true,
+        "isIndependent": false,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken Seekh Kebab 1kg",
+            "cost": 1400,
+            "originalCost": 1400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Chicken Malai Kebab 1kg",
+            "cost": 1400,
+            "originalCost": 1400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Tandoori Chicken Tikka 1kg",
+            "cost": 1400,
+            "originalCost": 1400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Pahadi Chicken kebab 1kg",
+            "cost": 1400,
+            "originalCost": 1400,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Mutton Seekh Kebab 1kg",
+            "cost": 1900,
+            "originalCost": 1900,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Boti Kebab 1kg",
+            "cost": 1800,
+            "originalCost": 1800,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Prawn Tandoori Kebab 1kg",
+            "cost": 2200,
+            "originalCost": 2200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          },
+          {
+            "optionName": "Fish Amritsari Tikka - Murrel 1kg",
+            "cost": 2200,
+            "originalCost": 2200,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": null
+          }
+        ]
+      },
+      "dae2e050-58b2-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "dae2e050-58b2-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": "Non Veg Kebabs",
+        "displayName": "Non Veg Kebabs",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 8,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken Seekh Kebab 1kg",
+            "cost": 1400,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Malai Kebab 1kg",
+            "cost": 1400,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Chicken Tikka 1kg",
+            "cost": 1400,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pahadi Chicken Kebab 1kg",
+            "cost": 1400,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Seekh Kebab 1kg",
+            "cost": 1900,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boti Kebab 1kg",
+            "cost": 1800,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Fish Amritsari Tikka - Murrel 1kg",
+            "cost": 2200,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Tandori Kebab 1kg",
+            "cost": 2200,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "dae2e051-58b2-11f0-bb5b-5da1fcc2a6bd": {
+        "addonId": "dae2e051-58b2-11f0-bb5b-5da1fcc2a6bd",
+        "integrationId": "",
+        "addonName": "Veg Kebabs By Kilo",
+        "displayName": "Veg Kebabs By Kilo",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 7,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Paneer Tikka 1kg",
+            "cost": 1200,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Hara Bhara Kebab 1kg",
+            "cost": 1000,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dahi Ke Kebab 1kg",
+            "cost": 1200,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tandoori Mushroom Kebab 1kg",
+            "cost": 1200,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Seekh Kebab 1kg",
+            "cost": 1000,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Corn & Cheese Kebab 1kg",
+            "cost": 1200,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malai Broccoli 1kg",
+            "cost": 1200,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "Indian Kebabs ",
+        "value": 15
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Indian Kebabs "
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "b9b77390-6df8-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Chicken  Seekh Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ca4b39d0-6df8-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Chicken Malai Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "dcd7c2d0-6df8-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Tandoori Chicken Tikka 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/09b3e290-dcc4-11f0-83e1-5354bab9a39b/09b3e291-dcc4-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/09b3e290-dcc4-11f0-83e1-5354bab9a39b/09b3e291-dcc4-11f0-83e1-5354bab9a39b",
+              "caption": "Tandoori Chicken Tikka 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "66b4bad0-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Pahadi Chicken Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/40c565d0-dcc2-11f0-83e1-5354bab9a39b/40c565d1-dcc2-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1400,
+            "originalPrice": 1400,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/40c565d0-dcc2-11f0-83e1-5354bab9a39b/40c565d1-dcc2-11f0-83e1-5354bab9a39b",
+              "caption": "Pahadi Chicken Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "7c6c6c10-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Mutton Seekh Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/56791f70-dcc2-11f0-83e1-5354bab9a39b/56791f71-dcc2-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1900,
+            "originalPrice": 1900,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/56791f70-dcc2-11f0-83e1-5354bab9a39b/56791f71-dcc2-11f0-83e1-5354bab9a39b",
+              "caption": "Mutton Seekh Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "8daa06e0-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Boti Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1800,
+            "originalPrice": 1800,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "b5cd4ba0-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Fish Amritsari Tikka [Murrel] 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2200,
+            "originalPrice": 2200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ca2d3510-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Prawns Tandoori Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2200,
+            "originalPrice": 2200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "da40ced0-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Paneer Tikka 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/270b7b50-dcc4-11f0-83e1-5354bab9a39b/270ba260-dcc4-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/270b7b50-dcc4-11f0-83e1-5354bab9a39b/270ba260-dcc4-11f0-83e1-5354bab9a39b",
+              "caption": "Paneer Tikka 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ea231f60-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Hara Bhara Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/b618fdf0-dcc3-11f0-83e1-5354bab9a39b/b618fdf1-dcc3-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1000,
+            "originalPrice": 1000,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/b618fdf0-dcc3-11f0-83e1-5354bab9a39b/b618fdf1-dcc3-11f0-83e1-5354bab9a39b",
+              "caption": "Hara Bhara Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "fc0ed480-6df9-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Dahi ke Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0f687180-6dfa-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Tandoori Mushroom Kebab 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/fa4aa480-dcc1-11f0-83e1-5354bab9a39b/fa4aa481-dcc1-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/fa4aa480-dcc1-11f0-83e1-5354bab9a39b/fa4aa481-dcc1-11f0-83e1-5354bab9a39b",
+              "caption": "Tandoori Mushroom Kebab 1kg"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "22197270-6dfa-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Veg Seekh Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1000,
+            "originalPrice": 1000,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "33477ce0-6dfa-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Corn & Cheese Kebab 1kg",
+            "imageUrl": "",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 0,
+              "maxQty": 0
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "437ef250-6dfa-11f0-8e4d-b9aea8cefd13",
+            "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+            "name": "Malai Broccoli 1kg",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/24f29850-dcc2-11f0-83e1-5354bab9a39b/24f2bf60-dcc2-11f0-83e1-5354bab9a39b",
+            "description": "Live sizzling kebabs are prepared fresh on-site, offering rich flavors and smoky aromas. Guests can select meats by the kilo for a customized festive grilling experience.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "3875a730-58a8-11f0-bb5b-5da1fcc2a6bd",
+            "subCategory": "",
+            "ribbon": "",
+            "outletName": "Live Counters",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/c0e59110-573c-11f0-a934-c308dc7ccb06/Item_Resize/24f29850-dcc2-11f0-83e1-5354bab9a39b/24f2bf60-dcc2-11f0-83e1-5354bab9a39b",
+              "caption": "Malai Broccoli 1kg"
+            },
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "68652062085953cc75a9928d",
+      "outletId": "c0e59110-573c-11f0-a934-c308dc7ccb06",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Indian Kebabs made live on coal sigdi",
+      "deepLinkUrl": "https://yumzy.page.link/YxMQNQBSZ66ZKfZQ6",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Live Counter",
+      "outletName": "Live Kebab Station",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://laalsadev.sgp1.digitaloceanspaces.com/yumzy-v2-app/image-upload/InappAssets/Generic/Outlet_Inside_Livecounters.gif",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "1b497620-58a6-11f0-bb5b-5da1fcc2a6bd",
+      "statusInfo": {
+        "type": "CLOSING",
+        "info": "Closing in 1 minutes."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 1,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

@@ -1,0 +1,1495 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "6990bf4853785b6d7fc89c79",
+    "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "3a56e8b0-ac0a-11f0-97a6-bd775c7a8294": {
+        "addonId": "3a56e8b0-ac0a-11f0-97a6-bd775c7a8294",
+        "integrationId": "",
+        "addonName": "Pick Any 2",
+        "displayName": "Pick Any 2",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Idli ",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mysore Bonda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Upma",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vaada",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Vaada",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Idli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "7ce92531-ac0a-11f0-97a6-bd775c7a8294": {
+        "addonId": "7ce92531-ac0a-11f0-97a6-bd775c7a8294",
+        "integrationId": "",
+        "addonName": "Sides & Beverages ",
+        "displayName": "Sides & Beverages ",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Allam Chutney",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tea",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coffee",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d95b11b0-af3f-11f0-befe-43fa654d4896": {
+        "addonId": "d95b11b0-af3f-11f0-befe-43fa654d4896",
+        "integrationId": "",
+        "addonName": "Select Any 6",
+        "displayName": "Select Any 6",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 6,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Pesarattu with upma",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulli Karam Dosa",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Plain Dosa",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Punugulu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Idli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Idli with Peanut Chutney & Sambar",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Filter Coffee",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ginger Tea",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poornam Boorelu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rava Kesari",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0e9fbcd0-af41-11f0-befe-43fa654d4896": {
+        "addonId": "0e9fbcd0-af41-11f0-befe-43fa654d4896",
+        "integrationId": "",
+        "addonName": "Select Any 7",
+        "displayName": "Select Any 7",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 7,
+        "minSelection": 7,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Idli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Medu Vada",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Upma",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coconut Chutney & Tomato Chutney",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Filter Coffee",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Masala Tea",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kesari Bath",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pineapple Sheera",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "cf5f4310-b0a3-11f0-b0e4-0b52b46f212c": {
+        "addonId": "cf5f4310-b0a3-11f0-b0e4-0b52b46f212c",
+        "integrationId": "",
+        "addonName": "Select Any 4",
+        "displayName": "Select Any 4",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 4,
+        "minSelection": 4,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Scrambled Eggs",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Masala Omelette",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Boiled Eggs",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Sausages & Grilled Tomatoes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Herb-Roasted Potatoes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Hash Browns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Sautéed Mushrooms & Buttered Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "e4230981-b0c6-11f0-b0e4-0b52b46f212c": {
+        "addonId": "e4230981-b0c6-11f0-b0e4-0b52b46f212c",
+        "integrationId": "",
+        "addonName": "Select Any 3",
+        "displayName": "Select Any 3",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Croissants (Butter)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Assorted Breads & Toasts",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pancakes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Waffles ",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "58d4d8d2-b0c7-11f0-b0e4-0b52b46f212c": {
+        "addonId": "58d4d8d2-b0c7-11f0-b0e4-0b52b46f212c",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Butter",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Honey",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c6f32790-b0c7-11f0-b0e4-0b52b46f212c": {
+        "addonId": "c6f32790-b0c7-11f0-b0e4-0b52b46f212c",
+        "integrationId": "",
+        "addonName": " Light & Fresh Options",
+        "displayName": " Light & Fresh Options",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Seasonal Cut Fruits ",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "bfd06430-be4d-11f0-82ca-8de17f5f856c": {
+        "addonId": "bfd06430-be4d-11f0-82ca-8de17f5f856c",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Malai Paya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boti Saln",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "e470ead1-be4d-11f0-82ca-8de17f5f856c": {
+        "addonId": "e470ead1-be4d-11f0-82ca-8de17f5f856c",
+        "integrationId": "",
+        "addonName": "Select Any 1 Curry",
+        "displayName": "Select Any 1 Curry",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mutton Kheema",
+            "cost": 1500,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Anda Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0314b2a2-be4e-11f0-82ca-8de17f5f856c": {
+        "addonId": "0314b2a2-be4e-11f0-82ca-8de17f5f856c",
+        "integrationId": "",
+        "addonName": "Select Any 1 Rice",
+        "displayName": "Select Any 1 Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Khichdi Khatta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bagara Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "2e61e723-be4e-11f0-82ca-8de17f5f856c": {
+        "addonId": "2e61e723-be4e-11f0-82ca-8de17f5f856c",
+        "integrationId": "",
+        "addonName": "Select Any 1 Bread",
+        "displayName": "Select Any 1 Bread",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sheermal",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rumali Roti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "56a58524-be4e-11f0-82ca-8de17f5f856c": {
+        "addonId": "56a58524-be4e-11f0-82ca-8de17f5f856c",
+        "integrationId": "",
+        "addonName": "Select Any 1 Dessert",
+        "displayName": "Select Any 1 Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phirni",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kaddu Ka Kheer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 6
+      },
+      {
+        "key": "Dakhni Breakfast",
+        "value": 3
+      },
+      {
+        "key": "South Indian Breakfast",
+        "value": 5
+      },
+      {
+        "key": "North Indian Breakfast",
+        "value": 1
+      },
+      {
+        "key": "English Breakfast",
+        "value": 1
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "c2f5d7d0-af3e-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Tamil Nadu Style Tiffin Combo - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/c2a8f050-af3e-11f0-befe-43fa654d4896/c2a91760-af3e-11f0-befe-43fa654d4896",
+            "description": "Served with Pongal, Medu Vada, Idli, Coconut & Kara Chutney, Sambar, Filter Coffee & Rava Kesari.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/c2a8f050-af3e-11f0-befe-43fa654d4896/c2a91760-af3e-11f0-befe-43fa654d4896",
+              "caption": "Tamil Nadu Style Tiffin Combo - 20"
+            },
+            "portionSize": null,
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "d95ac390-af3f-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Andhra Style Breakfast- 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/ba98a180-af43-11f0-befe-43fa654d4896/ba98a181-af43-11f0-befe-43fa654d4896",
+            "description": "Served with Presarattu with upma, Ulli karam dosa, pungulu, idli, peanut chutney, sambar, filter coffee [500m], ginger tea [500ml] & rava kesari.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/ba98a180-af43-11f0-befe-43fa654d4896/ba98a181-af43-11f0-befe-43fa654d4896",
+              "caption": "Andhra Style Breakfast- 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e9f47a0-af41-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Classic South Indian Breakfast Spread - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/91341510-af41-11f0-befe-43fa654d4896/91341511-af41-11f0-befe-43fa654d4896",
+            "description": "Served with idli, medu vada, upma, coconut chutney & tomato chutney, sambar, filter coffee 500ml, masala tea 500ml & Kesari bath",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 2800,
+            "originalPrice": 2800,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/91341510-af41-11f0-befe-43fa654d4896/91341511-af41-11f0-befe-43fa654d4896",
+              "caption": "Classic South Indian Breakfast Spread - 20"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "5fd72ea0-af44-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Kerala Breakfast Platter - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/5f83de80-af44-11f0-befe-43fa654d4896/5f83de81-af44-11f0-befe-43fa654d4896",
+            "description": "Served with Appam with Vegetable Stew, Puttu with Kadala Curry, Idiyappam, Banana chips, Filter Coffee 1000ml & Ada Pradhaman",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/5f83de80-af44-11f0-befe-43fa654d4896/5f83de81-af44-11f0-befe-43fa654d4896",
+              "caption": "Kerala Breakfast Platter - 20"
+            },
+            "portionSize": null,
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "18b84470-af4c-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Rayalaseema Ruchulu – Breakfast Feast for 20 pax",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/2fb24440-af4d-11f0-befe-43fa654d4896/2fb24441-af4d-11f0-befe-43fa654d4896",
+            "description": "Served with Ragi Sangati with Natukodi Pulusu, Erra Karam Dosa with Peanut & Coconut Chutneys, Gunta Ponganalu,\nIdli & filter coffee",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/2fb24440-af4d-11f0-befe-43fa654d4896/2fb24441-af4d-11f0-befe-43fa654d4896",
+              "caption": "Rayalaseema Ruchulu – Breakfast Feast for 20 pax"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "fc480900-af4c-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "North Indian Nashta for 20 pax",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/fc00ede0-af4c-11f0-befe-43fa654d4896/fc0114f0-af4c-11f0-befe-43fa654d4896",
+            "description": "Served with Aloo Paratha with Homemade Butter & Curd, Puri Subji, Paneer Paratha, poha, mango pickle, green chili & onions, Mint - Tamarind Chutneys & Bondi Raita",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 4200,
+            "originalPrice": 4200,
+            "gst": 5,
+            "category": "7bb42d00-93b3-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/fc00ede0-af4c-11f0-befe-43fa654d4896/fc0114f0-af4c-11f0-befe-43fa654d4896",
+              "caption": "North Indian Nashta for 20 pax"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Dakhni Breakfast"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "d1547350-be4c-11f0-82ca-8de17f5f856c",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Paya Nazrana Box For 15-20",
+            "imageUrl": "",
+            "description": "Served With Mutton Paya\nAny 1 Gravy - Kali Mirchi Ka Gosh, Talawa Gosh, Pattar Ka Gosh.\nAny 1 Bread - Rumali Roti, Sheermal\nRice - Steam Rice With Khatti Dal\nDessert - Malai Jalebi",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 12000,
+            "originalPrice": 12000,
+            "gst": 5,
+            "category": "3537d9d0-be4c-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Morning Kart [Breakfast]",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "5fc37690-be4d-11f0-82ca-8de17f5f856c",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Gurda Kaleji Delight Box For 15-20",
+            "imageUrl": "",
+            "description": "Served With Gurday Fry [Kidney], Kaleji Masala [Liver], \nAny 1 Bread - Tandoori Roti Or Rumali Roti.\nGravy - Khatti Dal With Steam Rice",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 6500,
+            "originalPrice": 6500,
+            "gst": 5,
+            "category": "3537d9d0-be4c-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Morning Kart [Breakfast]",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "bfd06430-be4d-11f0-82ca-8de17f5f856c",
+              "e470ead1-be4d-11f0-82ca-8de17f5f856c",
+              "0314b2a2-be4e-11f0-82ca-8de17f5f856c",
+              "2e61e723-be4e-11f0-82ca-8de17f5f856c",
+              "56a58524-be4e-11f0-82ca-8de17f5f856c"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "bfcfef00-be4d-11f0-82ca-8de17f5f856c",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Dakhni Breakfast Platter Box For 15-20",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 7000,
+            "originalPrice": 7000,
+            "gst": 5,
+            "category": "3537d9d0-be4c-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Morning Kart [Breakfast]",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "South Indian Breakfast"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "c2f5d7d0-af3e-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Tamil Nadu Style Tiffin Combo - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/c2a8f050-af3e-11f0-befe-43fa654d4896/c2a91760-af3e-11f0-befe-43fa654d4896",
+            "description": "Served with Pongal, Medu Vada, Idli, Coconut & Kara Chutney, Sambar, Filter Coffee & Rava Kesari.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/c2a8f050-af3e-11f0-befe-43fa654d4896/c2a91760-af3e-11f0-befe-43fa654d4896",
+              "caption": "Tamil Nadu Style Tiffin Combo - 20"
+            },
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "d95ac390-af3f-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Andhra Style Breakfast- 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/ba98a180-af43-11f0-befe-43fa654d4896/ba98a181-af43-11f0-befe-43fa654d4896",
+            "description": "Served with Presarattu with upma, Ulli karam dosa, pungulu, idli, peanut chutney, sambar, filter coffee [500m], ginger tea [500ml] & rava kesari.",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3200,
+            "originalPrice": 3200,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/ba98a180-af43-11f0-befe-43fa654d4896/ba98a181-af43-11f0-befe-43fa654d4896",
+              "caption": "Andhra Style Breakfast- 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e9f47a0-af41-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Classic South Indian Breakfast Spread - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/91341510-af41-11f0-befe-43fa654d4896/91341511-af41-11f0-befe-43fa654d4896",
+            "description": "Served with idli, medu vada, upma, coconut chutney & tomato chutney, sambar, filter coffee 500ml, masala tea 500ml & Kesari bath",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 2800,
+            "originalPrice": 2800,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/91341510-af41-11f0-befe-43fa654d4896/91341511-af41-11f0-befe-43fa654d4896",
+              "caption": "Classic South Indian Breakfast Spread - 20"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "5fd72ea0-af44-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Kerala Breakfast Platter - 20",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/5f83de80-af44-11f0-befe-43fa654d4896/5f83de81-af44-11f0-befe-43fa654d4896",
+            "description": "Served with Appam with Vegetable Stew, Puttu with Kadala Curry, Idiyappam, Banana chips, Filter Coffee 1000ml & Ada Pradhaman",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/5f83de80-af44-11f0-befe-43fa654d4896/5f83de81-af44-11f0-befe-43fa654d4896",
+              "caption": "Kerala Breakfast Platter - 20"
+            },
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "18b84470-af4c-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "Rayalaseema Ruchulu – Breakfast Feast for 20 pax",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/2fb24440-af4d-11f0-befe-43fa654d4896/2fb24441-af4d-11f0-befe-43fa654d4896",
+            "description": "Served with Ragi Sangati with Natukodi Pulusu, Erra Karam Dosa with Peanut & Coconut Chutneys, Gunta Ponganalu,\nIdli & filter coffee",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 3600,
+            "originalPrice": 3600,
+            "gst": 5,
+            "category": "37266410-93b2-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/2fb24440-af4d-11f0-befe-43fa654d4896/2fb24441-af4d-11f0-befe-43fa654d4896",
+              "caption": "Rayalaseema Ruchulu – Breakfast Feast for 20 pax"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "North Indian Breakfast"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "fc480900-af4c-11f0-befe-43fa654d4896",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": "North Indian Nashta for 20 pax",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/fc00ede0-af4c-11f0-befe-43fa654d4896/fc0114f0-af4c-11f0-befe-43fa654d4896",
+            "description": "Served with Aloo Paratha with Homemade Butter & Curd, Puri Subji, Paneer Paratha, poha, mango pickle, green chili & onions, Mint - Tamarind Chutneys & Bondi Raita",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 4200,
+            "originalPrice": 4200,
+            "gst": 5,
+            "category": "7bb42d00-93b3-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/Item_Resize/fc00ede0-af4c-11f0-befe-43fa654d4896/fc0114f0-af4c-11f0-befe-43fa654d4896",
+              "caption": "North Indian Nashta for 20 pax"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "category",
+            "name": "English Breakfast"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "cf5f4310-b0a3-11f0-b0e4-0b52b46f212c",
+              "e4230981-b0c6-11f0-b0e4-0b52b46f212c",
+              "58d4d8d2-b0c7-11f0-b0e4-0b52b46f212c",
+              "c6f32790-b0c7-11f0-b0e4-0b52b46f212c"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "cf5e31a0-b0a3-11f0-b0e4-0b52b46f212c",
+            "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+            "name": " English Breakfast For 20 pax",
+            "imageUrl": "",
+            "description": "",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5400,
+            "originalPrice": 5400,
+            "gst": 5,
+            "category": "e24b7e00-93b4-11f0-87c7-2df735b9b78b",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Breakfast Junction",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "68ca8cff22209f05aee61824",
+      "outletId": "dec00a20-93b0-11f0-87c7-2df735b9b78b",
+      "available": "off",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Hearty veg and non-veg meals, freshly curated to start your day right and perfect for gatherings.",
+      "deepLinkUrl": "https://yumzy.page.link/udsT5SvZb3W5pdWh7",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Morning Kart [Breakfast]",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/dec00a20-93b0-11f0-87c7-2df735b9b78b/breakfst.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "3076b380-93b3-11f0-87c7-2df735b9b78b",
+      "statusInfo": {
+        "type": "UNAVAILABLE",
+        "info": "The outlet is not accepting orders currently. It should re-open soon."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

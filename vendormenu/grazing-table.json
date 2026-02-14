@@ -1,0 +1,674 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "6990bea853785b6d7fc89935",
+    "outletId": "8733bba0-a349-11f0-ad6a-9d62ece71b41",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "c9fb6b40-da58-11f0-9e06-c30b17876082": {
+        "addonId": "c9fb6b40-da58-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Select Any 2 Welcome Drinks",
+        "displayName": "Select Any 2 Welcome Drinks",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mango Juice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Orange Juice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pineapple Juice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Watermelon Juice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Blue Lagoon Mocktail",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Fruit Punch (Pink Mocktail)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Flash Berry Mocktail",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c9fb9250-da58-11f0-9e06-c30b17876082": {
+        "addonId": "c9fb9250-da58-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Select Any 2 Thick Shakes",
+        "displayName": "Select Any 2 Thick Shakes",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Biscoff Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chocolate Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "KitKat Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Oreo Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nutella Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Strawberry Thick Shake",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "1faabb82-da5a-11f0-9e06-c30b17876082": {
+        "addonId": "1faabb82-da5a-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Fresh Salads & Platters",
+        "displayName": "Fresh Salads & Platters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Watermelon & Feta Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Classic Caesar Green Salad",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Seasonal Fruit Platter",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "abfcab23-da5a-11f0-9e06-c30b17876082": {
+        "addonId": "abfcab23-da5a-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Dips & Crunch Bar",
+        "displayName": "Dips & Crunch Bar",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Creamy Hummus",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "7f4eb8b4-da5b-11f0-9e06-c30b17876082": {
+        "addonId": "7f4eb8b4-da5b-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Grazing Starters & Bites",
+        "displayName": "Grazing Starters & Bites",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 9,
+        "minSelection": 5,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Peri-Peri Fries",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Banana Chips & Potato Chips",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Wraps",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Veg Sandwiches",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Momos",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Popcorn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Non-Veg Burgers",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Non-Veg Wraps",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Fish Fingers with Tartar Dip",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "51089a15-da5c-11f0-9e06-c30b17876082": {
+        "addonId": "51089a15-da5c-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Dessert Bar",
+        "displayName": "Dessert Bar",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 4,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mini Muffins",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cake Slices",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Brownies",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Pastries",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cupcakes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chocolate-Dipped Strawberries",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Cheesecakes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mousse Cups",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cookies & Chocolate Truffles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "51fc6ff1-da5c-11f0-9e06-c30b17876082": {
+        "addonId": "51fc6ff1-da5c-11f0-9e06-c30b17876082",
+        "integrationId": "",
+        "addonName": "Dessert Bar",
+        "displayName": "Dessert Bar",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 4,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mini Muffins",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cake Slices",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Brownies",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Pastries",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cupcakes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chocolate-Dipped Strawberries",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mini Cheesecakes",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mousse Cups",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cookies & Chocolate Truffles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 1
+      },
+      {
+        "key": "Grazing Table",
+        "value": 1
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "c9fb6b40-da58-11f0-9e06-c30b17876082",
+              "c9fb9250-da58-11f0-9e06-c30b17876082",
+              "1faabb82-da5a-11f0-9e06-c30b17876082",
+              "abfcab23-da5a-11f0-9e06-c30b17876082",
+              "7f4eb8b4-da5b-11f0-9e06-c30b17876082",
+              "51fc6ff1-da5c-11f0-9e06-c30b17876082"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 30,
+              "maxQty": 100
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "c9fa32c0-da58-11f0-9e06-c30b17876082",
+            "outletId": "8733bba0-a349-11f0-ad6a-9d62ece71b41",
+            "name": "PartyCart Curated Grazing Table",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/8733bba0-a349-11f0-ad6a-9d62ece71b41/Item_Resize/3b8a3660-da5e-11f0-9e06-c30b17876082/3b8a3661-da5e-11f0-9e06-c30b17876082",
+            "description": "Rich Veg + Non-Veg grazing balance with live-style platter presentation. Perfect for birthdays,\ncorporate house parties & premium home events.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2000,
+            "originalPrice": 2000,
+            "gst": 5,
+            "category": "96a12b00-da57-11f0-9e06-c30b17876082",
+            "subCategory": "",
+            "ribbon": "Minimum 30 | Maximum 100",
+            "outletName": "Grazing Table",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/8733bba0-a349-11f0-ad6a-9d62ece71b41/Item_Resize/3b8a3660-da5e-11f0-9e06-c30b17876082/3b8a3661-da5e-11f0-9e06-c30b17876082",
+              "caption": "PartyCart Curated Grazing Table"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Grazing Table"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "c9fb6b40-da58-11f0-9e06-c30b17876082",
+              "c9fb9250-da58-11f0-9e06-c30b17876082",
+              "1faabb82-da5a-11f0-9e06-c30b17876082",
+              "abfcab23-da5a-11f0-9e06-c30b17876082",
+              "7f4eb8b4-da5b-11f0-9e06-c30b17876082",
+              "51fc6ff1-da5c-11f0-9e06-c30b17876082"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 30,
+              "maxQty": 100
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "c9fa32c0-da58-11f0-9e06-c30b17876082",
+            "outletId": "8733bba0-a349-11f0-ad6a-9d62ece71b41",
+            "name": "PartyCart Curated Grazing Table",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/8733bba0-a349-11f0-ad6a-9d62ece71b41/Item_Resize/3b8a3660-da5e-11f0-9e06-c30b17876082/3b8a3661-da5e-11f0-9e06-c30b17876082",
+            "description": "Rich Veg + Non-Veg grazing balance with live-style platter presentation. Perfect for birthdays,\ncorporate house parties & premium home events.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 2000,
+            "originalPrice": 2000,
+            "gst": 5,
+            "category": "96a12b00-da57-11f0-9e06-c30b17876082",
+            "subCategory": "",
+            "ribbon": "Minimum 30 | Maximum 100",
+            "outletName": "Grazing Table",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/8733bba0-a349-11f0-ad6a-9d62ece71b41/Item_Resize/3b8a3660-da5e-11f0-9e06-c30b17876082/3b8a3661-da5e-11f0-9e06-c30b17876082",
+              "caption": "PartyCart Curated Grazing Table"
+            },
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "68e4b7911af6445164437c77",
+      "outletId": "8733bba0-a349-11f0-ad6a-9d62ece71b41",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "A lavish assortment of bite-sized delights, perfect for mingling and indulgence at your house party.",
+      "deepLinkUrl": "https://yumzy.page.link/vpnNV2tTykmJ1BGk8",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Grazing Table",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/8733bba0-a349-11f0-ad6a-9d62ece71b41/table.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "c9fa32c0-da58-11f0-9e06-c30b17876082",
+      "statusInfo": {
+        "type": "CLOSING",
+        "info": "Closing in 2 minutes."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 2,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

@@ -1,0 +1,3173 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "69770d3453785b6d7fffa5d4",
+    "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "0bf4f240-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf4f240-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Startes",
+        "displayName": "Startes",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Russain Cutlet\nVeg Cheese Pocket\nPaneer Fingers\nSoya Potli",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf4f241-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf4f241-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Rice",
+        "displayName": "Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Bagara Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Plain Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf51950-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf51950-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Roti",
+        "displayName": "Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf51951-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf51951-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Curries",
+        "displayName": "Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dal",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf51952-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf51952-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Dessert",
+        "displayName": "Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sweet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Banana",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf51953-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf51953-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Veg Starters",
+        "displayName": "Choice of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipaya Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Cabbage Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf51954-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf51954-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54060-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54060-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Chutney",
+        "displayName": "Choice of 1 Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54061-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54061-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54062-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54062-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ragi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54063-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54063-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Sweet",
+        "displayName": "Choice of 1 Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54064-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54064-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Home Food",
+        "displayName": "Home Food",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 11,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mirchi Baji\nTomato Pachadi\nKothimeera Pachadi\nBagara Rice\nWhite Rice\nMasala Vankaya\nPalakura Pappu\nAalu Tomato Curry\nPedha Chikkudkaya Fry\nPappu Charu\nCurd\nParmannam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54065-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54065-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Family & Friends Feast",
+        "displayName": "Family & Friends Feast",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "2kg Mutton Gravy\n2kg Desi Chicken Gravy\n20 Boiled Egg Onion Roast\n2 Pack Basmati Bagara Rice\n2 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapur]\n1 Pack Pachipulusu\n1 pack Raitha\nSalad [Keera, Carrot, Onion & Lemon]",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54066-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54066-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Celebration Combo Box",
+        "displayName": "Celebration Combo Box",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 10,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton Gravy [Potel Mamsam]\n1 Kg Desi Chicken Gravy\n1 Kg Chicken Fry\n10 Boiled Egg Onion\n1 Pack Basmati Bagara Rice\n1 Pack Sonamasuri Rice\n1 Pack Dal [Peasarapapu]\n1 Pack Pachipulusu\n1 Pack Raitha\nSalad [Keera,Carrot,Onion & Lemon",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf54067-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf54067-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Squad Bites Combo",
+        "displayName": "Squad Bites Combo",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 6,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "1 Kg Mutton [Potel Mamsam]\nTalakayakura\nPava\n2 Pack Bagara Rice\n1 Pachipulusu\n10 Jowar Roti",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf56770-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf56770-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice Of 3 Veg Starters",
+        "displayName": "Choice Of 3 Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Thotakura Liver fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhendakaya Karam Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bangala Dumpa Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Putta Godugu Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vankaya Nuvvula Podi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beans Carrot Podi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Beerakaya Senaga Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ullipāya Pakōḍī",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf56771-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf56771-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf56772-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf56772-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 3 Non  Veg Starters",
+        "displayName": "Choice of 3 Non  Veg Starters",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Jeedipappu Kodi Pakodi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mamsam Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Ghee Roast",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koramenu Chepa Vepudu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Royyala Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chitti Royyala Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Vepudu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf58e80-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf58e80-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5b590-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5b590-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Curries",
+        "displayName": "Choice of 2 Curries",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Sorakaya Chepa Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Guthi Vankaya Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Panner Kheema Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Jeedipappu Putta godugula Khura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomato Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sorakaya Pappu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natukodi Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Kodi Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pottelu mamsam Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miryala Kodi Kura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nellori Chepala Pulusu (Murrel)",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Andhra Fish pulusu (Murrel",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bommidalaya Pulusu",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Koremenu Fish Curr",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Natu Kodi Iguru",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Telangana Chicken Curry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thalakaya Mamsam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5b591-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5b591-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Chutney",
+        "displayName": "Choice of one Chutney",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dondakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "BeeraKaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dosakaya",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gogura",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomoto",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5b592-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5b592-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5b593-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5b593-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 1 Rasam",
+        "displayName": "Choice of 1 Rasam",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Dhalcha",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Vellulli Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Kothimeera Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Tomata Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Miriyala Rasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5dca0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5dca0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5dca1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5dca1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 Roti",
+        "displayName": "Choice of 2 Roti",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Phulka",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chapathi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lacha Parata",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Malabar Parota",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Poori",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf5dca2-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf5dca2-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of 2 flavored Rice",
+        "displayName": "Choice of 2 flavored Rice",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Avakaya Muddapappu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gongura Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Nalla Karam Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Pudina Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Ulavacharu Annam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Coriander Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Lemon Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Sambar Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Curd Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Rangi Sangati",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Steamed Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b1-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b1-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Choice of one Sweet",
+        "displayName": "Choice of one Sweet",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Semiya Payasam",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Ka Meeta",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b2-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b2-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Desi Chicken Gravy 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Fry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Desi Chicken Dry 1kg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b3-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b3-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b4-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b4-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Boneless Broiler Chicken Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Broiler Chicken Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b5-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b5-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Mutton Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mutton Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf603b6-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf603b6-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Boneless Mutton Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Semi Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Boneless Mutton Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "0bf62ac0-5cba-11f0-aa53-ab8b35060ee7": {
+        "addonId": "0bf62ac0-5cba-11f0-aa53-ab8b35060ee7",
+        "integrationId": "",
+        "addonName": "Select Any 1",
+        "displayName": "Select Any 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Prawns Gravy",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Fry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Prawns Dry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1e4b340-5d6b-11f0-90b1-d5e84dccc451": {
+        "addonId": "c1e4b340-5d6b-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 3",
+        "displayName": "Choice Of 3",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Crispy Veg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Crispy Corn",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Babycorn Salt & Pepper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Chilli Paneer",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchurian",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Paneer 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Gobi",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom Salt & Pepper",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1e4b341-5d6b-11f0-90b1-d5e84dccc451": {
+        "addonId": "c1e4b341-5d6b-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 2 Wet Gravy",
+        "displayName": "Choice Of 2 Wet Gravy",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Paneer Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Manchurian Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Baby Corn Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Schezwan Gobi Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c1e4b342-5d6b-11f0-90b1-d5e84dccc451": {
+        "addonId": "c1e4b342-5d6b-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 2 Rice/Noodles",
+        "displayName": "Choice Of 2 Rice/Noodles",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Burnt Garlic Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Schezwan Veg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Veg Soft Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Mushroom Soft Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Schezwan Hakka Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai peanut Veg Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Hakka Veg Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "e0707353-5d78-11f0-90b1-d5e84dccc451": {
+        "addonId": "e0707353-5d78-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 1 Dessert",
+        "displayName": "Choice Of 1 Dessert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d7445ba0-5d7a-11f0-90b1-d5e84dccc451": {
+        "addonId": "d7445ba0-5d7a-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 3 ",
+        "displayName": "Choice Of 3 ",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 3,
+        "minSelection": 3,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chicken 65",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Lollipop",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Apollo Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Dragon Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Majestic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Loose Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Kung Pao Chicken",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Golden Fried Prawns",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Garlic Fish",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d7445ba1-5d7a-11f0-90b1-d5e84dccc451": {
+        "addonId": "d7445ba1-5d7a-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 2 Wet Gravy",
+        "displayName": "Choice Of 2 Wet Gravy",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chilli Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hot & Garlic",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Taipai Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Bhutan Chicken Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d7445ba2-5d7a-11f0-90b1-d5e84dccc451": {
+        "addonId": "d7445ba2-5d7a-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of Any 2 Rice/Noodles",
+        "displayName": "Choice Of Any 2 Rice/Noodles",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 2,
+        "minSelection": 2,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Egg Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Burnt Garlic Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Prawn Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Chicken Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Egg Soft Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Double Egg Soft Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": true,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Chicken Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Singapore Chicken Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Thai Peanut Chicken Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chilli Garlic Prawn Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Chicken Hakka Noodles",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": false,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "d7445ba3-5d7a-11f0-90b1-d5e84dccc451": {
+        "addonId": "d7445ba3-5d7a-11f0-90b1-d5e84dccc451",
+        "integrationId": "",
+        "addonName": "Choice Of 1",
+        "displayName": "Choice Of 1",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 1,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Chocolate Brownie",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Gulab Jamun",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          },
+          {
+            "optionName": "Shahi Ka Tukda",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "recommended",
+        "value": 4
+      },
+      {
+        "key": "Country Chicken",
+        "value": 5
+      }
+    ],
+    "exploreTags": [
+      "Breakfast",
+      "Snacks",
+      "Lunch & Dinner"
+    ],
+    "menuItems": [
+      {
+        "type": "top-cards",
+        "name": "recommended",
+        "layoutType": 13,
+        "list": [
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner"
+            ],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c357db0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Family Feast Combo For 10 Members",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton Gravy (Potel Mamsam), 1kg Desi Chicken Gravy, 1kg Chicken Fry, 10 Boiled Eggs, 1 Pack Bagara Rice (Basmati), 1 Pack Sona Masuri Rice, 1 Pack Dal (PeasaraPapu), 1 Pack Pachipulusu, 1 Pack Raita & Salad (Kheera,Carrot,Onion & Lemon)",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5000,
+            "originalPrice": 5000,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Family Feast Combo For 10 Members"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c3f68c0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Spicy Mutton Treat for the Squad",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton (Potel Mamsam), Talakayakura, Pava, 2 Pack Bagara Rice, 1 PachiPulusu & 10 Jowar Roti's",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Spicy Mutton Treat for the Squad"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner"
+            ],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c357db0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Family Feast Combo For 10 Members",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton Gravy (Potel Mamsam), 1kg Desi Chicken Gravy, 1kg Chicken Fry, 10 Boiled Eggs, 1 Pack Bagara Rice (Basmati), 1 Pack Sona Masuri Rice, 1 Pack Dal (PeasaraPapu), 1 Pack Pachipulusu, 1 Pack Raita & Salad (Kheera,Carrot,Onion & Lemon)",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5000,
+            "originalPrice": 5000,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Family Feast Combo For 10 Members"
+            },
+            "displayImage": true
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c3f68c0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Spicy Mutton Treat for the Squad",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton (Potel Mamsam), Talakayakura, Pava, 2 Pack Bagara Rice, 1 PachiPulusu & 10 Jowar Roti's",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Spicy Mutton Treat for the Squad"
+            },
+            "displayImage": true
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Country Chicken"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 3
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c2a0c00-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Party Time Combo for 20 members",
+            "imageUrl": "",
+            "description": "Served with 2kg Mutton Gravy, 2kg Desi Chicken Gravy, 20 Boiled Eggs, 2 Pack Bagara Rice ( Basmati ), 2 pack Sona masuri Rice, 1 Pack Dal (Peasarapapu), 1 pack Pach ipulusu, 1 Pack Raitha & Salad (Kheera, Carrot, Onion & Lemon.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 8200,
+            "originalPrice": 8200,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner"
+            ],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c357db0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Family Feast Combo For 10 Members",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton Gravy (Potel Mamsam), 1kg Desi Chicken Gravy, 1kg Chicken Fry, 10 Boiled Eggs, 1 Pack Bagara Rice (Basmati), 1 Pack Sona Masuri Rice, 1 Pack Dal (PeasaraPapu), 1 Pack Pachipulusu, 1 Pack Raita & Salad (Kheera,Carrot,Onion & Lemon)",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5000,
+            "originalPrice": 5000,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Family Feast Combo For 10 Members"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c3f68c0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Spicy Mutton Treat for the Squad",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton (Potel Mamsam), Talakayakura, Pava, 2 Pack Bagara Rice, 1 PachiPulusu & 10 Jowar Roti's",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Spicy Mutton Treat for the Squad"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [
+              "Breakfast",
+              "Snacks",
+              "Lunch & Dinner"
+            ],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c357db0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Family Feast Combo For 10 Members",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton Gravy (Potel Mamsam), 1kg Desi Chicken Gravy, 1kg Chicken Fry, 10 Boiled Eggs, 1 Pack Bagara Rice (Basmati), 1 Pack Sona Masuri Rice, 1 Pack Dal (PeasaraPapu), 1 Pack Pachipulusu, 1 Pack Raita & Salad (Kheera,Carrot,Onion & Lemon)",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 5000,
+            "originalPrice": 5000,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/673def10-fa82-11f0-bb0e-5fdd1b58b425/673e1620-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Family Feast Combo For 10 Members"
+            },
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0c3f68c0-5cba-11f0-aa53-ab8b35060ee7",
+            "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+            "name": "Spicy Mutton Treat for the Squad",
+            "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+            "description": "Served with 1kg Mutton (Potel Mamsam), Talakayakura, Pava, 2 Pack Bagara Rice, 1 PachiPulusu & 10 Jowar Roti's",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 4500,
+            "originalPrice": 4500,
+            "gst": 5,
+            "category": "0c296fc0-5cba-11f0-aa53-ab8b35060ee7",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Meat-up",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": {
+              "url": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/Item_Resize/79f35cd0-fa82-11f0-bb0e-5fdd1b58b425/79f35cd1-fa82-11f0-bb0e-5fdd1b58b425",
+              "caption": "Spicy Mutton Treat for the Squad"
+            },
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "686e4acbe6d82de8e9f00835",
+      "outletId": "52d111a0-5cb3-11f0-aa53-ab8b35060ee7",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {
+          "bulk": true
+        },
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "slow-cooked to perfection, bringing rustic flavours straight from traditional kitchens to your table.",
+      "deepLinkUrl": "https://yumzy.page.link/h6rUAW2cmMwWFrYr8",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Party Box",
+      "outletName": "Ankapur Style Chicken",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/52d111a0-5cb3-11f0-aa53-ab8b35060ee7/indian-hindu-veg-thali-food-platter-selective-focus%20%282%29.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "0c126550-5cba-11f0-aa53-ab8b35060ee7",
+      "statusInfo": {
+        "type": "CLOSING",
+        "info": "Closing in 3 minutes."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 3,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

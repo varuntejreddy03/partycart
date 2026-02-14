@@ -1,0 +1,256 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "6990c00b53785b6d7fc8a054",
+    "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+    "viewType": "flat",
+    "__v": 0,
+    "categoryList": [
+      {
+        "key": "Live Counters",
+        "value": 4
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Live Counters"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 4
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "6bfce6c0-be76-11f0-82ca-8de17f5f856c",
+            "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+            "name": "Mocktail Station For 50",
+            "imageUrl": "",
+            "description": "Choose any three: Virgin Mojito, Peach & Passion, Flash\nBerry, Virgin Margarita, Piña Colada, or Fruit Punch. Your bartender will serve them fresh!\n",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 8200,
+            "originalPrice": 8200,
+            "gst": 5,
+            "category": "41a7f4f0-be76-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Mocktails & Shakes Bar",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 4
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "9839d270-be76-11f0-82ca-8de17f5f856c",
+            "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+            "name": "Shake Bar For 50",
+            "imageUrl": "",
+            "description": "Build your own shake bar! \nSelection includes Chocolate, Nutella, Oreo, Brownie, Very Berry, and Biscoff. Kids and adults will love this!\n",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 9200,
+            "originalPrice": 9200,
+            "gst": 5,
+            "category": "41a7f4f0-be76-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Mocktails & Shakes Bar",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 4
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "b663af50-be76-11f0-82ca-8de17f5f856c",
+            "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+            "name": "Frappe Fantasy For 50",
+            "imageUrl": "",
+            "description": "Indulgent blended treats\nincluding Biscoff, Choco\nRoyale, Oreo, and Rich\nCaramel Brownie Frappes. A dessert and drink in one!\n",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 10200,
+            "originalPrice": 10200,
+            "gst": 5,
+            "category": "41a7f4f0-be76-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Mocktails & Shakes Bar",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "portionSize": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 1,
+              "maxQty": 4
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "ae9aeb00-bee2-11f0-82ca-8de17f5f856c",
+            "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+            "name": "Coffee & Mocktail Live Counter",
+            "imageUrl": "",
+            "description": "Assorted Fusion teas\n\nFreshly Brewed Coffee\n\nMocktails\n\nSpecialty Coffee\n\nPerfect for keeping your guests energized and refreshed throughout the\nevent. Our barista will prepare fresh beverages on-site.  (80-100 servings)",
+            "isVeg": true,
+            "containsEgg": false,
+            "price": 20500,
+            "originalPrice": 20500,
+            "gst": 5,
+            "category": "41a7f4f0-be76-11f0-82ca-8de17f5f856c",
+            "subCategory": "",
+            "ribbon": "Minimum 1 | Maximum 3",
+            "outletName": "Mocktails & Shakes Bar",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "69124e54f98998fb6a6e2976",
+      "outletId": "d8910880-be75-11f0-82ca-8de17f5f856c",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {},
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Steamed Rice, Ghee, Pickle & more",
+      "deepLinkUrl": "https://yumzy.page.link/Je1pLWJ8NJzhY9W47",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Live Counter",
+      "outletName": "Mocktails & Shakes Bar",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/d8910880-be75-11f0-82ca-8de17f5f856c/Gemini_Generated_Image_55loxd55loxd55lo.png",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "6bfce6c0-be76-11f0-82ca-8de17f5f856c",
+      "statusInfo": {
+        "type": "AVAILABLE",
+        "info": "The outlet is accepting orders."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

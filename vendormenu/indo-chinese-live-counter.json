@@ -1,0 +1,341 @@
+{
+  "type": 200,
+  "data": {
+    "_id": "6990bfd253785b6d7fc89f3d",
+    "outletId": "63bb75b0-6f72-11f0-9fad-59d987d88733",
+    "viewType": "flat",
+    "__v": 0,
+    "addons": {
+      "0a495440-6f75-11f0-9fad-59d987d88733": {
+        "addonId": "0a495440-6f75-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Appetizer Toss Station",
+        "displayName": "Appetizer Toss Station",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Crispy corn\nBaby Corn Salt and Papper\nThai Chilli Panner\nPanner 65\nPepper Garlic Mushrooms\nChicken 65\nChilli Chicken\nChicken Lollipop\nApollo Fish\nChicken Majestic\nLoose prawns\nChilli Egg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "c0dd49f1-6f75-11f0-9fad-59d987d88733": {
+        "addonId": "c0dd49f1-6f75-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Soup Station (Optional)",
+        "displayName": "Soup Station (Optional)",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Hot Sour Soup\nLemon Coriander Soup\nSweet Corn soup\nManchow soup",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "4ac940a2-6f77-11f0-9fad-59d987d88733": {
+        "addonId": "4ac940a2-6f77-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Live Stir-Fry Noodle Station",
+        "displayName": "Live Stir-Fry Noodle Station",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Noodles\nVeggies\nMeat\nSauces",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "753711a2-6f77-11f0-9fad-59d987d88733": {
+        "addonId": "753711a2-6f77-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Fried Rice Counter",
+        "displayName": "Fried Rice Counter",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Fried Rice\nEgg Fried Rice\nChicken Schezwan Fried Rice\nPrawn Fried Rice\nBurnt Garlic Fried Rice",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "a21175d4-6f77-11f0-9fad-59d987d88733": {
+        "addonId": "a21175d4-6f77-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Tossed Manchurian Bar",
+        "displayName": "Tossed Manchurian Bar",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Veg Manchurian\nChicken Manchurian\nPaneer Manchurian Dry&Wet",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "da0f42f5-6f77-11f0-9fad-59d987d88733": {
+        "addonId": "da0f42f5-6f77-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Live Momos Counter",
+        "displayName": "Live Momos Counter",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Fried\nDeep Fried\nSteamed\nVeg&NonVeg",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      },
+      "031594b6-6f78-11f0-9fad-59d987d88733": {
+        "addonId": "031594b6-6f78-11f0-9fad-59d987d88733",
+        "integrationId": "",
+        "addonName": "Desert",
+        "displayName": "Desert",
+        "description": "",
+        "selectType": "checkbox",
+        "maxSelection": 1,
+        "minSelection": 0,
+        "isVariant": false,
+        "isIndependent": true,
+        "status": "active",
+        "options": [
+          {
+            "optionName": "Brownie with Ice Cream\nCassata\nVennela\nChocolate\nStrawberry",
+            "cost": 0,
+            "originalCost": 0,
+            "isVeg": true,
+            "containsEgg": false,
+            "dependents": []
+          }
+        ]
+      }
+    },
+    "categoryList": [
+      {
+        "key": "Live Counter",
+        "value": 2
+      }
+    ],
+    "exploreTags": [],
+    "menuItems": [
+      {
+        "type": "menu",
+        "layoutType": 12,
+        "list": [
+          {
+            "type": "category",
+            "name": "Live Counter"
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [
+              "0a495440-6f75-11f0-9fad-59d987d88733",
+              "c0dd49f1-6f75-11f0-9fad-59d987d88733",
+              "4ac940a2-6f77-11f0-9fad-59d987d88733",
+              "753711a2-6f77-11f0-9fad-59d987d88733",
+              "a21175d4-6f77-11f0-9fad-59d987d88733",
+              "da0f42f5-6f77-11f0-9fad-59d987d88733",
+              "031594b6-6f78-11f0-9fad-59d987d88733"
+            ],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 30,
+              "maxQty": 100
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0a4890f0-6f75-11f0-9fad-59d987d88733",
+            "outletId": "63bb75b0-6f72-11f0-9fad-59d987d88733",
+            "name": "The Indo-Chinese Station",
+            "imageUrl": "",
+            "description": "Served with 3 appetizer, Noodles, soup, fried rice, manchurian, momos & Dessert",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "da44b230-6f74-11f0-9fad-59d987d88733",
+            "subCategory": "",
+            "ribbon": "Minimum 30 | Maximum 100",
+            "outletName": "Indo-Chinese Live Counter",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          },
+          {
+            "type": "item",
+            "groupBuy": null,
+            "flashSale": null,
+            "healthyTags": [],
+            "healthValues": null,
+            "exploreTags": [],
+            "addons": [],
+            "unit": "gms",
+            "outletAvailable": true,
+            "config": {
+              "minQty": 30,
+              "maxQty": 100
+            },
+            "rating": null,
+            "pairItUp": [],
+            "itemId": "0e89f180-badf-11f0-83f5-877378295a33",
+            "outletId": "63bb75b0-6f72-11f0-9fad-59d987d88733",
+            "name": "Indo-Chinese Live Counter",
+            "imageUrl": "",
+            "description": "Any 3 appetisers - Crispy\nCorn, Thai Chilli Paneer, Chicken 65,\nChicken Lollipop, Apollo Fish, and Loose\nPrawns.\n\nLive Noodle - Choice of\nHakka, Szechwan, or Egg soft noodles,\nfresh vegetables, proteins (Chicken, Egg,\nPrawns, Paneer.\n\nFried Rice - Veg, Egg, Chicken Szechuan, Prawn, and Burnt\nGarlic Fried Rice with optional add-ons.\n\nManchurian Bar - Manchurian tossed live with your\nchoice of dry or gravy preparation.\n\nLive Momos - Freshly prepared Veg, Chicken, or Paneer Szechwan momos in stir-fried, deep-fried, or steamed style.",
+            "isVeg": false,
+            "containsEgg": false,
+            "price": 1200,
+            "originalPrice": 1200,
+            "gst": 5,
+            "category": "da44b230-6f74-11f0-9fad-59d987d88733",
+            "subCategory": "",
+            "ribbon": "Minimum 30 | Maximum 100",
+            "outletName": "Indo-Chinese Live Counter",
+            "availableForOrder": true,
+            "nextAvailable": "",
+            "portionSize": null,
+            "itemAvailable": true,
+            "itemOperational": true,
+            "outletOperational": true,
+            "offers": [],
+            "statusInfo": {
+              "type": "AVAILABLE",
+              "info": "The outlet is accepting orders."
+            },
+            "image": null,
+            "displayImage": false
+          }
+        ]
+      }
+    ],
+    "outlet": {
+      "_id": "688dbe4a17043867b0788c9a",
+      "outletId": "63bb75b0-6f72-11f0-9fad-59d987d88733",
+      "available": "on",
+      "badgeImg": "",
+      "config": {
+        "order": {
+          "bulk": true
+        },
+        "pureVeg": false,
+        "delivery": {
+          "types": {
+            "onDemand": true,
+            "scheduled": false
+          },
+          "canSelfPickup": false
+        }
+      },
+      "costForTwo": null,
+      "cuisines": "Noodles, Manchurian, Rice tossed live",
+      "deepLinkUrl": "https://yumzy.page.link/oJiJWKV5C1UBaCd57",
+      "displayName": "",
+      "facilities": [],
+      "gallery": [],
+      "groupBuyRibbon": "",
+      "locality": "Live Counter",
+      "outletName": "Indo-Chinese Live Counter",
+      "rating": null,
+      "ratingCount": "0",
+      "restId": "eb734a30-cd94-11ef-ab1f-b5cf575aec4d",
+      "reviews": [],
+      "gstinType": "NA",
+      "gstPercent": 5,
+      "lic": "23624023001211",
+      "imageUrl": "https://listing.sgp1.digitaloceanspaces.com/outlet_images/63bb75b0-6f72-11f0-9fad-59d987d88733/chef-preparing-delicious-meal-kitchen-side-view.jpg",
+      "deliveryTime": 0,
+      "hygineRating": "3.5",
+      "items": "0a4890f0-6f75-11f0-9fad-59d987d88733",
+      "statusInfo": {
+        "type": "AVAILABLE",
+        "info": "The outlet is accepting orders."
+      },
+      "prepTime": 0,
+      "timeToOpen": 0,
+      "timeToClose": 0,
+      "favorite": false,
+      "offers": "",
+      "offerDetails": [],
+      "couponStrings": []
+    },
+    "orderAgainItems": []
+  },
+  "message": "Operation Successful!",
+  "title": "Operation Successful!",
+  "code": 200
+}

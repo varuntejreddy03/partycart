@@ -3,11 +3,11 @@ export const getAppStoreUrl = (): string => {
   
   // iOS detection
   if (/iPad|iPhone|iPod/.test(userAgent)) {
-    return 'https://apps.apple.com/app/yumzy/id123456789'; // Replace with actual App Store ID
+    return 'https://apps.apple.com/in/app/yumzy-online-food-delivery/id1476665049'; // Replace with actual App Store ID
   }
   
   // Android detection
-  return 'https://play.google.com/store/apps/details?id=com.yumzy.app'; // Replace with actual package name
+  return 'https://play.google.com/store/apps/details?id=com.yumzy.orderfood'; // Replace with actual package name
 };
 
 export const openYumzyApp = (): void => {
