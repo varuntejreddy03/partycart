@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AppRoutes } from '../types';
 import { TestimonialsCarousel } from '../components/TestimonialsCarousel';
 import { ScrollAnimatedDiv } from '../components/ScrollAnimation';
+import { TextReveal } from '../components/TextReveal';
 import vendorJson from '../data.json';
 
 type Restaurant = {
@@ -55,49 +56,111 @@ export const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative z-20">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-accent text-xs font-bold uppercase tracking-widest mb-8 backdrop-blur-sm">
-                <span className="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
-                Now Live in Hyderabad • {allVendors.length}+ Restaurants
-              </div>
-              <h1 className="text-5xl sm:text-6xl md:text-7xl font-black italic text-white leading-[0.9] tracking-tight mb-6">
-                DISCOVER <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto]">RESTAURANTS</span> <br />
-                <span className="text-stroke text-transparent relative text-4xl sm:text-5xl md:text-6xl block mt-2">
-                  NEAR YOU
-                  <span className="absolute -top-6 -right-8 material-icons-round text-accent text-5xl rotate-12 opacity-80">restaurant</span>
-                </span>
-              </h1>
-              <p className="mt-6 text-xl sm:text-2xl font-black text-white leading-snug">
-                Hyderabad's Premium Party Food Provider
-              </p>
-              <p className="mt-3 text-base sm:text-lg text-gray-300 max-w-lg leading-relaxed border-l-4 border-primary pl-4 italic">
-                You host the party. We'll handle the food.
-              </p>
-              <div className="mt-10 flex flex-wrap gap-4">
+              {/* WhatsApp Floating Icon */}
+              <a
+                href="https://wa.me/916309855320?text=Hi%20PartyCart!%20I'm%20interested%20in%20booking%20a%20party%20food%20order."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce-subtle"
+                aria-label="Chat on WhatsApp"
+              >
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-8 h-8" />
+              </a>
+
+              <ScrollAnimatedDiv delay={200}>
+                <div className="relative inline-block">
+                  <h1 className="text-5xl sm:text-6xl md:text-7xl font-black italic text-white leading-none tracking-tight mb-8">
+                    <span className="block mb-2"><TextReveal text="DISCOVER" delay={0.2} /></span>
+
+                    {/* RESTAURANTS - Gradient Fix: Using slide-up instead of split text for robust gradient support */}
+                    <span className="block h-[1.1em] overflow-hidden mb-3">
+                      <span
+                        className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto] animate-gradient"
+                        style={{
+                          animation: 'slideUp 0.8s cubic-bezier(0.2, 0.65, 0.3, 0.9) forwards',
+                          animationDelay: '0.4s',
+                          opacity: 0,
+                          transform: 'translateY(100%)',
+                          lineHeight: 1
+                        }}
+                      >
+                        RESTAURANTS
+                      </span>
+                    </span>
+
+                    <span className="text-stroke text-transparent relative text-4xl sm:text-5xl md:text-6xl block">
+                      <TextReveal text="NEAR YOU" delay={0.8} />
+                      <span
+                        className="absolute -top-6 -right-12 material-icons-round text-accent text-6xl rotate-12 opacity-80 drop-shadow-lg hidden sm:inline-block"
+                        style={{ animation: 'float 4s ease-in-out infinite' }}
+                      >
+                        restaurant
+                      </span>
+                    </span>
+                  </h1>
+                </div>
+              </ScrollAnimatedDiv>
+              <ScrollAnimatedDiv delay={300}>
+                <p className="mt-6 text-xl sm:text-2xl font-black text-white leading-snug">
+                  Hyderabad's Premium Party Food Provider
+                </p>
+                <p className="mt-3 text-base sm:text-lg text-gray-300 max-w-lg leading-relaxed border-l-4 border-primary pl-4 italic">
+                  You host the party. We'll handle the food.
+                </p>
+              </ScrollAnimatedDiv>
+              <ScrollAnimatedDiv delay={400} className="mt-10 flex flex-wrap gap-4">
                 <Link to={AppRoutes.VENDORS} className="flex items-center gap-2 px-8 py-4 bg-white text-dark font-bold rounded-full hover:bg-gray-100 transition transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                   Browse Restaurants <span className="material-icons-round">arrow_forward</span>
                 </Link>
                 <Link to={AppRoutes.CONTACT} className="flex items-center gap-2 px-8 py-4 bg-white/10 border border-white/20 text-white font-bold rounded-full hover:bg-white/20 transition backdrop-blur-md">
                   <span className="material-icons-round text-secondary">support_agent</span> Contact Us
                 </Link>
-              </div>
+              </ScrollAnimatedDiv>
             </div>
-            <div className="relative lg:h-[600px] flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-[60px] animate-pulse-slow"></div>
-              <div className="relative w-full aspect-square max-w-md lg:max-w-full rotate-3 transition hover:rotate-0 duration-500">
-                <div className="absolute inset-0 rounded-[2rem] border-2 border-white/10 transform translate-x-4 translate-y-4"></div>
-                <img alt="Delicious Food" className="w-full h-full object-cover rounded-[2rem] shadow-2xl relative z-10 brightness-110" src="https://partycart.in/wp-content/uploads/2025/09/group-people-are-preparing-food-table-1-scaled.jpg" />
-                <div className="absolute -bottom-6 -left-6 z-20 bg-surface border border-white/10 p-4 rounded-2xl shadow-xl flex items-center gap-3 glass-card">
-                  <div className="bg-green-500/20 p-2 rounded-lg">
-                    <span className="material-icons-round text-green-500">verified_user</span>
+
+            {/* Enhanced Hero Image */}
+            <ScrollAnimatedDiv delay={500} className="relative lg:h-[600px] flex items-center justify-center perspective-1000">
+              {/* Animated Glow */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-full blur-[80px] animate-pulse-slow"></div>
+
+              <div
+                className="relative w-full aspect-square max-w-md lg:max-w-full transition-all duration-700"
+                style={{ animation: 'float 6s ease-in-out infinite' }}
+              >
+                {/* Decorative border frame */}
+                <div className="absolute inset-0 rounded-[2.5rem] border-2 border-white/20 transform translate-x-5 translate-y-5 z-0"></div>
+
+                {/* Main Image */}
+                <img
+                  alt="Delicious Food"
+                  className="w-full h-full object-cover rounded-[2.5rem] shadow-2xl relative z-10 brightness-110 border border-white/10"
+                  src="https://partycart.in/wp-content/uploads/2025/09/group-people-are-preparing-food-table-1-scaled.jpg"
+                />
+
+                {/* Badge 1: Trusted Vendors */}
+                <div
+                  className="absolute -bottom-8 -left-4 z-20 bg-surface/80 backdrop-blur-xl border border-white/20 p-4 pr-6 rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.3)] flex items-center gap-4 animate-bounce-subtle"
+                  style={{ animationDelay: '1s' }}
+                >
+                  <div className="bg-green-500/20 p-3 rounded-xl">
+                    <span className="material-icons-round text-green-400 text-2xl">verified_user</span>
                   </div>
                   <div>
-                    <p className="text-xs text-gray-400 font-bold uppercase">Hygiene Checked</p>
-                    <p className="text-xl font-black text-white">Trusted Vendors</p>
+                    <p className="text-xs text-gray-300 font-bold uppercase tracking-wider">Safety First</p>
+                    <p className="text-xl font-black text-white">100% Verified</p>
                   </div>
                 </div>
+
+                {/* Badge 2: Rating (New) */}
+                <div
+                  className="absolute top-10 -right-8 z-20 bg-surface/80 backdrop-blur-xl border border-white/20 p-3 px-5 rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.3)] flex flex-col items-center animate-bounce-subtle"
+                  style={{ animationDelay: '0s' }}
+                >
+                  <span className="text-3xl font-black text-yellow-400">4.9 <span className="text-lg">★</span></span>
+                  <p className="text-xs text-gray-300 font-bold uppercase tracking-wider">User Rating</p>
+                </div>
               </div>
-            </div>
+            </ScrollAnimatedDiv>
           </div>
         </div>
       </ScrollAnimatedDiv>
@@ -143,14 +206,15 @@ export const Home: React.FC = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Mobile: Horizontal Scroll | Desktop: Grid */}
+          <div className="flex lg:grid lg:grid-cols-4 gap-6 overflow-x-auto lg:overflow-visible pb-8 lg:pb-0 snap-x snap-mandatory hide-scroll -mx-4 px-4 lg:mx-0 lg:px-0">
             {topPicks.map((v) => {
               const slug = VENDOR_SLUGS[v.name];
               return (
                 <Link
                   key={v.name}
                   to={slug ? `/vendor/${slug}` : AppRoutes.VENDORS}
-                  className="group block relative rounded-3xl overflow-hidden shadow-2xl transition transform hover:-translate-y-2 border border-white/[0.06] hover:border-white/20"
+                  className="group block relative rounded-3xl overflow-hidden shadow-2xl transition transform hover:-translate-y-2 border border-white/[0.06] hover:border-white/20 min-w-[280px] sm:min-w-[320px] lg:min-w-0 snap-center"
                 >
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent z-10 opacity-80 group-hover:opacity-90 transition"></div>
                   <img
@@ -180,7 +244,6 @@ export const Home: React.FC = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-5 z-20">
                     <h3 className="text-lg font-bold text-white mb-1 line-clamp-1">{v.name.trim()}</h3>
                     <p className="text-gray-300 text-xs line-clamp-1 mb-3">{v.description}</p>
-
                   </div>
                 </Link>
               );
@@ -202,49 +265,67 @@ export const Home: React.FC = () => {
       {/* ═══════════════════════════════════════
            HOW IT WORKS
          ═══════════════════════════════════════ */}
-      <ScrollAnimatedDiv className="relative py-20 bg-surface/50 overflow-hidden z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 relative z-10">
-            <h2 className="text-3xl md:text-5xl font-black italic text-white">HOW IT <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-green-300">WORKS</span></h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-secondary to-transparent mx-auto mt-4 rounded-full"></div>
-          </div>
-          <div className="relative">
-            <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-y-1/2 border-t border-dashed border-white/30"></div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
-              <div className="group text-center">
-                <div className="relative inline-block mb-6 transition transform group-hover:scale-110 duration-300">
-                  <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-surface to-dark border border-white/10 flex items-center justify-center shadow-2xl relative z-10 overflow-hidden">
-                    <span className="material-icons-round text-5xl text-primary opacity-80 group-hover:opacity-100 transition">search</span>
-                  </div>
-                  <div className="absolute -top-3 -right-3 w-10 h-10 bg-primary text-white font-black flex items-center justify-center rounded-lg shadow-lg rotate-12 z-20">1</div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">Browse</h3>
-                <p className="text-gray-400 text-sm px-4">Explore top restaurants and home chefs near you. Filter by cuisine, price, or diet.</p>
+      {/* ═══════════════════════════════════════
+           HOW IT WORKS
+         ═══════════════════════════════════════ */}
+      <section className="relative py-24 overflow-hidden">
+        {/* Background Gradients */}
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <ScrollAnimatedDiv className="text-center mb-20">
+            <h2 className="text-4xl md:text-6xl font-black italic text-white mb-2">
+              HOW IT <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-green-300 animate-gradient">WORKS</span>
+            </h2>
+            <p className="text-gray-400 font-medium">3 simple steps to your perfect party</p>
+          </ScrollAnimatedDiv>
+
+          <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Connecting Line (Desktop) */}
+            <div className="hidden md:block absolute top-[40%] left-[16%] right-[16%] h-1 bg-gradient-to-r from-transparent via-white/10 to-transparent border-t border-dashed border-white/20 -z-10"></div>
+
+            {/* Step 1 */}
+            <ScrollAnimatedDiv delay={100} className="group relative p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 backdrop-blur-sm hover:-translate-y-2 hover:shadow-2xl">
+              <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-surface text-white font-black flex items-center justify-center rounded-xl border border-white/10 shadow-lg z-20">
+                <span className="text-primary text-xl">01</span>
               </div>
-              <div className="group text-center md:mt-12">
-                <div className="relative inline-block mb-6 transition transform group-hover:scale-110 duration-300">
-                  <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-surface to-dark border border-white/10 flex items-center justify-center shadow-2xl relative z-10 overflow-hidden">
-                    <span className="material-icons-round text-5xl text-secondary opacity-80 group-hover:opacity-100 transition">restaurant_menu</span>
-                  </div>
-                  <div className="absolute -top-3 -right-3 w-10 h-10 bg-secondary text-white font-black flex items-center justify-center rounded-lg shadow-lg rotate-12 z-20">2</div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">Order</h3>
-                <p className="text-gray-400 text-sm px-4">Pick your dishes, customize portions, and place your order with ease.</p>
+              <div className="mt-6 mb-6 relative h-32 flex items-center justify-center">
+                <div className="absolute inset-0 bg-primary/20 blur-[40px] rounded-full group-hover:bg-primary/30 transition-all duration-500"></div>
+                <span className="material-icons-round text-7xl text-white drop-shadow-lg transform group-hover:scale-110 transition-transform duration-500">search</span>
               </div>
-              <div className="group text-center">
-                <div className="relative inline-block mb-6 transition transform group-hover:scale-110 duration-300">
-                  <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-surface to-dark border border-white/10 flex items-center justify-center shadow-2xl relative z-10 overflow-hidden">
-                    <span className="material-icons-round text-5xl text-accent opacity-80 group-hover:opacity-100 transition">local_shipping</span>
-                  </div>
-                  <div className="absolute -top-3 -right-3 w-10 h-10 bg-accent text-white font-black flex items-center justify-center rounded-lg shadow-lg rotate-12 z-20">3</div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">Enjoy</h3>
-                <p className="text-gray-400 text-sm px-4">Fresh food delivered to your doorstep. Hot, hygienic, and on time.</p>
+              <h3 className="text-2xl font-bold text-white text-center mb-3">Browse Menu</h3>
+              <p className="text-gray-400 text-center leading-relaxed text-sm">Explore top-rated restaurants and exclusive home chefs near you.</p>
+            </ScrollAnimatedDiv>
+
+            {/* Step 2 */}
+            <ScrollAnimatedDiv delay={300} className="group relative p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 backdrop-blur-sm hover:-translate-y-2 hover:shadow-2xl">
+              <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-surface text-white font-black flex items-center justify-center rounded-xl border border-white/10 shadow-lg z-20">
+                <span className="text-secondary text-xl">02</span>
               </div>
-            </div>
+              <div className="mt-6 mb-6 relative h-32 flex items-center justify-center">
+                <div className="absolute inset-0 bg-secondary/20 blur-[40px] rounded-full group-hover:bg-secondary/30 transition-all duration-500"></div>
+                <span className="material-icons-round text-7xl text-white drop-shadow-lg transform group-hover:scale-110 transition-transform duration-500">restaurant_menu</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white text-center mb-3">Build Your Cart</h3>
+              <p className="text-gray-400 text-center leading-relaxed text-sm">Add items from multiple vendors or choose a pre-set party box.</p>
+            </ScrollAnimatedDiv>
+
+            {/* Step 3 */}
+            <ScrollAnimatedDiv delay={500} className="group relative p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 backdrop-blur-sm hover:-translate-y-2 hover:shadow-2xl">
+              <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-surface text-white font-black flex items-center justify-center rounded-xl border border-white/10 shadow-lg z-20">
+                <span className="text-accent text-xl">03</span>
+              </div>
+              <div className="mt-6 mb-6 relative h-32 flex items-center justify-center">
+                <div className="absolute inset-0 bg-accent/20 blur-[40px] rounded-full group-hover:bg-accent/30 transition-all duration-500"></div>
+                <span className="material-icons-round text-7xl text-white drop-shadow-lg transform group-hover:scale-110 transition-transform duration-500">celebration</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white text-center mb-3">Party Time</h3>
+              <p className="text-gray-400 text-center leading-relaxed text-sm">We deliver fresh, hygienic food right to your doorstep. You enjoy!</p>
+            </ScrollAnimatedDiv>
           </div>
         </div>
-      </ScrollAnimatedDiv>
+      </section>
 
       {/* ═══════════════════════════════════════
            TESTIMONIALS
@@ -323,98 +404,93 @@ export const Home: React.FC = () => {
   );
 };
 
-/* ── Custom Video Component ── */
-const VideoCard: React.FC<{
-  src: string;
-  poster?: string;
-  caption: string;
-  isPlaying: boolean;
-  onPlay: () => void;
-}> = ({ src, caption, isPlaying, onPlay }) => {
+/* ── Custom Video Component (Reels Style) ── */
+const VideoReelCard: React.FC<{
+  video: { src: string; caption: string; poster?: string };
+  isActive: boolean;
+  onActivate: () => void;
+}> = ({ video, isActive, onActivate }) => {
   const videoRef = React.useRef<HTMLVideoElement>(null);
   const [isMuted, setIsMuted] = React.useState(true);
-  const [showControls, setShowControls] = React.useState(true);
+  const [isPlaying, setIsPlaying] = React.useState(false);
 
   React.useEffect(() => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.play().catch(() => { });
-      } else {
-        videoRef.current.pause();
+    if (isActive) {
+      const playPromise = videoRef.current?.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => setIsPlaying(true))
+          .catch(() => setIsPlaying(false));
       }
-    }
-  }, [isPlaying]);
-
-  const togglePlay = () => {
-    if (isPlaying) {
-      // If currently playing, pausing implies we are just stopping this one. 
-      // The parent handles 'onPlay' to set exclusive playing. 
-      // But here we need a way to say "stop". 
-      // Actually, simplest is: Clicking toggles. Parent sets state.
-      // But to keep it simple, if we click, we trigger onPlay (which sets this as active).
-      // If it's ALREADY active, we might want to pause it? 
-      // Let's stick to "Click to Play". To pause, maybe click again?
-      // For now, let's just use the mute button for audio and allow interaction to pause.
-      // Actually, user asked: "one video play two pause".
-      // So if I click this, it becomes the 'playing' one.
-      onPlay();
     } else {
-      onPlay();
+      videoRef.current?.pause();
+      setIsPlaying(false);
     }
-  };
+  }, [isActive]);
 
   const toggleMute = (e: React.MouseEvent) => {
     e.stopPropagation();
     setIsMuted(!isMuted);
-    if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
+  };
+
+  const togglePlay = () => {
+    if (isActive) {
+      if (videoRef.current?.paused) {
+        videoRef.current.play();
+        setIsPlaying(true);
+      } else {
+        videoRef.current?.pause();
+        setIsPlaying(false);
+      }
+    } else {
+      onActivate();
     }
   };
 
   return (
     <div
-      className={`group relative rounded-3xl overflow-hidden bg-dark border border-white/10 shadow-2xl transition-all duration-500 ${isPlaying ? 'ring-2 ring-primary/50 scale-[1.02]' : 'hover:border-primary/30'}`}
-      onMouseEnter={() => setShowControls(true)}
-      onMouseLeave={() => setShowControls(false)}
-      onClick={onPlay}
+      className={`relative rounded-2xl overflow-hidden bg-black aspect-[9/16] shadow-2xl transition-all duration-500 cursor-pointer ${isActive ? 'ring-2 ring-primary scale-[1.02] z-10' : 'opacity-80 scale-95 hover:opacity-100'}`}
+      onClick={togglePlay}
     >
-      {/* Frame / Glass Overlay */}
-      <div className="absolute inset-0 z-20 pointer-events-none rounded-3xl ring-1 ring-inset ring-white/10"></div>
+      <video
+        ref={videoRef}
+        src={video.src}
+        className="w-full h-full object-cover"
+        loop
+        muted={isMuted}
+        playsInline
+        preload="metadata"
+      />
 
-      {/* Video */}
-      <div className="relative aspect-[9/16] bg-black">
-        <video
-          ref={videoRef}
-          src={src}
-          className="w-full h-full object-cover"
-          loop
-          muted={isMuted}
-          playsInline
-        />
+      {/* Overlay Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/80 pointer-events-none"></div>
 
-        {/* Dark Gradient Overlay (Bottom) */}
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-10"></div>
-
-        {/* Custom Controls Overlay */}
-        <div className={`absolute inset-0 z-30 flex items-center justify-center transition-opacity duration-300 ${isPlaying && !showControls ? 'opacity-0' : 'opacity-100'}`}>
-          {!isPlaying && (
-            <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center transform group-hover:scale-110 transition">
-              <span className="material-icons-round text-4xl text-white">play_arrow</span>
-            </div>
-          )}
+      {/* Play/Pause Icon Overlay */}
+      {!isPlaying && (
+        <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
+          <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+            <span className="material-icons-round text-4xl text-white">play_arrow</span>
+          </div>
         </div>
+      )}
 
-        {/* Mute Toggle */}
+      {/* Controls */}
+      <div className="absolute top-4 right-4 z-30">
         <button
           onClick={toggleMute}
-          className="absolute top-4 right-4 z-40 w-10 h-10 rounded-full bg-black/50 backdrop-blur-md flex items-center justify-center text-white hover:bg-primary transition"
+          className="w-10 h-10 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white hover:bg-black/60 transition"
         >
           <span className="material-icons-round text-xl">{isMuted ? 'volume_off' : 'volume_up'}</span>
         </button>
+      </div>
 
-        {/* Caption */}
-        <div className="absolute bottom-4 left-4 right-4 z-40 text-center">
-          <p className="text-white font-bold text-sm sm:text-base leading-tight drop-shadow-md">{caption}</p>
+      <div className="absolute bottom-0 inset-x-0 p-5 z-30 text-left">
+        <p className="text-white font-bold text-lg leading-tight shadow-black drop-shadow-md">{video.caption}</p>
+        <div className="flex items-center gap-2 mt-2">
+          <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center">
+            <span className="material-icons-round text-[14px] text-white">local_fire_department</span>
+          </div>
+          <span className="text-xs text-white/90 font-medium">Trending now</span>
         </div>
       </div>
     </div>
@@ -422,23 +498,61 @@ const VideoCard: React.FC<{
 };
 
 const VideoShowcase: React.FC = () => {
-  const [playingIndex, setPlayingIndex] = React.useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
+  const containerRef = React.useRef<HTMLDivElement>(null);
+
   const videos = [
-    { src: "/videos/office-party.mp4", caption: "Office Party Sorted! 🥂" },
+    { src: "/videos/office-party.mp4", caption: "Office Parties Done Right! 🥂" },
     { src: "/videos/rajapushpa-smiles.mp4", caption: "Serving Smiles at Rajapushpa 😍" },
-    { src: "/videos/grazing-table.mp4", caption: "The Grazing Table Experience ✨" }
+    { src: "/videos/grazing-table.mp4", caption: "The Ultimate Grazing Table ✨" }
   ];
 
+  // Intersection Observer for Auto-Play on Scroll
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const index = Number(entry.target.getAttribute('data-index'));
+            setActiveIndex(index);
+          }
+        });
+      },
+      { threshold: 0.6, root: null, rootMargin: '0px' }
+    );
+
+    const cards = containerRef.current?.querySelectorAll('.video-card');
+    cards?.forEach((card) => observer.observe(card));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
-      {videos.map((v, i) => (
-        <VideoCard
-          key={i}
-          {...v}
-          isPlaying={playingIndex === i}
-          onPlay={() => setPlayingIndex(playingIndex === i ? null : i)} // Toggle: Click active -> pause, Click inactive -> play
-        />
-      ))}
+    <div className="mt-16 relative">
+      <div className="flex items-center justify-between mb-8 px-4">
+        <h3 className="text-2xl font-black text-white italic">WATCH <span className="text-primary">PARTYCAM</span></h3>
+        <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">Live Moments</span>
+      </div>
+
+      {/* Mobile: Horizontal Snap Scroll / Desktop: Grid */}
+      <div
+        ref={containerRef}
+        className="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory px-4 pb-8 hide-scroll"
+      >
+        {videos.map((v, i) => (
+          <div
+            key={i}
+            data-index={i}
+            className="video-card min-w-[85vw] md:min-w-0 snap-center"
+          >
+            <VideoReelCard
+              video={v}
+              isActive={activeIndex === i}
+              onActivate={() => setActiveIndex(i)}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

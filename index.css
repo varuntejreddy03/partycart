@@ -140,6 +140,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -156,6 +157,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .animate-gradient {
     animation: gradient 4s ease infinite;
+}
+
+.parallax-wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.parallax-section {
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.parallax-bg {
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
 }
 
 /* Cart Animations */
@@ -180,6 +197,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
     to {
         transform: translateY(0);
+    }
+}
+
+@keyframes revealChar {
+    from {
+        opacity: 0;
+        transform: translateY(100%) rotate(5deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
     }
 }
 

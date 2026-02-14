@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { AppRoutes } from '../types';
 
 const PHONE = '917396737700';
 const PHONE_DISPLAY = '7396737700';
+const ADMIN_PHONE = '917396737700';
 
 const socials = [
     {
@@ -16,6 +19,7 @@ const socials = [
         color: 'from-purple-500 to-pink-500',
         hoverBg: 'hover:bg-pink-500/10',
         borderColor: 'border-pink-500/20',
+        lightColor: 'text-pink-400'
     },
     {
         name: 'Facebook',
@@ -29,10 +33,11 @@ const socials = [
         color: 'from-blue-500 to-blue-600',
         hoverBg: 'hover:bg-blue-500/10',
         borderColor: 'border-blue-500/20',
+        lightColor: 'text-blue-400'
     },
     {
         name: 'LinkedIn',
-        handle: 'Yumzy App',
+        handle: 'Yumzy',
         url: 'https://www.linkedin.com/company/yumzy-app/',
         icon: (
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -42,6 +47,7 @@ const socials = [
         color: 'from-sky-500 to-blue-600',
         hoverBg: 'hover:bg-sky-500/10',
         borderColor: 'border-sky-500/20',
+        lightColor: 'text-sky-400'
     },
     {
         name: 'YouTube',
@@ -55,164 +61,245 @@ const socials = [
         color: 'from-red-500 to-red-600',
         hoverBg: 'hover:bg-red-500/10',
         borderColor: 'border-red-500/20',
+        lightColor: 'text-red-400'
     },
 ];
 
 export const Contact: React.FC = () => {
     const openWhatsApp = () => {
-        const text = encodeURIComponent('Hi PartyCart! I would like to enquire about catering services.');
-        window.open(`https://wa.me/${PHONE}?text=${text}`, '_blank');
+        const text = encodeURIComponent('Hi PartyCart! I would like to enquire about party catering services.');
+        window.open(`https://wa.me/${ADMIN_PHONE}?text=${text}`, '_blank');
     };
 
     return (
-        <div className="bg-dark min-h-screen relative overflow-x-hidden">
-            {/* Background */}
+        <div className="bg-dark min-h-screen relative overflow-x-hidden pt-20">
+            {/* ═══════════════════════════════════════
+                 PREMIUM BACKGROUND
+               ═══════════════════════════════════════ */}
             <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-                <div className="absolute top-[-10%] left-[-10%] w-[50vh] h-[50vh] bg-primary/15 rounded-full blur-[120px]"></div>
-                <div className="absolute bottom-[10%] right-[-5%] w-[40vh] h-[40vh] bg-secondary/8 rounded-full blur-[100px]"></div>
-                <div className="absolute top-[50%] left-[50%] w-[30vh] h-[30vh] bg-accent/5 rounded-full blur-[80px]"></div>
+                <div className="absolute top-[-10%] left-[-10%] w-[50vh] h-[50vh] bg-primary/10 rounded-full blur-[120px] animate-pulse-slow"></div>
+                <div className="absolute bottom-[10%] right-[-5%] w-[40vh] h-[40vh] bg-secondary/5 rounded-full blur-[100px] animate-pulse-slow font-delay-2000"></div>
+                <div className="absolute top-[40%] right-[10%] w-[30vh] h-[30vh] bg-accent/5 rounded-full blur-[80px] animate-pulse-slow font-delay-5000"></div>
+
+                {/* Noise overlays */}
+                <div className="absolute inset-0 bg-noise opacity-[0.03] mix-blend-overlay"></div>
             </div>
 
             {/* ═══════════════════════════════════════
-           HERO SECTION
-         ═══════════════════════════════════════ */}
-            <section className="relative pt-28 sm:pt-32 pb-12 px-4 z-10 max-w-5xl mx-auto text-center">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-accent text-[10px] font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
-                    <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
-                    Get in Touch
+                 HERO SECTION
+               ═══════════════════════════════════════ */}
+            <section className="relative z-10 pt-16 sm:pt-24 pb-16 px-4">
+                <div className="max-w-6xl mx-auto text-center">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-primary text-[10px] sm:text-xs font-black uppercase tracking-[0.2em] mb-10 backdrop-blur-md animate-fade-in shadow-xl shadow-primary/10">
+                        <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                        PLAN THE PERFECT CELEBRATION
+                    </div>
+
+                    <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-8 animate-fade-in">
+                        Let's Plan Your<br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-orange-400 to-primary animate-gradient bg-[length:200%_auto]">
+                            Perfect Party
+                        </span>
+                    </h1>
+
+                    <p className="text-gray-400 text-base sm:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-medium px-4 animate-fade-in [animation-delay:200ms]">
+                        Hyderabad's elite party food destination. From intimate gatherings to grand celebrations, we bring the best bawarchis and chefs to your home.
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in [animation-delay:400ms]">
+                        <button
+                            onClick={openWhatsApp}
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-primary text-white font-black text-base uppercase tracking-wider shadow-2xl shadow-primary/30 hover:shadow-primary/50 hover:scale-[1.05] active:scale-95 transition-all duration-300 group"
+                        >
+                            <span className="material-icons-round text-2xl group-hover:rotate-12 transition-transform">chat</span>
+                            Discuss Your Event
+                        </button>
+                        <a
+                            href={`tel:+${PHONE}`}
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-base uppercase tracking-wider hover:bg-white/10 transition-all duration-300"
+                        >
+                            <span className="material-icons-round text-2xl">call</span>
+                            Quick Enquiry
+                        </a>
+                    </div>
                 </div>
-
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-4">
-                    Let's Plan Your{' '}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">
-                        Perfect Party
-                    </span>
-                </h1>
-
-                <p className="text-gray-400 text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-                    Hyderabad's premium party food provider. You host the party — we handle the food.
-                </p>
-
-                {/* WhatsApp CTA */}
-                <button
-                    onClick={openWhatsApp}
-                    className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#25D366] text-white font-black text-base sm:text-lg uppercase tracking-wider shadow-2xl shadow-[#25D366]/30 hover:shadow-[#25D366]/50 hover:scale-105 active:scale-95 transition-all duration-300"
-                >
-                    <svg className="w-6 h-6 sm:w-7 sm:h-7" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                    </svg>
-                    Chat on WhatsApp
-                </button>
             </section>
 
             {/* ═══════════════════════════════════════
-           CONTACT CARDS
-         ═══════════════════════════════════════ */}
-            <section className="relative z-10 max-w-5xl mx-auto px-4 pb-16">
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                    {/* Phone */}
-                    <a
-                        href={`tel:+${PHONE}`}
-                        className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-primary/30 transition-all duration-300 group"
-                    >
-                        <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
-                            <span className="material-icons-round text-primary text-2xl">call</span>
-                        </div>
-                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Call Us</p>
-                        <p className="text-xl sm:text-2xl font-black text-white">{PHONE_DISPLAY}</p>
-                        <p className="text-xs text-gray-500 mt-2">Available 9 AM – 10 PM</p>
-                    </a>
-
-                    {/* WhatsApp */}
+                 CONTACT OPTIONS GRID
+               ═══════════════════════════════════════ */}
+            <section className="relative z-10 max-w-6xl mx-auto px-4 pb-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {/* Primary Contact (WhatsApp) */}
                     <div
                         onClick={openWhatsApp}
-                        className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-[#25D366]/30 transition-all duration-300 cursor-pointer group"
+                        className="glass-card group relative overflow-hidden rounded-[2.5rem] p-8 sm:p-10 border border-white/10 hover:border-primary/40 transition-all duration-500 cursor-pointer shadow-2xl"
                     >
-                        <div className="w-14 h-14 rounded-2xl bg-[#25D366]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
-                            <svg className="w-6 h-6 text-[#25D366]" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                            </svg>
+                        <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:opacity-[0.08] transition-opacity duration-500">
+                            <span className="material-icons-round text-[120px] rotate-12">auto_awesome</span>
                         </div>
-                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">WhatsApp</p>
-                        <p className="text-xl sm:text-2xl font-black text-white">Message Us</p>
-                        <p className="text-xs text-gray-500 mt-2">Quick replies guaranteed</p>
-                    </div>
 
-                    {/* Location */}
-                    <div className="glass-card p-6 sm:p-8 rounded-2xl border border-white/10 sm:col-span-2 lg:col-span-1">
-                        <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center mb-5">
-                            <span className="material-icons-round text-accent text-2xl">location_on</span>
+                        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-500">
+                            <span className="material-icons-round text-primary text-3xl">chat_bubble</span>
                         </div>
-                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Location</p>
-                        <p className="text-xl sm:text-2xl font-black text-white">Hyderabad</p>
-                        <p className="text-xs text-gray-500 mt-2">Serving all areas across the city</p>
-                    </div>
-                </div>
-            </section>
 
-            {/* ═══════════════════════════════════════
-           SOCIAL MEDIA
-         ═══════════════════════════════════════ */}
-            <section className="relative z-10 max-w-5xl mx-auto px-4 pb-20">
-                <div className="text-center mb-10">
-                    <h2 className="text-2xl sm:text-3xl font-black text-white mb-2">Follow Us</h2>
-                    <p className="text-gray-500 text-sm">Stay updated with our latest menus, offers & party vibes</p>
-                    <div className="w-12 h-1 bg-primary mx-auto rounded-full mt-4"></div>
-                </div>
-
-                <div className="grid sm:grid-cols-2 gap-4">
-                    {socials.map((s) => (
-                        <a
-                            key={s.name}
-                            href={s.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={`glass-card p-5 sm:p-6 rounded-2xl border ${s.borderColor} ${s.hoverBg} transition-all duration-300 group flex items-center gap-5`}
-                        >
-                            <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.color} flex items-center justify-center text-white flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                                {s.icon}
-                            </div>
-                            <div className="flex-grow min-w-0">
-                                <p className="text-base sm:text-lg font-black text-white">{s.name}</p>
-                                <p className="text-xs text-gray-500 truncate">{s.handle}</p>
-                            </div>
-                            <span className="material-icons-round text-gray-600 group-hover:text-white group-hover:translate-x-1 transition-all flex-shrink-0">
-                                arrow_forward
-                            </span>
-                        </a>
-                    ))}
-                </div>
-            </section>
-
-            {/* ═══════════════════════════════════════
-           BOTTOM CTA
-         ═══════════════════════════════════════ */}
-            <section className="relative z-10 pb-24">
-                <div className="max-w-3xl mx-auto px-4">
-                    <div className="glass-card p-8 sm:p-12 rounded-3xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 text-center">
-                        <span className="material-icons-round text-primary text-5xl mb-4 block">restaurant</span>
-                        <h3 className="text-2xl sm:text-3xl font-black text-white mb-3">Ready to order?</h3>
-                        <p className="text-gray-400 text-sm sm:text-base mb-8 max-w-md mx-auto">
-                            Browse our restaurants, build your cart, and place your order in minutes.
+                        <h3 className="text-2xl font-black text-white mb-3">WhatsApp Us</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-8 font-medium">
+                            Message our event planning team for curated menus and custom packages.
                         </p>
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
+                        <div className="flex items-center gap-3 text-primary font-black text-sm uppercase tracking-widest group-hover:gap-5 transition-all">
+                            Send Message
+                            <span className="material-icons-round">arrow_forward</span>
+                        </div>
+                    </div>
+
+                    {/* Secondary Contact (Phone) */}
+                    <a
+                        href={`tel:+${PHONE}`}
+                        className="glass-card group relative overflow-hidden rounded-[2.5rem] p-8 sm:p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 shadow-2xl"
+                    >
+                        <div className="w-16 h-16 rounded-2xl bg-secondary/10 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-500">
+                            <span className="material-icons-round text-secondary text-3xl">phone_iphone</span>
+                        </div>
+
+                        <h3 className="text-2xl font-black text-white mb-3">Direct Call</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-2 font-medium">Speak with our party consultants.</p>
+                        <p className="text-3xl font-black text-white mb-8 tracking-tighter">{PHONE_DISPLAY}</p>
+
+                        <div className="flex items-center gap-2 text-gray-400 text-xs font-bold uppercase tracking-widest">
+                            <span className="material-icons-round text-sm">schedule</span>
+                            9 AM – 10 PM
+                        </div>
+                    </a>
+
+                    {/* Location Card */}
+                    <div className="glass-card group relative overflow-hidden rounded-[2.5rem] p-8 sm:p-10 border border-white/10 lg:col-span-1 md:col-span-2 shadow-2xl">
+                        <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-accent/20 transition-all duration-500">
+                            <span className="material-icons-round text-accent text-3xl">location_on</span>
+                        </div>
+
+                        <h3 className="text-2xl font-black text-white mb-3">Hyderabad</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-6 font-medium">
+                            Premium delivery across Banjara Hills, Jubilee Hills, Gachibowli, & more.
+                        </p>
+
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-accent/5 border border-accent/10 text-accent text-[10px] font-black uppercase tracking-widest">
+                            SERVICE AREA: CITY-WIDE
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* ═══════════════════════════════════════
+                 SOCIAL CONNECT
+               ═══════════════════════════════════════ */}
+            <section className="relative z-10 max-w-6xl mx-auto px-4 pb-24">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-12 mb-16">
+                    <div className="max-w-md text-center md:text-left">
+                        <div className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black uppercase tracking-[0.2em] mb-4">
+                            STAY CONNECTED
+                        </div>
+                        <h2 className="text-4xl sm:text-5xl font-black text-white mb-4 tracking-tight">Social Vibes</h2>
+                        <p className="text-gray-400 text-sm sm:text-base font-medium leading-relaxed">
+                            Watch our live counters, event highlights, and latest menu launches on our social channels.
+                        </p>
+                    </div>
+
+                    <div className="w-full md:w-auto grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {socials.map((s) => (
                             <a
-                                href="/#/vendors"
-                                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-primary to-orange-600 text-white font-black text-sm uppercase tracking-wider shadow-xl shadow-primary/30 hover:shadow-primary/50 hover:scale-105 active:scale-95 transition-all duration-300"
+                                key={s.name}
+                                href={s.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="glass-card flex flex-col items-center justify-center p-6 rounded-3xl border border-white/5 hover:border-white/20 hover:bg-white/5 transition-all duration-300 group"
                             >
-                                <span className="material-icons-round">storefront</span>
-                                Browse Restaurants
+                                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${s.color} flex items-center justify-center text-white mb-4 shadow-lg group-hover:scale-110 transition-transform`}>
+                                    {s.icon}
+                                </div>
+                                <span className="text-[10px] font-black text-white uppercase tracking-widest">{s.name}</span>
                             </a>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Social Feed Banner */}
+                <div className="glass-card rounded-[3rem] p-6 sm:p-12 border border-white/10 bg-gradient-to-br from-white/5 via-transparent to-primary/[0.03] overflow-hidden relative">
+                    <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-primary/20 rounded-full blur-[80px]"></div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div className="relative">
+                            <div className="aspect-video rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl relative">
+                                <img
+                                    src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1000&auto=format&fit=crop"
+                                    alt="Catering"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-8">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+                                            <span className="material-icons-round text-xl">stars</span>
+                                        </div>
+                                        <div className="text-white font-black text-sm">#PartyCartHyderbad</div>
+                                    </div>
+                                    <p className="text-gray-300 text-xs font-medium">Transforming house parties into gourmet experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="text-center lg:text-left">
+                            <h3 className="text-3xl font-black text-white mb-6 tracking-tight leading-tight">
+                                Join our community of<br />
+                                <span className="text-primary tracking-tighter">5,000+ Happy Hosts</span>
+                            </h3>
+                            <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8 text-[11px] font-black uppercase tracking-widest text-gray-400">
+                                <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-primary"></span> Live Counters</span>
+                                <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-primary"></span> Home Bawarchis</span>
+                                <span className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-primary"></span> Premium Decor</span>
+                            </div>
                             <button
                                 onClick={openWhatsApp}
-                                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-sm hover:bg-white/10 transition-all duration-300"
+                                className="px-8 py-4 rounded-2xl border border-primary/30 text-primary font-black text-xs uppercase tracking-[0.2em] hover:bg-primary hover:text-white transition-all shadow-xl shadow-primary/5"
                             >
-                                <svg className="w-5 h-5 text-[#25D366]" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                                </svg>
-                                Or WhatsApp Us
+                                Inquire Now
                             </button>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* ═══════════════════════════════════════
+                 LAST MILE CTA
+               ═══════════════════════════════════════ */}
+            <section className="relative z-10 pb-32 px-4">
+                <div className="max-w-4xl mx-auto glass-card rounded-[3.5rem] p-12 sm:p-20 border border-primary/20 bg-dark/60 text-center relative overflow-hidden">
+                    {/* Decorative elements */}
+                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
+
+                    <span className="material-icons-round text-primary text-6xl mb-8 block animate-bounce-subtle">celebration</span>
+                    <h2 className="text-4xl sm:text-6xl font-black text-white mb-6 tracking-tighter leading-none">
+                        Ready to Start Your<br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Order?</span>
+                    </h2>
+                    <p className="text-gray-400 text-lg sm:text-xl font-medium mb-12 max-w-lg mx-auto leading-relaxed">
+                        Don't stress over the menu. Choose from our curated vendors and enjoy your party!
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+                        <Link
+                            to={AppRoutes.VENDORS}
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-primary text-white font-black text-sm uppercase tracking-[0.2em] shadow-2xl shadow-primary/40 hover:scale-105 active:scale-95 transition-all duration-300"
+                        >
+                            <span className="material-icons-round">restaurant_menu</span>
+                            Browse Menus
+                        </Link>
+                        <button
+                            onClick={openWhatsApp}
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-sm uppercase tracking-[0.2em] hover:bg-white/10 transition-all duration-300"
+                        >
+                            Custom Package
+                        </button>
                     </div>
                 </div>
             </section>
