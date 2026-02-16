@@ -161,6 +161,17 @@ If your goal is **more orders**, prioritize these:
 
 ---
 
+## Apple Device Optimization (iPhone + Mac)
+
+This app includes Safari-focused improvements:
+- `viewport-fit=cover` + safe-area handling for notch/home-indicator devices.
+- iOS form input font sizing safeguards to prevent zoom jumps.
+- `-webkit-backdrop-filter` support for glass UI effects in Safari.
+- reduced-motion support for smoother low-power/mobile experiences.
+- mobile floating CTAs positioned with safe-area-aware offsets.
+
+---
+
 ## Recommended Next Improvements
 
 - Add **event analytics dashboard** (daily leads, top vendors, top dropped step).

@@ -61,7 +61,7 @@ export const Home: React.FC = () => {
                 href="https://wa.me/917396737700?text=Hi%20PartyCart!%20I'm%20interested%20in%20booking%20a%20party%20food%20order."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce-subtle"
+                className="fixed right-5 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce-subtle lg:hidden" style={{ bottom: "calc(1.25rem + env(safe-area-inset-bottom))" }}
                 aria-label="Chat on WhatsApp"
               >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-8 h-8" />
