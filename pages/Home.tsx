@@ -58,7 +58,7 @@ export const Home: React.FC = () => {
             <div className="relative z-20">
               {/* WhatsApp Floating Icon */}
               <a
-                href="https://wa.me/916309855320?text=Hi%20PartyCart!%20I'm%20interested%20in%20booking%20a%20party%20food%20order."
+                href="https://wa.me/917396737700?text=Hi%20PartyCart!%20I'm%20interested%20in%20booking%20a%20party%20food%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce-subtle"
@@ -115,6 +115,21 @@ export const Home: React.FC = () => {
                 <Link to={AppRoutes.CONTACT} className="flex items-center gap-2 px-8 py-4 bg-white/10 border border-white/20 text-white font-bold rounded-full hover:bg-white/20 transition backdrop-blur-md">
                   <span className="material-icons-round text-secondary">support_agent</span> Contact Us
                 </Link>
+              </ScrollAnimatedDiv>
+
+              <ScrollAnimatedDiv delay={500} className="mt-6 flex flex-wrap items-center gap-2.5 text-[11px]">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-bold text-gray-200">
+                  <span className="material-icons-round text-sm text-primary">verified</span>
+                  {allVendors.length}+ Verified Vendors
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-bold text-gray-200">
+                  <span className="material-icons-round text-sm text-secondary">schedule</span>
+                  Same-Day Slots Available
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-bold text-gray-200">
+                  <span className="material-icons-round text-sm text-accent">payments</span>
+                  Bulk Order Friendly Pricing
+                </span>
               </ScrollAnimatedDiv>
             </div>
 

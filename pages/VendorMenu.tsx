@@ -122,6 +122,7 @@ export const VendorMenu: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('');
   const [vegOnly, setVegOnly] = useState(false);
   const [menuData, setMenuData] = useState<VendorMenuData | null>(null);
+  const [menuSections, setMenuSections] = useState<{ category: string; items: MenuItem[] }[]>([]);
   const [loading, setLoading] = useState(true);
 
   // Cart Map: itemId -> CartItem
@@ -147,24 +148,33 @@ export const VendorMenu: React.FC = () => {
   // Load menu data lazily
   useEffect(() => {
     if (!slug) return;
+
+    let isMounted = true;
     setLoading(true);
+    setMenuSections([]);
+
     loadMenu(slug).then((data) => {
-      // Calculate sections immediately to set active category without an extra render cycle
+      if (!isMounted) return;
+
       if (data) {
         const sections = extractMenuItems(data);
+        setMenuSections(sections);
+
         if (sections.length > 0) {
-          setActiveCategory(sections[0].category);
+          setActiveCategory((prev) => (sections.some((s) => s.category === prev) ? prev : sections[0].category));
         }
+      } else {
+        setMenuSections([]);
       }
+
       setMenuData(data);
       setLoading(false);
     });
-  }, [slug]);
 
-  const menuSections = useMemo(() => {
-    if (!menuData) return [];
-    return extractMenuItems(menuData);
-  }, [menuData]);
+    return () => {
+      isMounted = false;
+    };
+  }, [slug]);
 
   // Removed the separate useEffect for setting activeCategory to avoid double-render
 
