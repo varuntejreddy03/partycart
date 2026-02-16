@@ -134,6 +134,22 @@ export const Vendors: React.FC = () => {
             Deals that sizzle hotter than your celebration. 🔥
           </p>
 
+          <div className="mb-8 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="https://wa.me/917396737700?text=Hi%20PartyCart!%20Please%20help%20me%20choose%20a%20vendor%20for%20my%20event."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-green-600 px-5 py-3 text-xs font-black uppercase tracking-wider text-white shadow-lg shadow-green-600/25 transition hover:scale-[1.02]"
+            >
+              <span className="material-icons-round text-base">chat</span>
+              Get Instant Help on WhatsApp
+            </a>
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[11px] font-bold uppercase tracking-widest text-gray-300">
+              <span className="material-icons-round text-sm text-yellow-400">bolt</span>
+              Fast response for bulk orders
+            </span>
+          </div>
+
           {/* ── Search Bar ── */}
           <div className="max-w-2xl mx-auto relative mb-8 group">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl opacity-0 group-hover:opacity-20 transition duration-500 blur-lg"></div>

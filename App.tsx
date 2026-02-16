@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { BottomNav } from './components/BottomNav';
 import { Footer } from './components/Footer';
+import { ConversionDock } from './components/ConversionDock';
 import { LoadingScreen } from './components/LoadingScreen';
 import { PageTransition } from './components/PageTransition';
 import { Home } from './pages/Home';
@@ -47,6 +48,7 @@ const App: React.FC = () => {
               </PageTransition>
             </main>
             <Footer />
+            <ConversionDock />
             <BottomNav />
           </div>
         </>
