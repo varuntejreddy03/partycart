@@ -14,6 +14,11 @@ body {
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
     min-height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .bg-noise {
@@ -26,12 +31,14 @@ body {
 
 .glass-card {
     background: rgba(30, 41, 59, 0.7);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .glass-input {
     background: rgba(15, 23, 42, 0.8);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
@@ -284,4 +291,46 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .animate-fade-in {
     animation: fadeIn 0.8s ease-out forwards;
+}
+
+.pt-safe {
+    padding-top: env(safe-area-inset-top);
+}
+
+.pb-safe-lg {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 1.25rem);
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+@supports (-webkit-touch-callout: none) {
+    input,
+    textarea,
+    select {
+        font-size: 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

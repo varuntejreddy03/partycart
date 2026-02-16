@@ -1,4 +1,3 @@
-
 import { VendorMenuData } from '../types';
 
 /* ── Vendor slug mapping (vendors with menu pages) ── */
@@ -50,17 +49,26 @@ export const VENDOR_SLUGS: Record<string, string> = {
   'Telugu Pooja Vindu': 'telugu-pooja-vindu',
 };
 
+const menuModules = import.meta.glob('../vendormenu/*.json');
+
 /* ── Dynamic import cache ── */
 const menuCache = new Map<string, VendorMenuData>();
 
 export async function loadMenu(slug: string): Promise<VendorMenuData | null> {
   if (menuCache.has(slug)) return menuCache.get(slug)!;
+
   const entry = VENDOR_REGISTRY[slug];
   if (!entry) return null;
+
+  const importer = menuModules[`../vendormenu/${entry.file}.json`];
+  if (!importer) {
+    console.warn(`No menu file found for ${slug}`);
+    return null;
+  }
+
   try {
-    // Vite handles this dynamic import effectively
-    const mod = await import(`../vendormenu/${entry.file}.json`);
-    const data = (mod.default || mod) as VendorMenuData;
+    const mod = (await importer()) as { default: VendorMenuData } | VendorMenuData;
+    const data = ('default' in mod ? mod.default : mod) as VendorMenuData;
     menuCache.set(slug, data);
     return data;
   } catch (error) {
@@ -69,18 +77,8 @@ export async function loadMenu(slug: string): Promise<VendorMenuData | null> {
   }
 }
 
-// Prefetch: triggers the download but doesn't wait for it
+// Prefetch: triggers menu download but does not block UI
 export function prefetchMenu(slug: string) {
   if (menuCache.has(slug)) return;
-  const entry = VENDOR_REGISTRY[slug];
-  if (!entry) return;
-
-  // Create a low priority request
-  const link = document.createElement('link');
-  link.rel = 'prefetch';
-  // Note: this assumes the build output path, which is tricky in dev mode.
-  // Instead, let's just use the loadMenu function but let it run detached.
-  loadMenu(slug).then(() => {
-    // Cache populated silently
-  }).catch(() => { });
+  void loadMenu(slug);
 }

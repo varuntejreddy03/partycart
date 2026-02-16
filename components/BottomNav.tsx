@@ -41,11 +41,11 @@ export const BottomNav: React.FC = () => {
 
   return (
     <>
-      <div className="h-24 md:hidden" />
+      <div className="h-24 md:hidden pb-safe" />
 
       <div
         className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-50 md:hidden transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-24 opacity-0'}`}
-        style={{ width: '90%', maxWidth: '350px' }}
+        style={{ width: '90%', maxWidth: '350px', bottom: 'calc(1.5rem + env(safe-area-inset-bottom))' }}
       >
         <div className="relative bg-black/60 backdrop-blur-2xl border border-white/10 rounded-full shadow-2xl h-16 flex items-center justify-between px-1.5 ring-1 ring-white/5 overflow-hidden">
 
