@@ -26,7 +26,7 @@ interface CartItem {
   isVeg: boolean;
 }
 
-const ADMIN_PHONE = '916309855320';
+const ADMIN_PHONE = '917396737700';
 
 /* ── Helpers ── */
 function extractMenuItems(data: VendorMenuData): { category: string; items: MenuItem[] }[] {
