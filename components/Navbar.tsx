@@ -5,13 +5,18 @@ import { AppRoutes } from '../types';
 export const Navbar: React.FC = () => {
   const location = useLocation();
   const isQuotePage = location.pathname === AppRoutes.QUOTE;
-  const [theme, setTheme] = React.useState<'light' | 'dark'>('dark');
+  const [theme, setTheme] = React.useState<'light' | 'dark'>('light');
 
   React.useEffect(() => {
     const stored = localStorage.getItem('theme') as 'light' | 'dark' | null;
-    if (stored) {
-      setTheme(stored);
-      document.documentElement.setAttribute('data-theme', stored);
+    if (stored === 'dark') {
+      setTheme('dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.documentElement.classList.add('dark');
+    } else {
+      setTheme('light');
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.documentElement.classList.remove('dark');
     }
   }, []);
 
@@ -19,7 +24,14 @@ export const Navbar: React.FC = () => {
     const next = theme === 'dark' ? 'light' : 'dark';
     setTheme(next);
     localStorage.setItem('theme', next);
+
     document.documentElement.setAttribute('data-theme', next);
+
+    if (next === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   };
 
   if (isQuotePage) return null;
