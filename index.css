@@ -8,18 +8,7 @@
     --color-primary-rgb: 255, 183, 0;
     --color-secondary: #22C55E;
 
-    /* Light Theme (Default) */
-    --bg-color: #F8FAFC;
-    --text-color: #0F172A;
-    --text-muted: #64748B;
-    --surface-color: #FFFFFF;
-    --border-color: #E2E8F0;
-    --card-bg: #FFFFFF;
-    --input-bg: #FFFFFF;
-}
-
-[data-theme="dark"] {
-    /* Dark Theme */
+    /* Dark Theme (Default) */
     --bg-color: #0F172A;
     --text-color: #FFFFFF;
     --text-muted: #94A3B8;
@@ -27,6 +16,17 @@
     --border-color: rgba(255, 255, 255, 0.1);
     --card-bg: rgba(30, 41, 59, 0.7);
     --input-bg: rgba(15, 23, 42, 0.8);
+}
+
+[data-theme="light"] {
+    /* Light Theme */
+    --bg-color: #F1F5F9;
+    --text-color: #0F172A;
+    --text-muted: #475569;
+    --surface-color: rgba(255, 255, 255, 0.8);
+    --border-color: #E2E8F0;
+    --card-bg: #FFFFFF;
+    --input-bg: #FFFFFF;
 }
 
 body {
@@ -55,21 +55,22 @@ body {
 
 .bg-surface {
     background-color: var(--surface-color);
-    border-color: var(--border-color);
-    color: var(--text-color);
 }
 
+[data-theme="light"] .bg-surface {
+    background-color: #FFFFFF !important;
+    border-color: #E2E8F0 !important;
+    color: #0F172A !important;
+}
 
+[data-theme="light"] .glass-card {
+    background: #FFFFFF !important;
+    border-color: #E2E8F0 !important;
+}
 
-/* Navbar Logo - Default (Light) */
-.navbar-logo {
+[data-theme="light"] .navbar-logo {
     /* Rich Vibrant Gold (#D98600) with depth */
     filter: brightness(0) saturate(100%) invert(56%) sepia(98%) saturate(1915%) hue-rotate(2deg) brightness(96%) contrast(101%) drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
-    opacity: 1;
-}
-
-[data-theme="dark"] .navbar-logo {
-    filter: none;
     opacity: 1;
 }
 
@@ -85,14 +86,8 @@ body {
     -webkit-text-stroke: 1px var(--border-color);
 }
 
-/* Text Stroke - Default (Light) */
-.text-stroke {
+[data-theme="light"] .text-stroke {
     -webkit-text-stroke: 1px var(--text-muted);
-    color: transparent;
-}
-
-[data-theme="dark"] .text-stroke {
-    -webkit-text-stroke: 1px var(--border-color);
     color: transparent;
 }
 
