@@ -373,7 +373,7 @@ export const Vendors: React.FC = () => {
                             onMouseEnter={() => {
                               if (slug) prefetchMenu(slug);
                             }}
-                            className="group relative block w-full rounded-[2.5rem] overflow-hidden isolate shadow-2xl shadow-black/20 hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-500 h-[500px]"
+                            className="group relative block w-full rounded-[2.5rem] overflow-hidden isolate shadow-lg md:shadow-2xl shadow-black/10 md:shadow-black/20 md:hover:shadow-primary/20 md:hover:-translate-y-2 transition-transform duration-300 h-[450px] md:h-[500px] will-change-transform"
                           >
                             {/* Image BG */}
                             <img
@@ -385,7 +385,7 @@ export const Vendors: React.FC = () => {
                             />
 
                             {/* Gradient Mesh */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent z-10"></div>
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10"></div>
                             <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent z-10 opacity-60"></div>
 
                             {/* Top Badges */}
@@ -424,7 +424,7 @@ export const Vendors: React.FC = () => {
                                 </div>
 
                                 {/* Description */}
-                                <div className="backdrop-blur-md bg-white/10 p-4 rounded-2xl border border-white/10 shadow-inner mb-6 group-hover:bg-white/20 transition-colors">
+                                <div className="bg-black/30 md:backdrop-blur-md md:bg-white/10 p-4 rounded-2xl border border-white/5 md:border-white/10 shadow-inner mb-6 md:group-hover:bg-white/20 transition-colors">
                                   <p className="text-gray-100 text-xs font-medium line-clamp-2 leading-relaxed">
                                     {v.description}
                                   </p>
@@ -488,7 +488,7 @@ export const Vendors: React.FC = () => {
                       onMouseEnter={() => {
                         if (slug) prefetchMenu(slug);
                       }}
-                      className="group relative block w-full rounded-[2.5rem] overflow-hidden isolate shadow-2xl shadow-black/20 hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-500 h-[500px]"
+                      className="group relative block w-full rounded-[2.5rem] overflow-hidden isolate shadow-lg md:shadow-2xl shadow-black/10 md:shadow-black/20 md:hover:shadow-primary/20 md:hover:-translate-y-2 transition-transform duration-300 h-[450px] md:h-[500px] will-change-transform"
                     >
                       {/* Image BG */}
                       <img
@@ -500,7 +500,7 @@ export const Vendors: React.FC = () => {
                       />
 
                       {/* Gradient Mesh */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent z-10"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10"></div>
                       <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent z-10 opacity-60"></div>
 
                       {/* Top Badges */}
@@ -539,7 +539,7 @@ export const Vendors: React.FC = () => {
                           </div>
 
                           {/* Description */}
-                          <div className="backdrop-blur-md bg-white/10 p-4 rounded-2xl border border-white/10 shadow-inner mb-6 group-hover:bg-white/20 transition-colors">
+                          <div className="bg-black/30 md:backdrop-blur-md md:bg-white/10 p-4 rounded-2xl border border-white/5 md:border-white/10 shadow-inner mb-6 md:group-hover:bg-white/20 transition-colors">
                             <p className="text-gray-100 text-xs font-medium line-clamp-2 leading-relaxed">
                               {v.description}
                             </p>

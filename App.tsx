@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { BottomNav } from './components/BottomNav';
@@ -6,12 +6,14 @@ import { Footer } from './components/Footer';
 import { ConversionDock } from './components/ConversionDock';
 import { LoadingScreen } from './components/LoadingScreen';
 import { PageTransition } from './components/PageTransition';
-import { Home } from './pages/Home';
-import { Quote } from './pages/Quote';
-import { Contact } from './pages/Contact';
-import { Vendors } from './pages/Vendors';
-import { VendorMenu } from './pages/VendorMenu';
 import { AppRoutes } from './types';
+
+// Lazy load pages for better performance
+const Home = React.lazy(() => import('./pages/Home').then(module => ({ default: module.Home })));
+const Quote = React.lazy(() => import('./pages/Quote').then(module => ({ default: module.Quote })));
+const Contact = React.lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));
+const Vendors = React.lazy(() => import('./pages/Vendors').then(module => ({ default: module.Vendors })));
+const VendorMenu = React.lazy(() => import('./pages/VendorMenu').then(module => ({ default: module.VendorMenu })));
 
 // ScrollToTop component to ensure navigation starts at the top
 const ScrollToTop = () => {
@@ -24,13 +26,20 @@ const ScrollToTop = () => {
   return null;
 };
 
+// Fallback loader for lazy-loaded pages
+const PageLoader = () => (
+  <div className="flex items-center justify-center min-h-[60vh]">
+    <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+  </div>
+);
+
 const App: React.FC = () => {
-  const [isLoading, setIsLoading] = React.useState(true);
+  const [initialLoad, setInitialLoad] = React.useState(true);
 
   return (
     <HashRouter>
-      {isLoading ? (
-        <LoadingScreen onComplete={() => setIsLoading(false)} />
+      {initialLoad ? (
+        <LoadingScreen onComplete={() => setInitialLoad(false)} />
       ) : (
         <>
           <ScrollToTop />
@@ -38,13 +47,15 @@ const App: React.FC = () => {
             <Navbar />
             <main className="flex-grow">
               <PageTransition>
-                <Routes>
-                  <Route path={AppRoutes.HOME} element={<Home />} />
-                  <Route path={AppRoutes.QUOTE} element={<Quote />} />
-                  <Route path={AppRoutes.CONTACT} element={<Contact />} />
-                  <Route path={AppRoutes.VENDORS} element={<Vendors />} />
-                  <Route path={AppRoutes.VENDOR_MENU} element={<VendorMenu />} />
-                </Routes>
+                <Suspense fallback={<PageLoader />}>
+                  <Routes>
+                    <Route path={AppRoutes.HOME} element={<Home />} />
+                    <Route path={AppRoutes.QUOTE} element={<Quote />} />
+                    <Route path={AppRoutes.CONTACT} element={<Contact />} />
+                    <Route path={AppRoutes.VENDORS} element={<Vendors />} />
+                    <Route path={AppRoutes.VENDOR_MENU} element={<VendorMenu />} />
+                  </Routes>
+                </Suspense>
               </PageTransition>
             </main>
             <Footer />

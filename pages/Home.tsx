@@ -369,42 +369,40 @@ export const Home: React.FC = () => {
                       <Link
                         key={idx}
                         to={AppRoutes.VENDORS}
-                        className="group relative block w-full rounded-[2.5rem] overflow-hidden isolate min-w-[85vw] sm:min-w-[320px] snap-center md:min-w-0 aspect-[4/5] md:aspect-[3/4] shadow-2xl shadow-black/20"
+                        className="group relative block w-[85vw] sm:w-[350px] shrink-0 rounded-[2rem] overflow-hidden isolate snap-center aspect-[4/5] md:aspect-[3/4] shadow-lg md:shadow-2xl shadow-black/10 transition-transform duration-300 active:scale-95 md:active:scale-100"
                       >
                         {/* Image BG */}
                         <img
                           src={item.image}
                           alt={item.title}
-                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 ease-out"
+                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-110 ease-out will-change-transform"
                           loading="lazy"
+                          decoding="async"
                         />
 
-                        {/* Gradient Mesh */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
-                        <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent z-10 opacity-60"></div>
+                        {/* Gradient Mesh - Simplified for Mobile */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-10"></div>
 
                         {/* Floating Top Badge */}
-                        <div className="absolute top-6 right-6 z-20">
-                          <div className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:scale-110 transition-all duration-300 shadow-lg">
-                            <span className="material-icons-round text-white text-xl -rotate-45 group-hover:rotate-0 transition-transform duration-300">arrow_forward</span>
+                        <div className="absolute top-5 right-5 z-20">
+                          <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center md:group-hover:bg-primary md:group-hover:scale-110 transition-all duration-300 shadow-lg">
+                            <span className="material-icons-round text-white text-lg md:text-xl -rotate-45 md:group-hover:rotate-0 transition-transform">arrow_forward</span>
                           </div>
                         </div>
 
                         {/* Content */}
-                        <div className="absolute inset-0 z-20 flex flex-col justify-end p-6 md:p-8">
-                          <div className="transform translate-y-2 transition-transform duration-500 group-hover:translate-y-0">
-                            <h3 className="text-3xl md:text-4xl font-black italic uppercase tracking-tighter mb-3 drop-shadow-lg">
-                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-300 group-hover:from-primary group-hover:to-yellow-400 transition-all duration-300">
-                                {item.title}
-                              </span>
+                        <div className="absolute inset-0 z-20 flex flex-col justify-end p-6">
+                          <div className="transform transition-transform duration-500 md:group-hover:translate-y-0">
+                            <h3 className="text-2xl md:text-4xl font-black italic uppercase tracking-tighter mb-2 md:mb-3 drop-shadow-lg text-white">
+                              {item.title}
                             </h3>
 
-                            <p className="text-gray-200 text-xs md:text-sm font-medium line-clamp-3 mb-6 leading-relaxed backdrop-blur-md bg-black/30 p-4 rounded-2xl border border-white/10 shadow-inner">
+                            <p className="text-gray-300 text-xs md:text-sm font-medium line-clamp-2 mb-4 leading-relaxed bg-black/20 md:backdrop-blur-md p-3 rounded-xl border border-white/5">
                               {item.description}
                             </p>
 
-                            <div className="flex items-center gap-3 opacity-90 group-hover:opacity-100 transition-opacity">
-                              <span className="h-10 px-6 rounded-full bg-white text-black text-[10px] font-black uppercase tracking-wider flex items-center shadow-[0_0_20px_rgba(255,255,255,0.3)] group-hover:bg-primary group-hover:text-white group-hover:shadow-[0_0_20px_rgba(255,183,0,0.5)] transition-all duration-300">
+                            <div className="flex items-center gap-3 opacity-100 md:opacity-90 md:group-hover:opacity-100 transition-opacity">
+                              <span className="h-8 md:h-10 px-4 md:px-6 rounded-full bg-white text-black text-[10px] font-black uppercase tracking-wider flex items-center shadow-lg md:group-hover:bg-primary md:group-hover:text-white transition-colors duration-300">
                                 View Menu
                               </span>
                             </div>
@@ -434,8 +432,8 @@ export const Home: React.FC = () => {
            HOW IT WORKS
          ═══════════════════════════════════════ */}
       <section className="relative py-24 overflow-hidden">
-        {/* Background Gradients */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-5xl bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
+        {/* Background Gradients - Optimized for Mobile */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-5xl bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <ScrollAnimatedDiv className="text-center mb-24">
