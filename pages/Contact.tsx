@@ -72,7 +72,7 @@ export const Contact: React.FC = () => {
     };
 
     return (
-        <div className="bg-dark min-h-screen relative overflow-x-hidden pt-20">
+        <div className="bg-theme min-h-screen relative overflow-x-hidden pt-20">
             {/* ═══════════════════════════════════════
                  PREMIUM BACKGROUND
                ═══════════════════════════════════════ */}
@@ -90,19 +90,19 @@ export const Contact: React.FC = () => {
                ═══════════════════════════════════════ */}
             <section className="relative z-10 pt-16 sm:pt-24 pb-16 px-4">
                 <div className="max-w-6xl mx-auto text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-primary text-[10px] sm:text-xs font-black uppercase tracking-[0.2em] mb-10 backdrop-blur-md animate-fade-in shadow-xl shadow-primary/10">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface border border-border-custom text-yellow-600 text-[10px] sm:text-xs font-black uppercase tracking-[0.2em] mb-10 backdrop-blur-md animate-fade-in shadow-xl shadow-primary/10">
                         <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
                         PLAN THE PERFECT CELEBRATION
                     </div>
 
-                    <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-8 animate-fade-in">
+                    <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-content leading-[0.9] tracking-tighter mb-8 animate-fade-in">
                         Let's Plan Your<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-orange-400 to-primary animate-gradient bg-[length:200%_auto]">
                             Perfect Party
                         </span>
                     </h1>
 
-                    <p className="text-gray-400 text-base sm:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-medium px-4 animate-fade-in [animation-delay:200ms]">
+                    <p className="text-muted-custom text-base sm:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-medium px-4 animate-fade-in [animation-delay:200ms]">
                         Hyderabad's elite party food destination. From intimate gatherings to grand celebrations, we bring the best bawarchis and chefs to your home.
                     </p>
 
@@ -116,7 +116,7 @@ export const Contact: React.FC = () => {
                         </button>
                         <a
                             href={`tel:+${PHONE}`}
-                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-base uppercase tracking-wider hover:bg-white/10 transition-all duration-300"
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-surface border border-border-custom text-content font-bold text-base uppercase tracking-wider hover:bg-surface/80 transition-all duration-300 shadow-sm"
                         >
                             <span className="material-icons-round text-2xl">call</span>
                             Quick Enquiry
@@ -143,8 +143,8 @@ export const Contact: React.FC = () => {
                             <span className="material-icons-round text-primary text-3xl">chat_bubble</span>
                         </div>
 
-                        <h3 className="text-2xl font-black text-white mb-3">WhatsApp Us</h3>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-8 font-medium">
+                        <h3 className="text-2xl font-black text-content mb-3">WhatsApp Us</h3>
+                        <p className="text-muted-custom text-sm leading-relaxed mb-8 font-medium">
                             Message our event planning team for curated menus and custom packages.
                         </p>
 
@@ -159,13 +159,13 @@ export const Contact: React.FC = () => {
                         href={`tel:+${PHONE}`}
                         className="glass-card group relative overflow-hidden rounded-[2.5rem] p-8 sm:p-10 border border-white/10 hover:border-secondary/40 transition-all duration-500 shadow-2xl"
                     >
-                        <div className="w-16 h-16 rounded-2xl bg-secondary/10 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-500">
+                        <div className="w-16 h-16 rounded-2xl bg-surface backdrop-blur-md border border-border-custom flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-500">
                             <span className="material-icons-round text-secondary text-3xl">phone_iphone</span>
                         </div>
 
-                        <h3 className="text-2xl font-black text-white mb-3">Direct Call</h3>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-2 font-medium">Speak with our party consultants.</p>
-                        <p className="text-3xl font-black text-white mb-8 tracking-tighter">{PHONE_DISPLAY}</p>
+                        <h3 className="text-2xl font-black text-content mb-3">Direct Call</h3>
+                        <p className="text-muted-custom text-sm leading-relaxed mb-2 font-medium">Speak with our party consultants.</p>
+                        <p className="text-3xl font-black text-content mb-8 tracking-tighter">{PHONE_DISPLAY}</p>
 
                         <div className="flex items-center gap-2 text-gray-400 text-xs font-bold uppercase tracking-widest">
                             <span className="material-icons-round text-sm">schedule</span>
@@ -179,8 +179,8 @@ export const Contact: React.FC = () => {
                             <span className="material-icons-round text-accent text-3xl">location_on</span>
                         </div>
 
-                        <h3 className="text-2xl font-black text-white mb-3">Hyderabad</h3>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-6 font-medium">
+                        <h3 className="text-2xl font-black text-content mb-3">Hyderabad</h3>
+                        <p className="text-muted-custom text-sm leading-relaxed mb-6 font-medium">
                             Premium delivery across Banjara Hills, Jubilee Hills, Gachibowli, & more.
                         </p>
 
@@ -200,8 +200,8 @@ export const Contact: React.FC = () => {
                         <div className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black uppercase tracking-[0.2em] mb-4">
                             STAY CONNECTED
                         </div>
-                        <h2 className="text-4xl sm:text-5xl font-black text-white mb-4 tracking-tight">Social Vibes</h2>
-                        <p className="text-gray-400 text-sm sm:text-base font-medium leading-relaxed">
+                        <h2 className="text-4xl sm:text-5xl font-black text-content mb-4 tracking-tight">Social Vibes</h2>
+                        <p className="text-muted-custom text-sm sm:text-base font-medium leading-relaxed">
                             Watch our live counters, event highlights, and latest menu launches on our social channels.
                         </p>
                     </div>
@@ -213,12 +213,12 @@ export const Contact: React.FC = () => {
                                 href={s.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="glass-card flex flex-col items-center justify-center p-6 rounded-3xl border border-white/5 hover:border-white/20 hover:bg-white/5 transition-all duration-300 group"
+                                className="glass-card flex flex-col items-center justify-center p-6 rounded-3xl border border-border-custom bg-surface hover:border-primary/20 hover:bg-primary/5 transition-all duration-300 group"
                             >
                                 <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${s.color} flex items-center justify-center text-white mb-4 shadow-lg group-hover:scale-110 transition-transform`}>
                                     {s.icon}
                                 </div>
-                                <span className="text-[10px] font-black text-white uppercase tracking-widest">{s.name}</span>
+                                <span className="text-[10px] font-black text-content uppercase tracking-widest">{s.name}</span>
                             </a>
                         ))}
                     </div>
@@ -249,7 +249,7 @@ export const Contact: React.FC = () => {
                         </div>
 
                         <div className="text-center lg:text-left">
-                            <h3 className="text-3xl font-black text-white mb-6 tracking-tight leading-tight">
+                            <h3 className="text-3xl font-black text-content mb-6 tracking-tight leading-tight">
                                 Join our community of<br />
                                 <span className="text-primary tracking-tighter">5,000+ Happy Hosts</span>
                             </h3>
@@ -278,7 +278,7 @@ export const Contact: React.FC = () => {
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
 
                     <span className="material-icons-round text-primary text-6xl mb-8 block animate-bounce-subtle">celebration</span>
-                    <h2 className="text-4xl sm:text-6xl font-black text-white mb-6 tracking-tighter leading-none">
+                    <h2 className="text-4xl sm:text-6xl font-black text-content mb-6 tracking-tighter leading-none">
                         Ready to Start Your<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Order?</span>
                     </h2>

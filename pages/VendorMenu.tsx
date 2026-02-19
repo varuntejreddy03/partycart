@@ -86,14 +86,14 @@ function getTomorrowDate(): string {
 const MenuSkeleton: React.FC = () => (
   <div className="animate-pulse space-y-6 mt-8">
     {[1, 2, 3, 4].map((i) => (
-      <div key={i} className="rounded-2xl border border-white/[0.06] bg-surface/40 p-5">
+      <div key={i} className="rounded-2xl border border-border-custom bg-surface p-5 shadow-sm">
         <div className="flex gap-4">
           <div className="flex-grow space-y-3">
-            <div className="h-4 w-3/4 bg-white/10 rounded"></div>
-            <div className="h-3 w-1/2 bg-white/5 rounded"></div>
-            <div className="h-8 w-24 bg-white/5 rounded mt-2"></div>
+            <div className="h-4 w-3/4 bg-gray-500/20 rounded animate-pulse"></div>
+            <div className="h-3 w-1/2 bg-gray-500/20 rounded animate-pulse"></div>
+            <div className="h-8 w-24 bg-gray-500/20 rounded mt-2 animate-pulse"></div>
           </div>
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-white/5"></div>
+          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-gray-500/20 animate-pulse"></div>
         </div>
       </div>
     ))}
@@ -106,7 +106,7 @@ const Toast: React.FC<{ message: string; visible: boolean }> = ({ message, visib
     className={`fixed top-24 left-1/2 -translate-x-1/2 z-[200] transition-all duration-300 pointer-events-none ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
       }`}
   >
-    <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-surface/80 backdrop-blur-xl text-white text-sm font-bold shadow-2xl border border-white/10">
+    <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-surface backdrop-blur-xl text-content text-sm font-bold shadow-2xl border border-border-custom">
       <span className="material-icons-round text-green-500">check_circle</span>
       {message}
     </div>
@@ -318,11 +318,11 @@ export const VendorMenu: React.FC = () => {
   /* ─── Not Found ─── */
   if (!registryEntry || !vendorInfo) {
     return (
-      <div className="bg-dark min-h-screen flex items-center justify-center">
+      <div className="bg-theme min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <span className="material-icons-round text-gray-600 text-7xl mb-4 block">storefront</span>
-          <h2 className="text-2xl font-black text-white mb-2">Restaurant Not Found</h2>
-          <p className="text-gray-500 mb-6">The menu you're looking for doesn't exist.</p>
+          <span className="material-icons-round text-muted-custom text-7xl mb-4 block">storefront</span>
+          <h2 className="text-2xl font-black text-content mb-2">Restaurant Not Found</h2>
+          <p className="text-muted-custom mb-6">The menu you're looking for doesn't exist.</p>
           <Link
             to={AppRoutes.VENDORS}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-white font-bold text-sm hover:scale-105 transition"
@@ -336,7 +336,7 @@ export const VendorMenu: React.FC = () => {
   }
 
   return (
-    <div className="bg-dark min-h-screen relative text-white selection:bg-primary/30 pb-32">
+    <div className="bg-theme min-h-screen relative text-content selection:bg-primary/30 pb-32">
       {/* ── Toast (Portal) ── */}
       {ReactDOM.createPortal(
         <Toast message={toastMsg} visible={toastVisible} />,
@@ -356,7 +356,7 @@ export const VendorMenu: React.FC = () => {
         <div className="fixed bottom-4 left-4 right-4 z-[90] animate-slideUp">
           <button
             onClick={() => setCartOpen(true)}
-            className="w-full max-w-2xl mx-auto flex items-center justify-between p-4 bg-gradient-to-r from-primary to-orange-600 text-white rounded-2xl shadow-2xl shadow-primary/30 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 ring-1 ring-white/10 backdrop-blur-md"
+            className="w-full max-w-2xl mx-auto flex items-center justify-between p-4 bg-gradient-to-r from-primary to-yellow-600 text-white rounded-2xl shadow-2xl shadow-primary/30 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 ring-1 ring-white/10 backdrop-blur-md"
           >
             <div className="flex flex-col items-start">
               <span className="text-[10px] uppercase font-bold opacity-90">{cartCount} ITEM{cartCount > 1 ? 'S' : ''}</span>
@@ -385,20 +385,20 @@ export const VendorMenu: React.FC = () => {
               decoding="sync"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-dark"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/40"></div>
 
           <Link
             to={AppRoutes.VENDORS}
-            className="absolute top-28 left-4 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-md text-white border border-white/10 hover:bg-white/20 transition hover:-translate-x-1"
+            className="absolute top-28 left-4 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-md text-white border border-white/10 hover:bg-black/60 transition hover:-translate-x-1"
           >
             <span className="material-icons-round text-xl">arrow_back</span>
           </Link>
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-24">
-          <div className="glass-card rounded-[2rem] p-6 sm:p-8 backdrop-blur-xl border border-white/10 shadow-2xl bg-surface/40">
+          <div className="glass-card rounded-[2rem] p-6 sm:p-8 backdrop-blur-xl border border-border-custom shadow-2xl bg-surface">
             <div className="flex flex-col sm:flex-row sm:items-start gap-5">
-              <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-2xl overflow-hidden shadow-2xl border-4 border-surface/50 flex-shrink-0 -mt-12 sm:mt-0">
+              <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-2xl overflow-hidden shadow-2xl border-4 border-surface flex-shrink-0 -mt-12 sm:mt-0 bg-surface">
                 <img
                   src={vendorInfo.image}
                   alt={vendorInfo.name.trim()}
@@ -408,18 +408,18 @@ export const VendorMenu: React.FC = () => {
                 />
               </div>
               <div className="flex-grow pt-1">
-                <h1 className="text-3xl sm:text-4xl font-black text-white italic tracking-tight mb-2 leading-none shadow-black drop-shadow-lg">
+                <h1 className="text-3xl sm:text-4xl font-black text-content italic tracking-tight mb-2 leading-none drop-shadow-sm">
                   {vendorInfo.name.trim()}
                 </h1>
-                <p className="text-gray-300 text-sm leading-relaxed max-w-lg mb-4 line-clamp-2 font-medium">{vendorInfo.description}</p>
+                <p className="text-muted-custom text-sm leading-relaxed max-w-lg mb-4 line-clamp-2 font-medium">{vendorInfo.description}</p>
 
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-xs font-bold text-gray-300 flex items-center gap-1.5">
-                    <span className="material-icons-round text-sm text-yellow-400">star</span>
+                  <span className="px-3 py-1 bg-surface border border-border-custom rounded-lg text-xs font-bold text-muted-custom flex items-center gap-1.5">
+                    <span className="material-icons-round text-sm text-yellow-500">star</span>
                     4.2 Rating
                   </span>
                   {(vendorInfo.is_veg || vendorInfo.is_pure_veg) && (
-                    <span className="px-3 py-1 bg-green-500/10 border border-green-500/20 rounded-lg text-xs font-bold text-green-400 flex items-center gap-1.5">
+                    <span className="px-3 py-1 bg-green-500/10 border border-green-500/20 rounded-lg text-xs font-bold text-green-600 flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-green-500"></span>
                       Pure Veg
                     </span>
@@ -434,14 +434,14 @@ export const VendorMenu: React.FC = () => {
       {/* ═══════════════════════════════════════
            MENU NAVIGATION (Sticky)
          ═══════════════════════════════════════ */}
-      <div className="sticky top-20 z-40 bg-dark/95 backdrop-blur-xl border-b border-white/5 py-3 mt-8 shadow-2xl">
+      <div className="sticky top-20 z-40 bg-surface backdrop-blur-xl border-b border-border-custom py-3 mt-8 shadow-2xl">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 overflow-x-auto hide-scroll pb-1">
             <button
               onClick={() => setVegOnly(!vegOnly)}
               className={`flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-full text-xs font-bold border transition-all duration-300 ${vegOnly
-                ? 'bg-green-600/20 text-green-400 border-green-500/30 ring-1 ring-green-500/20'
-                : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'
+                ? 'bg-green-500/10 text-green-600 border-green-500/30 ring-1 ring-green-500/20'
+                : 'bg-surface text-muted-custom border-border-custom hover:bg-surface/80'
                 }`}
             >
               <div className={`w-3.5 h-3.5 border-2 rounded-sm flex items-center justify-center ${vegOnly ? 'border-green-500' : 'border-gray-500'}`}>
@@ -458,7 +458,7 @@ export const VendorMenu: React.FC = () => {
                 onClick={() => scrollToCategory(s.category)}
                 className={`flex-shrink-0 px-4 py-2.5 rounded-full text-xs font-bold border transition-all whitespace-nowrap ${activeCategory === s.category
                   ? 'bg-primary text-white border-primary shadow-lg shadow-primary/20 scale-105'
-                  : 'bg-white/5 text-gray-400 border-white/10 hover:text-white hover:bg-white/10'
+                  : 'bg-surface text-muted-custom border-border-custom hover:text-content hover:bg-surface/80'
                   }`}
               >
                 {s.category}
@@ -486,9 +486,9 @@ export const VendorMenu: React.FC = () => {
                   className="scroll-mt-40"
                 /* Removed animate-fade-in-up and animationDelay to fix scrolling 'lag' */
                 >
-                  <h2 className="text-xl sm:text-2xl font-black text-white mb-6 flex items-center gap-3">
+                  <h2 className="text-xl sm:text-2xl font-black text-content mb-6 flex items-center gap-3">
                     {section.category}
-                    <span className="text-sm font-bold text-gray-600 bg-white/5 px-2 py-0.5 rounded-md border border-white/5">
+                    <span className="text-sm font-bold text-muted-custom bg-surface px-2 py-0.5 rounded-md border border-border-custom shadow-sm">
                       {section.items.length}
                     </span>
                   </h2>
@@ -512,10 +512,10 @@ export const VendorMenu: React.FC = () => {
               ))}
 
               {filteredSections.length === 0 && (
-                <div className="text-center py-20 bg-white/5 rounded-3xl border border-white/5">
-                  <span className="material-icons-round text-gray-600 text-6xl mb-4 block">soup_kitchen</span>
-                  <p className="text-gray-500 text-lg font-bold">No items found</p>
-                  <p className="text-gray-600 text-sm mt-1">Try turning off the veg filter</p>
+                <div className="text-center py-20 bg-surface rounded-3xl border border-border-custom">
+                  <span className="material-icons-round text-muted-custom text-6xl mb-4 block">soup_kitchen</span>
+                  <p className="text-muted-custom text-lg font-bold">No items found</p>
+                  <p className="text-muted-custom text-sm mt-1">Try turning off the veg filter</p>
                 </div>
               )}
             </div>
@@ -535,10 +535,10 @@ export const VendorMenu: React.FC = () => {
             onClick={(e) => e.stopPropagation()}
           >
             {/* Header */}
-            <div className="flex items-center justify-between px-6 py-5 border-b border-white/5 bg-surface/50 backdrop-blur-md">
+            <div className="flex items-center justify-between px-6 py-5 border-b border-white/5 bg-surface backdrop-blur-md">
               <div>
-                <h2 className="text-xl font-black text-white">Your Order</h2>
-                <p className="text-xs text-gray-400 font-medium mt-1">{vendorInfo.name.trim()} · {cartCount} items</p>
+                <h2 className="text-xl font-black text-content">Your Order</h2>
+                <p className="text-xs text-muted-custom font-medium mt-1">{vendorInfo.name.trim()} · {cartCount} items</p>
               </div>
               <div className="flex items-center gap-2">
                 <button
@@ -561,22 +561,22 @@ export const VendorMenu: React.FC = () => {
               {/* Items */}
               <div className="space-y-4">
                 {cartItems.map((item) => (
-                  <div key={item.name} className="flex items-center gap-4 bg-white/5 p-4 rounded-2xl border border-white/5">
+                  <div key={item.name} className="flex items-center gap-4 bg-surface p-4 rounded-2xl border border-border-custom">
                     <div className={`w-4 h-4 rounded-sm border-2 flex items-center justify-center flex-shrink-0 ${item.isVeg ? 'border-green-500' : 'border-red-500'}`}>
                       <div className={`w-2 h-2 rounded-full ${item.isVeg ? 'bg-green-500' : 'bg-red-500'}`} />
                     </div>
 
                     <div className="flex-grow min-w-0">
-                      <p className="text-sm font-bold text-white truncate">{item.name}</p>
-                      <p className="text-xs text-gray-500 mt-0.5">{formatPrice(item.price)}</p>
+                      <p className="text-sm font-bold text-content truncate">{item.name}</p>
+                      <p className="text-xs text-muted-custom mt-0.5">{formatPrice(item.price)}</p>
                     </div>
 
-                    <div className="flex items-center bg-dark rounded-xl border border-white/10 h-9 overflow-hidden">
-                      <button onClick={() => updateQuantity(item.name, -1)} className="w-9 h-full flex items-center justify-center text-primary hover:bg-white/5 transition">
+                    <div className="flex items-center bg-surface rounded-xl border border-border-custom h-9 overflow-hidden">
+                      <button onClick={() => updateQuantity(item.name, -1)} className="w-9 h-full flex items-center justify-center text-primary hover:bg-black/5 transition">
                         <span className="material-icons-round text-base">remove</span>
                       </button>
-                      <span className="w-8 text-center text-sm font-bold text-white">{item.quantity}</span>
-                      <button onClick={() => updateQuantity(item.name, 1)} className="w-9 h-full flex items-center justify-center text-primary hover:bg-white/5 transition">
+                      <span className="w-8 text-center text-sm font-bold text-content">{item.quantity}</span>
+                      <button onClick={() => updateQuantity(item.name, 1)} className="w-9 h-full flex items-center justify-center text-primary hover:bg-black/5 transition">
                         <span className="material-icons-round text-base">add</span>
                       </button>
                     </div>
@@ -585,8 +585,8 @@ export const VendorMenu: React.FC = () => {
               </div>
 
               {/* Form */}
-              <div className="bg-white/5 rounded-3xl p-6 border border-white/5 space-y-5">
-                <h3 className="text-sm font-bold text-white flex items-center gap-2">
+              <div className="bg-surface rounded-3xl p-6 border border-border-custom space-y-5">
+                <h3 className="text-sm font-bold text-content flex items-center gap-2">
                   <span className="material-icons-round text-primary text-xl">person_pin</span>
                   Delivery Details
                 </h3>
@@ -595,20 +595,19 @@ export const VendorMenu: React.FC = () => {
                   <input
                     type="text"
                     placeholder="Your Name *"
-                    className="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
+                    className="w-full bg-surface border border-border-custom rounded-xl px-4 py-3.5 text-sm text-content focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
                     value={customerName}
                     onChange={(e) => setCustomerName(e.target.value)}
                   />
                   <input
-                    type="tel"
                     placeholder="Mobile Number *"
-                    className="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
+                    className="w-full bg-surface border border-border-custom rounded-xl px-4 py-3.5 text-sm text-content focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
                     value={customerPhone}
                     onChange={(e) => setCustomerPhone(e.target.value)}
                   />
                   <input
                     type="date"
-                    className="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition [color-scheme:dark]"
+                    className="w-full bg-surface border border-border-custom rounded-xl px-4 py-3.5 text-sm text-content focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
                     value={deliveryDate}
                     min={new Date().toISOString().split('T')[0]}
                     onChange={(e) => setDeliveryDate(e.target.value)}
@@ -616,14 +615,14 @@ export const VendorMenu: React.FC = () => {
                   <input
                     type="text"
                     placeholder="Delivery Address (Optional)"
-                    className="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
+                    className="w-full bg-surface border border-border-custom rounded-xl px-4 py-3.5 text-sm text-content focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
                     value={customerAddress}
                     onChange={(e) => setCustomerAddress(e.target.value)}
                   />
                   <input
                     type="text"
                     placeholder="Special Note (Optional)"
-                    className="w-full bg-dark/50 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
+                    className="w-full bg-surface border border-border-custom rounded-xl px-4 py-3.5 text-sm text-content focus:border-primary/50 focus:ring-1 focus:ring-primary/20 focus:outline-none transition"
                     value={customerNote}
                     onChange={(e) => setCustomerNote(e.target.value)}
                   />
@@ -632,10 +631,10 @@ export const VendorMenu: React.FC = () => {
             </div>
 
             {/* Footer */}
-            <div className="p-6 border-t border-white/5 bg-surface/50 backdrop-blur-md">
+            <div className="p-6 border-t border-border-custom bg-surface backdrop-blur-md">
               <div className="flex justify-between items-end mb-4">
-                <span className="text-gray-400 text-sm font-medium">Grand Total</span>
-                <span className="text-3xl font-black text-white">{formatPrice(cartTotal)}</span>
+                <span className="text-muted-custom text-sm font-medium">Grand Total</span>
+                <span className="text-3xl font-black text-content">{formatPrice(cartTotal)}</span>
               </div>
 
               <button
@@ -643,7 +642,7 @@ export const VendorMenu: React.FC = () => {
                 disabled={!isFormValid}
                 className={`w-full py-4 rounded-xl flex items-center justify-center gap-3 text-sm font-black uppercase tracking-wider transition-all shadow-xl hover:scale-[1.02] active:scale-[0.98] ${isFormValid
                   ? 'bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-[#25D366]/20'
-                  : 'bg-white/10 text-gray-500 cursor-not-allowed'
+                  : 'bg-surface border border-border-custom text-muted-custom cursor-not-allowed opacity-70'
                   }`}
               >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="" className="w-6 h-6" />
@@ -681,13 +680,13 @@ const MenuItemCard = React.memo<MenuItemCardProps>(({ item, qty, onAdd, onUpdate
   const isBestSeller = item.ribbon === 'Bestseller' || (item.rating && item.rating >= 4.5);
 
   return (
-    <div className={`group relative rounded-2xl border bg-surface/40 backdrop-blur-sm p-4 transition-all duration-300 hover:bg-surface/60 ${qty > 0 ? 'border-primary/50 bg-primary/[0.04]' : 'border-white/[0.06] hover:border-white/20'
+    <div className={`group relative rounded-2xl border bg-surface p-4 transition-all duration-300 hover:shadow-lg ${qty > 0 ? 'border-primary/50 bg-primary/[0.04]' : 'border-border-custom hover:border-primary/20'
       }`}>
 
       {/* Ribbon */}
       {isBestSeller && (
         <div className="absolute -top-3 -left-2 z-20 pointer-events-none">
-          <span className="px-2 py-0.5 rounded-md bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-[9px] font-black uppercase tracking-wider shadow-lg shadow-orange-500/20 flex items-center gap-1 animate-pulse-slow">
+          <span className="px-2 py-0.5 rounded-md bg-gradient-to-r from-yellow-500 to-yellow-600 text-white text-[9px] font-black uppercase tracking-wider shadow-lg shadow-yellow-500/20 flex items-center gap-1 animate-pulse-slow">
             <span className="material-icons-round text-[10px]">stars</span>
             Bestseller
           </span>
@@ -708,28 +707,28 @@ const MenuItemCard = React.memo<MenuItemCardProps>(({ item, qty, onAdd, onUpdate
               </span>
             )}
             {item.containsEgg && (
-              <span className="text-[9px] font-bold text-gray-500 border border-gray-600 px-1 rounded uppercase bg-white/5">Egg</span>
+              <span className="text-[9px] font-bold text-muted-custom border border-border-custom px-1 rounded uppercase bg-surface">Egg</span>
             )}
           </div>
 
-          <h3 className="text-base font-bold text-white leading-tight mb-1 group-hover:text-primary transition-colors">{item.name}</h3>
+          <h3 className="text-base font-bold text-content leading-tight mb-1 group-hover:text-primary transition-colors">{item.name}</h3>
 
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-base font-black text-white">{item.price ? formatPrice(item.price) : 'MRP'}</span>
+            <span className="text-base font-black text-content">{item.price ? formatPrice(item.price) : 'MRP'}</span>
             {item.originalPrice && item.originalPrice > (item.price || 0) && (
-              <span className="text-xs text-gray-500 line-through decoration-white/20">{formatPrice(item.originalPrice)}</span>
+              <span className="text-xs text-muted-custom line-through decoration-muted-custom/50">{formatPrice(item.originalPrice)}</span>
             )}
           </div>
 
           {item.description && (
-            <p className="text-gray-400 text-xs leading-relaxed line-clamp-2 opacity-80">{item.description}</p>
+            <p className="text-muted-custom text-xs leading-relaxed line-clamp-2 opacity-90">{item.description}</p>
           )}
         </div>
 
         {/* Right side Image + Button */}
         <div className="flex-shrink-0 w-28 sm:w-32 flex flex-col items-center gap-3">
           <div className="w-full aspect-square relative">
-            <div className="w-full h-full rounded-xl overflow-hidden bg-white/5 border border-white/5">
+            <div className="w-full h-full rounded-xl overflow-hidden bg-surface border border-border-custom">
               {hasImage && imgUrl ? (
                 <img
                   src={imgUrl}
@@ -739,7 +738,7 @@ const MenuItemCard = React.memo<MenuItemCardProps>(({ item, qty, onAdd, onUpdate
                   decoding={priority ? "sync" : "async"}
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center text-gray-700">
+                <div className="w-full h-full flex items-center justify-center text-muted-custom/50">
                   <span className="material-icons-round text-3xl">restaurant</span>
                 </div>
               )}
@@ -756,11 +755,11 @@ const MenuItemCard = React.memo<MenuItemCardProps>(({ item, qty, onAdd, onUpdate
                 </button>
               ) : (
                 <div className="w-full h-9 flex items-center justify-between rounded-lg bg-primary text-white overflow-hidden shadow-lg ring-2 ring-primary/50">
-                  <button onClick={handleDec} className="w-9 h-full flex items-center justify-center hover:bg-black/20 text-white">
+                  <button onClick={handleDec} className="w-9 h-full flex items-center justify-center hover:bg-black/10 text-white">
                     <span className="material-icons-round text-sm">remove</span>
                   </button>
                   <span className="text-xs font-black">{qty}</span>
-                  <button onClick={handleInc} className="w-9 h-full flex items-center justify-center hover:bg-black/20 text-white">
+                  <button onClick={handleInc} className="w-9 h-full flex items-center justify-center hover:bg-black/10 text-white">
                     <span className="material-icons-round text-sm">add</span>
                   </button>
                 </div>

@@ -47,7 +47,7 @@ export const BottomNav: React.FC = () => {
         className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-50 md:hidden transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-24 opacity-0'}`}
         style={{ width: '90%', maxWidth: '350px', bottom: 'calc(1.5rem + env(safe-area-inset-bottom))' }}
       >
-        <div className="relative bg-black/60 backdrop-blur-2xl border border-white/10 rounded-full shadow-2xl h-16 flex items-center justify-between px-1.5 ring-1 ring-white/5 overflow-hidden">
+        <div className="relative bg-surface backdrop-blur-2xl border border-border-custom rounded-full shadow-2xl h-16 flex items-center justify-between px-1.5 ring-1 ring-white/5 overflow-hidden">
 
           {/* Sliding Active Background */}
           <div
@@ -57,7 +57,7 @@ export const BottomNav: React.FC = () => {
               width: '30%'
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-orange-500/20 blur-md rounded-full"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-yellow-500/20 blur-md rounded-full"></div>
           </div>
 
           {TABS.map((tab) => {
@@ -78,8 +78,8 @@ export const BottomNav: React.FC = () => {
                   <span
                     className={`material-icons-round text-[28px] transition-all duration-300 relative z-10 
                       ${isActive
-                        ? 'text-primary drop-shadow-[0_0_8px_rgba(249,115,22,0.5)] scale-110'
-                        : 'text-gray-400/80 hover:text-white scale-100'}`}
+                        ? 'text-primary drop-shadow-[0_0_8px_rgba(255,183,0,0.5)] scale-110'
+                        : 'text-muted-custom/80 hover:text-content scale-100'}`}
                   >
                     {tab.icon}
                   </span>
@@ -87,8 +87,8 @@ export const BottomNav: React.FC = () => {
                   <span
                     className={`text-[10px] font-bold mt-0.5 transition-all duration-300 ease-out origin-top
                       ${isActive
-                        ? 'opacity-100 scale-100 text-white'
-                        : 'opacity-0 scale-50 text-gray-500 absolute top-full'}`}
+                        ? 'opacity-100 scale-100 text-content'
+                        : 'opacity-0 scale-50 text-muted-custom absolute top-full'}`}
                   >
                     {tab.label}
                   </span>
