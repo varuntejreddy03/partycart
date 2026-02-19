@@ -34,36 +34,28 @@ const PageLoader = () => (
 );
 
 const App: React.FC = () => {
-  const [initialLoad, setInitialLoad] = React.useState(true);
-
   return (
     <HashRouter>
-      {initialLoad ? (
-        <LoadingScreen onComplete={() => setInitialLoad(false)} />
-      ) : (
-        <>
-          <ScrollToTop />
-          <div className="flex flex-col min-h-screen">
-            <Navbar />
-            <main className="flex-grow">
-              <PageTransition>
-                <Suspense fallback={<PageLoader />}>
-                  <Routes>
-                    <Route path={AppRoutes.HOME} element={<Home />} />
-                    <Route path={AppRoutes.QUOTE} element={<Quote />} />
-                    <Route path={AppRoutes.CONTACT} element={<Contact />} />
-                    <Route path={AppRoutes.VENDORS} element={<Vendors />} />
-                    <Route path={AppRoutes.VENDOR_MENU} element={<VendorMenu />} />
-                  </Routes>
-                </Suspense>
-              </PageTransition>
-            </main>
-            <Footer />
-            <ConversionDock />
-            <BottomNav />
-          </div>
-        </>
-      )}
+      <ScrollToTop />
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow">
+          <PageTransition>
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
+                <Route path={AppRoutes.HOME} element={<Home />} />
+                <Route path={AppRoutes.QUOTE} element={<Quote />} />
+                <Route path={AppRoutes.CONTACT} element={<Contact />} />
+                <Route path={AppRoutes.VENDORS} element={<Vendors />} />
+                <Route path={AppRoutes.VENDOR_MENU} element={<VendorMenu />} />
+              </Routes>
+            </Suspense>
+          </PageTransition>
+        </main>
+        <Footer />
+        <ConversionDock />
+        <BottomNav />
+      </div>
     </HashRouter>
   );
 };
