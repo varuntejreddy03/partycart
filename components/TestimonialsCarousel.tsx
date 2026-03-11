@@ -17,7 +17,7 @@ export const TestimonialsCarousel: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-surface backdrop-blur-md border border-border-custom rounded-2xl p-6 mb-8 shadow-sm">
+    <div className="bg-surface backdrop-blur-md border border-border-custom border-l-4 border-l-primary rounded-2xl p-6 mb-8 shadow-sm">
       <div className="text-center">
         <div className="flex justify-center mb-2">
           {[...Array(testimonials[current].rating)].map((_, i) => (

@@ -52,13 +52,13 @@ const trendingNames = new Set([
 const categoryBadgeColor = (cat: string) => {
   switch (cat) {
     case 'Party Box':
-      return 'bg-primary/10 text-primary border-primary/20';
+      return 'bg-[#FF5C00]/85 text-white';
     case 'Live Counter':
-      return 'bg-secondary/10 text-secondary border-secondary/20';
+      return 'bg-[#22C55E]/85 text-white';
     case 'Catering':
-      return 'bg-accent/10 text-accent border-accent/20';
+      return 'bg-[#6366F1]/85 text-white';
     default:
-      return 'bg-surface text-muted-custom border-border-custom';
+      return 'bg-surface text-white';
   }
 };
 
@@ -185,23 +185,20 @@ export const Vendors: React.FC = () => {
           </p>
 
           {/* Search Bar - Enhanced */}
-          <div className="max-w-3xl mx-auto relative mb-12 group perspective-1000 animate-fade-in" style={{ animationDelay: '0.7s' }}>
-            {/* Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-secondary rounded-[2rem] opacity-30 group-hover:opacity-50 blur-xl transition duration-500"></div>
-
-            <div className="relative bg-surface border border-border-custom p-2 rounded-[2rem] shadow-2xl flex items-center gap-4 transition-transform group-hover:scale-[1.01]">
-              <div className="pl-6 text-primary">
-                <span className="material-icons-round text-3xl">search</span>
+          <div className="max-w-3xl mx-auto relative mb-12 group perspective-1000 animate-fade-in px-4" style={{ animationDelay: '0.7s' }}>
+            <div className="relative bg-white/[0.06] border border-white/15 p-1.5 sm:p-2 rounded-[2rem] shadow-2xl flex items-center gap-2 sm:gap-4 transition-transform group-hover:scale-[1.01]">
+              <div className="pl-4 sm:pl-6 text-primary">
+                <span className="material-icons-round text-2xl sm:text-3xl">search</span>
               </div>
               <input
                 type="text"
-                placeholder="Search for biryani, kebabs, or vendors..."
+                placeholder="Search food or vendors..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-transparent border-none text-content text-lg font-medium placeholder-muted-custom focus:ring-0 px-2 py-4"
+                className="w-full bg-transparent border-none text-[#F5F5F0] text-base sm:text-lg font-medium placeholder-[#6B7280] focus:ring-0 px-2 py-3 sm:py-4"
               />
-              <div className="hidden sm:flex pr-2">
-                <button className="bg-primary text-white px-8 py-3 rounded-full font-black uppercase tracking-wider text-sm shadow-lg hover:shadow-primary/40 hover:-translate-y-1 transition-all">
+              <div className="flex pr-1.5 sm:pr-2">
+                <button className="bg-[#FF5C00] hover:bg-[#FF7A00] text-white px-5 sm:px-8 py-2 sm:py-3 rounded-full font-black uppercase tracking-wider text-[10px] sm:text-sm shadow-lg transition-all">
                   Search
                 </button>
               </div>
@@ -209,39 +206,36 @@ export const Vendors: React.FC = () => {
           </div>
 
           {/* ── Filter Pills (Desktop & Mobile Scroll) ── */}
-          <div className="flex flex-wrap justify-center gap-3 mb-4 overflow-x-auto hide-scroll pb-2 -mx-4 px-4 sm:mx-0 sm:px-0">
+          <div className="flex items-center gap-3 mb-4 overflow-x-auto hide-scroll pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:justify-center">
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`flex-shrink-0 px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider border transition-all duration-300 ${activeCategory === cat
-                  ? 'bg-primary text-white border-primary shadow-lg shadow-primary/30 scale-105'
-                  : 'bg-surface text-muted-custom border-border-custom hover:bg-surface/80 hover:text-content'
+                className={`flex-shrink-0 px-5 py-2.5 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 ${activeCategory === cat
+                  ? 'bg-[#FF5C00] text-white border-none'
+                  : 'bg-transparent text-[#9A9DB0] border border-white/20 hover:text-white'
                   }`}
               >
                 {cat}
               </button>
             ))}
 
-            {/* Divider visible on desktop, hidden on very small screens if wrapping occurs differently */}
             <div className="hidden sm:block w-px h-6 bg-border-custom self-center mx-1"></div>
 
             {DIET_FILTERS.map((d) => (
               <button
                 key={d}
                 onClick={() => setActiveDiet(d)}
-                className={`flex-shrink-0 px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider border transition-all duration-300 ${activeDiet === d
-                  ? d === 'Veg'
-                    ? 'bg-green-600 text-white border-green-600 shadow-lg shadow-green-600/30'
-                    : d === 'Non-Veg'
-                      ? 'bg-red-600 text-white border-red-600 shadow-lg shadow-red-600/30'
-                      : 'bg-primary text-white border-primary shadow-lg shadow-primary/30'
-                  : 'bg-surface text-muted-custom border-border-custom hover:bg-surface/80 hover:text-content'
+                className={`flex-shrink-0 px-5 py-2.5 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 ${activeDiet === d
+                  ? 'bg-[#FF5C00] text-white border-none'
+                  : 'bg-transparent text-[#9A9DB0] border border-white/20 hover:text-white'
                   }`}
               >
-                {d === 'Veg' && '🟢 '}
-                {d === 'Non-Veg' && '🔴 '}
-                {d}
+                {d === 'Veg' && <span className="inline-block w-2 h-2 rounded-full bg-[#22C55E] mr-2"></span>}
+                {d === 'Non-Veg' && <span className="inline-block w-2 h-2 rounded-full bg-[#FF4444] mr-2"></span>}
+                <span className={activeDiet === d ? '' : d === 'Veg' ? 'text-[#22C55E]' : d === 'Non-Veg' ? 'text-[#FF4444]' : ''}>
+                  {d}
+                </span>
               </button>
             ))}
           </div>
@@ -261,16 +255,14 @@ export const Vendors: React.FC = () => {
            TRENDING THIS WEEK (Horizontal Scroll)
          ═══════════════════════════════════════════════ */}
       <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14">
-        <ScrollAnimatedDiv delay={100} className="flex items-end justify-between mb-6">
-          <div>
-            <h2 className="text-2xl sm:text-3xl font-black italic text-content uppercase tracking-tight">
-              Trending <span className="text-primary">This Week</span>
+        <ScrollAnimatedDiv delay={100} className="flex flex-col mb-6">
+          <div className="flex items-center gap-2">
+            <h2 className="font-display text-[28px] text-white tracking-widest uppercase">
+              Trending <span className="italic text-[#FF5C00]">This Week</span>
             </h2>
-            <div className="w-16 h-1 bg-primary rounded-full mt-2"></div>
           </div>
-          <span className="text-gray-500 text-xs font-bold uppercase tracking-widest hidden sm:block">
-            🔥 Hot picks
-          </span>
+          <div className="w-10 h-[3px] bg-[#FF5C00] mt-1"></div>
+          <p className="font-body text-sm text-[#9A9DB0] mt-2">🔥 Hot picks loved by the crowd</p>
         </ScrollAnimatedDiv>
 
         <div className="flex gap-5 overflow-x-auto hide-scroll pb-4 snap-x snap-mandatory -mx-4 px-4 sm:mx-0 sm:px-0">
@@ -291,21 +283,24 @@ export const Vendors: React.FC = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
 
+                  {/* Gradient Overlay for Readability */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/92 via-black/50 to-black/10 z-10"></div>
+
                   {/* Trending Badge */}
-                  <div className="absolute top-3 left-3 flex gap-2 z-10">
-                    <span className="px-2.5 py-1 rounded-lg bg-red-500/90 text-white text-[10px] font-black uppercase backdrop-blur-sm flex items-center gap-1 shadow-lg">
-                      🔥 Trending
+                  <div className="absolute top-3 left-3 flex gap-2 z-20">
+                    <span className="px-2 py-1 rounded-sm bg-[#FF5C00] text-white text-[9px] font-black uppercase flex items-center gap-1 shadow-lg">
+                      Trending
                     </span>
                   </div>
 
                   {/* Rating Badge */}
-                  <div className="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-md text-white text-[10px] font-bold flex items-center gap-1 border border-white/10 z-10">
-                    <span className="material-icons-round text-yellow-400 text-xs">star</span> {m.rating}
+                  <div className="absolute top-3 right-3 px-2 py-0.5 rounded-md bg-[#FFB400] text-[#0D0F1A] text-[12px] font-bold flex items-center gap-1 z-20">
+                    {m.rating} ★
                   </div>
                 </div>
-                <div className="p-5">
-                  <h3 className="text-base font-bold text-content truncate mb-1 group-hover:text-primary transition-colors">{v.name.trim()}</h3>
-                  <p className="text-muted-custom text-xs truncate mb-3">{v.description}</p>
+                <div className="p-5 relative z-20">
+                  <h3 className="font-body text-[15px] font-semibold text-white truncate mb-1 group-hover:text-primary transition-colors">{v.name.trim()}</h3>
+                  <p className="font-body text-[#C4C4C4] text-[12px] truncate">{v.description}</p>
                 </div>
               </div>
             );
@@ -352,11 +347,12 @@ export const Vendors: React.FC = () => {
 
               return (
                 <div key={section.title} className="animate-fade-in-up" style={{ animationDelay: `${idx * 100}ms` }}>
-                  <div className="flex flex-col md:flex-row items-end gap-3 mb-8 border-b border-border-custom pb-4">
-                    <h2 className="text-3xl md:text-4xl font-black italic text-content uppercase tracking-tight">
-                      {section.title}
+                  <div className="flex flex-col mb-10">
+                    <h2 className="font-display text-[28px] text-white tracking-widest uppercase">
+                      {section.title} <span className="italic text-[#FF5C00]">{section.title === 'Breakfast' ? 'DELIGHTS' : section.title === 'Lunch / Dinner' ? 'FEASTS' : 'FAVOURITES'}</span>
                     </h2>
-                    <p className="text-muted-custom text-sm md:text-base mb-1 md:mb-1.5 italic font-medium">
+                    <div className="w-10 h-[3px] bg-[#FF5C00] mt-1"></div>
+                    <p className="font-body text-sm text-[#9A9DB0] mt-2 italic font-medium">
                       {section.subtitle}
                     </p>
                   </div>
@@ -384,7 +380,7 @@ export const Vendors: React.FC = () => {
                               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 ease-out"
                             />
 
-                            {/* Gradient Mesh */}
+                            {/* Gradient Overlay for Readability */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10"></div>
                             <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent z-10 opacity-60"></div>
 
@@ -394,8 +390,8 @@ export const Vendors: React.FC = () => {
                                 {v.category}
                               </span>
                               {isTrending && (
-                                <span className="px-3 py-1.5 rounded-full bg-red-500 text-white text-[10px] font-black uppercase backdrop-blur-md shadow-lg flex items-center gap-1">
-                                  <span className="material-icons-round text-[10px]">local_fire_department</span> Hot
+                                <span className="px-3 py-1.5 rounded-sm bg-[#FF2D2D] text-white text-[10px] font-bold uppercase backdrop-blur-md shadow-lg flex items-center gap-1">
+                                  HOT
                                 </span>
                               )}
                             </div>
@@ -409,44 +405,44 @@ export const Vendors: React.FC = () => {
 
                             {/* Content Overlay */}
                             <div className="absolute inset-0 z-20 flex flex-col justify-end p-6 md:p-8">
-                              <div className="transform translate-y-4 transition-transform duration-500 group-hover:translate-y-0">
+                              <div className="transform transition-transform duration-500">
                                 {/* Title & Rating Row */}
-                                <div className="flex justify-between items-end mb-2">
-                                  <h3 className="text-3xl font-black italic uppercase tracking-tighter text-white drop-shadow-md leading-none max-w-[80%]">
-                                    {v.name.trim()}
-                                  </h3>
-                                  <div className="flex flex-col items-end">
-                                    <span className="flex items-center gap-1.5 bg-yellow-500 text-black px-2.5 py-1 rounded-lg font-black text-xs shadow-lg">
-                                      {m.rating} <span className="material-icons-round text-[10px]">star</span>
-                                    </span>
-                                    <span className="text-[10px] text-gray-300 font-medium mt-1">({m.reviews})</span>
+                                <div className="flex justify-between items-start mb-4">
+                                  <div className="max-w-[75%]">
+                                    <h3 className="font-display text-[22px] text-white leading-tight tracking-[1px] mb-1 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                                      {v.name.trim()}
+                                    </h3>
+                                    <div className="flex items-center gap-2">
+                                      <span className="font-body text-[12px] font-semibold text-[#FFB400] flex items-center gap-1">
+                                        <span className="material-icons-round text-[14px]">groups</span>
+                                        {v.category === 'Catering' ? '30–100 Guests' : '10–20 Guests'}
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div className="flex flex-col items-center">
+                                    <div className="bg-[#FFB400] text-[#0D0F1A] px-2 py-0.5 rounded-[6px] font-body font-bold text-[12px] shadow-lg flex items-center justify-center min-w-[45px]">
+                                      {m.rating} ★
+                                    </div>
+                                    <span className="text-[11px] text-[#9A9DB0] font-medium mt-1 uppercase tracking-tighter">{m.reviews} Reviews</span>
                                   </div>
                                 </div>
 
                                 {/* Description */}
-                                <div className="bg-black/30 md:backdrop-blur-md md:bg-white/10 p-4 rounded-2xl border border-white/5 md:border-white/10 shadow-inner mb-6 md:group-hover:bg-white/20 transition-colors">
-                                  <p className="text-gray-100 text-xs font-medium line-clamp-2 leading-relaxed">
-                                    {v.description}
-                                  </p>
-                                  <div className="flex items-center gap-2 mt-3 pt-3 border-t border-white/10">
-                                    <span className="inline-flex items-center gap-1.5 text-[10px] font-bold text-gray-300 uppercase tracking-wider">
-                                      <span className="material-icons-round text-primary text-sm">groups</span>
-                                      {v.category === 'Catering' ? '30–100 Guests' : '10–20 Guests'}
-                                    </span>
-                                  </div>
-                                </div>
+                                <p className="font-body text-[#D4D4D4] text-[13px] line-clamp-2 leading-[1.6] mb-6 drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">
+                                  {v.description}
+                                </p>
 
-                                {/* CTA Area - Only shows nicely on hover/focus interactions conceptually, but here we keep it visible for mobile UX */}
+                                {/* CTA Area */}
                                 {slug ? (
                                   <Link
                                     to={`/vendor/${slug}`}
-                                    className="w-full py-4 rounded-full bg-white text-black text-xs font-black uppercase tracking-widest text-center shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:bg-primary hover:text-white hover:shadow-[0_0_30px_rgba(255,183,0,0.6)] transition-all duration-300 flex items-center justify-center gap-2"
+                                    className="group/btn w-full py-3.5 rounded-full bg-transparent border-[1.5px] border-white/60 text-white text-[13px] font-body font-semibold uppercase tracking-[1px] text-center transition-all duration-300 flex items-center justify-center gap-2 hover:bg-[#FF5C00] hover:border-[#FF5C00]"
                                   >
-                                    View Menu <span className="material-icons-round md-18">arrow_forward</span>
+                                    View Menu <span className="material-icons-round text-[18px] transition-transform group-hover/btn:translate-x-1 group-hover/btn:text-[#FFB400]">arrow_forward</span>
                                   </Link>
                                 ) : (
                                   <button
-                                    className="w-full py-4 rounded-full bg-white/10 border border-white/10 text-gray-400 text-xs font-black uppercase tracking-widest text-center flex items-center justify-center gap-2 cursor-not-allowed"
+                                    className="w-full py-3.5 rounded-full bg-white/10 border border-white/10 text-gray-500 text-[13px] font-body font-semibold uppercase tracking-[1px] text-center flex items-center justify-center gap-2 cursor-not-allowed"
                                     disabled
                                   >
                                     <span className="material-icons-round text-sm">lock</span> Coming Soon
@@ -499,9 +495,8 @@ export const Vendors: React.FC = () => {
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 ease-out"
                       />
 
-                      {/* Gradient Mesh */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10"></div>
-                      <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent z-10 opacity-60"></div>
+                      {/* Gradient Overlay for Readability */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/92 via-black/50 to-black/10 z-10"></div>
 
                       {/* Top Badges */}
                       <div className="absolute top-6 left-6 flex flex-wrap gap-2 z-20">
@@ -509,8 +504,8 @@ export const Vendors: React.FC = () => {
                           {v.category}
                         </span>
                         {isTrending && (
-                          <span className="px-3 py-1.5 rounded-full bg-red-500 text-white text-[10px] font-black uppercase backdrop-blur-md shadow-lg flex items-center gap-1">
-                            <span className="material-icons-round text-[10px]">local_fire_department</span> Hot
+                          <span className="px-3 py-1.5 rounded-sm bg-[#FF2D2D] text-white text-[10px] font-bold uppercase backdrop-blur-md shadow-lg flex items-center gap-1">
+                            HOT
                           </span>
                         )}
                       </div>

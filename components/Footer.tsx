@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
   if (isQuotePage) return null;
 
   return (
-    <footer className="relative bg-theme pt-20 pb-32 text-muted-custom overflow-hidden border-t border-border-custom">
+    <footer className="relative bg-[#0D0F1A] pt-20 pb-32 text-text-secondary overflow-hidden border-t border-border-custom">
       {/* Ambient Background */}
       <div className="absolute -top-[10%] -left-[10%] w-[50vh] h-[50vh] bg-primary/5 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute -bottom-[10%] -right-[10%] w-[50vh] h-[50vh] bg-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
@@ -52,45 +52,35 @@ export const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div className="md:col-span-2">
-            <h4 className="text-content font-black mb-6 uppercase text-xs tracking-[0.2em]">Explore</h4>
-            <ul className="space-y-4 text-sm font-medium">
-              <li><Link to={AppRoutes.VENDORS} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">Our Menu</Link></li>
-              <li><Link to={AppRoutes.VENDORS} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">Cuisines</Link></li>
-              <li><Link to={AppRoutes.CONTACT} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">Offers</Link></li>
+            <h4 className="font-body font-semibold text-[11px] text-[#FF5C00] mb-6 uppercase tracking-widest">Explore</h4>
+            <ul className="space-y-4 text-[14px] font-medium">
+              <li><Link to={AppRoutes.VENDORS} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">Our Menu</Link></li>
+              <li><Link to={AppRoutes.VENDORS} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">Cuisines</Link></li>
+              <li><Link to={AppRoutes.CONTACT} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">Offers</Link></li>
             </ul>
           </div>
 
           {/* Company */}
           <div className="md:col-span-2">
-            <h4 className="text-content font-black mb-6 uppercase text-xs tracking-[0.2em]">Company</h4>
-            <ul className="space-y-4 text-sm font-medium">
-              <li><Link to={AppRoutes.HOME} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">About Us</Link></li>
-              <li><Link to={AppRoutes.CONTACT} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">Contact</Link></li>
-              <li><Link to={AppRoutes.CONTACT} className="hover:text-primary transition duration-200 block hover:translate-x-1 w-fit">Partners</Link></li>
+            <h4 className="font-body font-semibold text-[11px] text-[#FF5C00] mb-6 uppercase tracking-widest">Company</h4>
+            <ul className="space-y-4 text-[14px] font-medium">
+              <li><Link to={AppRoutes.HOME} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">About Us</Link></li>
+              <li><Link to={AppRoutes.CONTACT} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">Contact</Link></li>
+              <li><Link to={AppRoutes.CONTACT} className="text-[#9A9DB0] hover:text-white transition duration-200 block hover:translate-x-1 w-fit">Partners</Link></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="md:col-span-3">
-            <h4 className="text-content font-black mb-6 uppercase text-xs tracking-[0.2em]">Contact</h4>
+            <h4 className="font-body font-semibold text-[11px] text-[#FF5C00] mb-6 uppercase tracking-widest">Contact</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <span className="material-icons-round text-primary text-sm">call</span>
-                </div>
-                <div>
-                  <p className="text-xs text-muted-custom uppercase font-bold tracking-wider mb-0.5">Call Us</p>
-                  <a href="tel:+917396737700" className="text-content font-bold hover:text-primary transition">+91 7396 737 700</a>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <span className="material-icons-round text-secondary text-sm">location_on</span>
-                </div>
-                <div>
-                  <p className="text-xs text-muted-custom uppercase font-bold tracking-wider mb-0.5">Location</p>
-                  <p className="text-content font-medium text-sm leading-snug">Hyderabad, Telangana<br />India</p>
-                </div>
+              <li className="flex flex-col gap-4 mt-6">
+                <button className="w-full py-3 bg-[#22C55E] text-white text-[13px] font-body font-bold uppercase tracking-wider rounded-lg shadow-lg hover:brightness-110 transition">
+                  GET FAST MENU HELP
+                </button>
+                <a href="tel:+917396737700" className="w-full py-3 bg-transparent border border-[#FF5C00] text-[#FF5C00] text-[13px] font-body font-bold uppercase tracking-wider rounded-lg text-center hover:bg-[#FF5C00]/5 transition">
+                  CALL
+                </a>
               </li>
             </ul>
           </div>
@@ -98,7 +88,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-border-custom pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-muted-custom">
+        <div className="border-t border-border-custom pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[12px] font-medium text-[#6B7280]">
           <p>© 2026 PartyCart by Yumzy. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-content transition">Privacy Policy</a>
